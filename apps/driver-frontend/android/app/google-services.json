@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "979886460479",
+    "project_id": "angel-95750",
+    "storage_bucket": "angel-95750.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979886460479:android:0f19c58673d9908780328a",
+        "android_client_info": {
+          "package_name": "com.ridy.taxi.driver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Oa2zoMVqGXAhPEbWXDsIKSHMdTIWR2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979886460479:android:7f9ccf6e6547db5780328a",
+        "android_client_info": {
+          "package_name": "com.ridy.taxi.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Oa2zoMVqGXAhPEbWXDsIKSHMdTIWR2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
