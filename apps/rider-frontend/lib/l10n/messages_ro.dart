@@ -95,7 +95,6 @@ class SRo extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SRo extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SRo extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SRo extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SRo extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SRo extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SRo extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Serviciul de taxi conceput pentru confortul dumneavoastră are Excursii cu șoferii dumneavoastră preferați și selectați preferințele de călătorie';
+  String get welcomeSubtitle =>
+      'Serviciul de taxi conceput pentru confortul dumneavoastră are Excursii cu șoferii dumneavoastră preferați și selectați preferințele de călătorie';
 
   @override
   String get onboardingRewardTitle => 'Fii recompensat!';
 
   @override
-  String get onboardingRewardSubtitle => 'Obțineți bonusuri suplimentare pentru recomandarea unui prieten, finalizarea călătoriilor și multe altele...';
+  String get onboardingRewardSubtitle =>
+      'Obțineți bonusuri suplimentare pentru recomandarea unui prieten, finalizarea călătoriilor și multe altele...';
 
   @override
   String get selectLanguage => 'Selecteaza limba';
@@ -271,10 +267,12 @@ class SRo extends S {
   String get reserveRide => 'Rezervați călătoria';
 
   @override
-  String get reserveRideMessage => 'Selectați data și ora exactă la care doriți să fie rezervată călătoria';
+  String get reserveRideMessage =>
+      'Selectați data și ora exactă la care doriți să fie rezervată călătoria';
 
   @override
-  String get reserveRideMessageSuccess => 'Călătoria dvs. a fost rezervată cu succes. Puteți vizualiza cursele rezervate în secțiunea „Clădiri programate”.';
+  String get reserveRideMessageSuccess =>
+      'Călătoria dvs. a fost rezervată cu succes. Puteți vizualiza cursele rezervate în secțiunea „Clădiri programate”.';
 
   @override
   String get cancelReservation => 'Anulați rezervarea';
@@ -283,7 +281,8 @@ class SRo extends S {
   String get confirmResrve => 'A confirma';
 
   @override
-  String get enterCouponDescription => 'Introduceți codul de cupon pentru a fi aplicat prețurilor';
+  String get enterCouponDescription =>
+      'Introduceți codul de cupon pentru a fi aplicat prețurilor';
 
   @override
   String get enterCoupon => 'Introduceți cuponul';
@@ -292,7 +291,8 @@ class SRo extends S {
   String get couponApplied => 'Cupon aplicat';
 
   @override
-  String get couponAppliedDescription => 'Cuponul a fost aplicat tarifului călătoriei dvs';
+  String get couponAppliedDescription =>
+      'Cuponul a fost aplicat tarifului călătoriei dvs';
 
   @override
   String get done => 'Terminat!';
@@ -329,7 +329,8 @@ class SRo extends S {
   String get shareTripInformation => 'Partajați informații despre călătorie';
 
   @override
-  String get shareTripInformationDescription => 'Puteți partaja informațiile despre călătoria cu un prieten';
+  String get shareTripInformationDescription =>
+      'Puteți partaja informațiile despre călătoria cu un prieten';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SRo extends S {
   String get reportAnIssue => 'Raportează o problemă';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Distribuiți o problemă de siguranță în timpul călătoriei';
+  String get reportAnIssueMidTripDescription =>
+      'Distribuiți o problemă de siguranță în timpul călătoriei';
 
   @override
   String get rideOptions => 'Opțiuni de călătorie';
@@ -414,7 +416,8 @@ class SRo extends S {
   String get searchForPickupLocation => 'Căutați locația de preluare';
 
   @override
-  String get placeConfirmDialogPlaceholder => 'Unde este locația dvs. de predare?';
+  String get placeConfirmDialogPlaceholder =>
+      'Unde este locația dvs. de predare?';
 
   @override
   String get noAnnouncements => 'Fara anunturi';
@@ -458,7 +461,8 @@ class SRo extends S {
   String get favoriteLocations => 'Locații preferate';
 
   @override
-  String get favoriteLocationsSubtitle => 'Salvați locațiile preferate pentru un acces mai ușor';
+  String get favoriteLocationsSubtitle =>
+      'Salvați locațiile preferate pentru un acces mai ușor';
 
   @override
   String get createAFavoriteLocation => 'Creați o locație preferată';
@@ -470,10 +474,12 @@ class SRo extends S {
   String get clickToSetLocation => 'Faceți clic pentru a seta locația';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Unde este noua ta locație preferată?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Unde este noua ta locație preferată?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Utilizați fie caseta de căutare de mai jos, fie harta pentru a fixa locația exactă';
+  String get locateFavoriteLocationDescription =>
+      'Utilizați fie caseta de căutare de mai jos, fie harta pentru a fixa locația exactă';
 
   @override
   String get searchLocation => 'Căutați locația';
@@ -500,7 +506,8 @@ class SRo extends S {
   String get activities => 'Activități';
 
   @override
-  String get pleaseEnterGiftCardCode => 'Vă rugăm să introduceți codul cardului cadou';
+  String get pleaseEnterGiftCardCode =>
+      'Vă rugăm să introduceți codul cardului cadou';
 
   @override
   String get redeem => 'Răscumpăra';
@@ -512,7 +519,8 @@ class SRo extends S {
   String get redeemGiftCard => 'Valorificați cardul cadou';
 
   @override
-  String get redeemGiftCardDescription => 'Introdu codul cardului cadou pentru a-l valorifica.';
+  String get redeemGiftCardDescription =>
+      'Introdu codul cardului cadou pentru a-l valorifica.';
 
   @override
   String get redeemSuccessTitle => 'Card cadou valorificat!';
@@ -562,7 +570,8 @@ class SRo extends S {
   String get selectCards => 'Selectați carduri';
 
   @override
-  String get selectCardsDescription => 'Puteți selecta numerele de carduri care doriți să fie afișate în lista metodelor de plată de pe facturi.';
+  String get selectCardsDescription =>
+      'Puteți selecta numerele de carduri care doriți să fie afișate în lista metodelor de plată de pe facturi.';
 
   @override
   String get delete => 'Șterge';
@@ -580,7 +589,8 @@ class SRo extends S {
   String get addPaymentMethod => 'Adăugați o metodă de plată';
 
   @override
-  String get addPaymentMethodDescription => 'Adăugați o nouă metodă de plată în contul dvs';
+  String get addPaymentMethodDescription =>
+      'Adăugați o nouă metodă de plată în contul dvs';
 
   @override
   String get saveCard => 'Salvați cardul';
@@ -595,7 +605,8 @@ class SRo extends S {
   String get preferences => 'Preferințe:';
 
   @override
-  String get onboardingDescription => 'La câteva momente distanță de a vă înregistra contul și de a vă bucura de plimbări confortabile';
+  String get onboardingDescription =>
+      'La câteva momente distanță de a vă înregistra contul și de a vă bucura de plimbări confortabile';
 
   @override
   String get signInSignUp => 'Conecteaza-ta inscrie-te';
@@ -607,7 +618,8 @@ class SRo extends S {
   String get enterPassword => 'Introdu parola';
 
   @override
-  String get enterPasswordDescription => 'Vă rugăm să introduceți parola pentru a continua';
+  String get enterPasswordDescription =>
+      'Vă rugăm să introduceți parola pentru a continua';
 
   @override
   String get setPassword => 'Seteaza parola';
@@ -616,7 +628,8 @@ class SRo extends S {
   String get password => 'Parola';
 
   @override
-  String get passwordRuleDescription => 'Includeți cel puțin două dintre următoarele:';
+  String get passwordRuleDescription =>
+      'Includeți cel puțin două dintre următoarele:';
 
   @override
   String get passwordRuleLength => 'Între 9 și 64 de caractere';
@@ -655,7 +668,8 @@ class SRo extends S {
   String get skipForNow => 'Sari peste moment';
 
   @override
-  String get sendOtpDescription => 'Un cod de verificare a fost trimis la numărul dvs. de telefon';
+  String get sendOtpDescription =>
+      'Un cod de verificare a fost trimis la numărul dvs. de telefon';
 
   @override
   String get resendOtp => 'Retrimite codul';
@@ -801,7 +815,8 @@ class SRo extends S {
   String get selectProfileImage => 'Selectați Imagine de profil';
 
   @override
-  String get chooseAvatarDescription => 'Sau selectați un avatar din lista de mai jos:';
+  String get chooseAvatarDescription =>
+      'Sau selectați un avatar din lista de mai jos:';
 
   @override
   String get fullName => 'Numele complet';
@@ -831,13 +846,15 @@ class SRo extends S {
   String get monthly => 'Lunar';
 
   @override
-  String get noRecordsFoundEarnings => 'Nu a fost găsită nicio înregistrare de călătorie pentru aceste filtre';
+  String get noRecordsFoundEarnings =>
+      'Nu a fost găsită nicio înregistrare de călătorie pentru aceste filtre';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Niciun feedback încă';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Încă nu aveți suficiente feedback de afișat.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Încă nu aveți suficiente feedback de afișat.';
 
   @override
   String get feedbacksSummary => 'Rezumatul feedback-urilor';
@@ -858,7 +875,8 @@ class SRo extends S {
   String get feedbacksGoodPointsTitle => 'Câteva puncte bune despre tine:';
 
   @override
-  String get feedbacksbadPointsTitle => 'Câteva puncte pe care le puteți îmbunătăți:';
+  String get feedbacksbadPointsTitle =>
+      'Câteva puncte pe care le puteți îmbunătăți:';
 
   @override
   String get feedbacksReviewsTitle => 'Câteva recenzii anterioare';
@@ -870,7 +888,8 @@ class SRo extends S {
   String get notice => 'Înștiințare:';
 
   @override
-  String get payoutNoticeTitle => 'Veți fi plătit automat de către administrator de două ori pe săptămână.';
+  String get payoutNoticeTitle =>
+      'Veți fi plătit automat de către administrator de două ori pe săptămână.';
 
   @override
   String get addPayoutMethod => 'Adăugați o metodă de plată';
@@ -966,13 +985,15 @@ class SRo extends S {
   String get driverShouldAriveInNotice => 'Se estimează că va sosi șoferul';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Șoferul ar trebui să sosească în orice moment acum';
+  String get driverShouldHaveArrivedNotice =>
+      'Șoferul ar trebui să sosească în orice moment acum';
 
   @override
   String get deleteAccount => 'Șterge cont';
 
   @override
-  String get deleteAccountNotice => 'Sigur doriți să vă ștergeți contul? După 30 de zile, contul tău va fi șters definitiv. În acest timp, vă puteți restabili contul conectându-vă din nou.';
+  String get deleteAccountNotice =>
+      'Sigur doriți să vă ștergeți contul? După 30 de zile, contul tău va fi șters definitiv. În acest timp, vă puteți restabili contul conectându-vă din nou.';
 
   @override
   String get confirmAndDeleteAccount => 'A confirma';
@@ -986,12 +1007,14 @@ class SRo extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Numele șoferului meu este $firstName $lastName, numărul de mobil este $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Călărețul cu numele meu este $firstName $lastName, numărul de mobil este $mobileNumber.';
   }
 
@@ -1006,7 +1029,8 @@ class SRo extends S {
   }
 
   @override
-  String get sendSOSMessage => 'IMPORTANT: Vă rugăm să utilizați această funcție numai în caz de urgență. Vom contacta autoritățile în numele dvs.';
+  String get sendSOSMessage =>
+      'IMPORTANT: Vă rugăm să utilizați această funcție numai în caz de urgență. Vom contacta autoritățile în numele dvs.';
 
   @override
   String get confirmAndSendSOS => 'A confirma';
@@ -1018,7 +1042,8 @@ class SRo extends S {
   String get topUpSuccess => 'Portofelul a fost reîncărcat cu succes';
 
   @override
-  String get cancelNotAllowed => 'Anularea unei călătorii deja începute nu este posibilă.';
+  String get cancelNotAllowed =>
+      'Anularea unei călătorii deja începute nu este posibilă.';
 
   @override
   String get error => 'Eroare';
@@ -1039,7 +1064,8 @@ class SRo extends S {
   String get reportSubmitted => 'Raport trimis';
 
   @override
-  String get reportSubmittedDescription => 'Raportul dvs. a fost trimis cu succes, îl vom examina și vom lua măsurile necesare.';
+  String get reportSubmittedDescription =>
+      'Raportul dvs. a fost trimis cu succes, îl vom examina și vom lua măsurile necesare.';
 
   @override
   String get cardNumber => 'Numărul de card';
@@ -1057,10 +1083,12 @@ class SRo extends S {
   String get noFavoriteDrivers => 'Fără șoferi preferati';
 
   @override
-  String get noFavoriteDriversDescription => 'Puteți marca șoferii dvs. preferați ca favoriți atunci când îi evaluați după călătorie.';
+  String get noFavoriteDriversDescription =>
+      'Puteți marca șoferii dvs. preferați ca favoriți atunci când îi evaluați după călătorie.';
 
   @override
-  String get pickupLocationNotFound => 'Nu am putut determina locația dvs. actuală folosind GPS-ul ca punct de preluare. Vă rugăm să introduceți manual punctul de preluare.';
+  String get pickupLocationNotFound =>
+      'Nu am putut determina locația dvs. actuală folosind GPS-ul ca punct de preluare. Vă rugăm să introduceți manual punctul de preluare.';
 
   @override
   String get dragToSelect => 'Trageți pentru a selecta';
@@ -1075,7 +1103,8 @@ class SRo extends S {
   String get locationPermission => 'Permisiune de locație';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Permisiunea de locație este o cerință pentru a primi comenzi în jurul dvs. și, de asemenea, pentru ca călărețul să vă urmărească locația. Nu puteți primi comenzi fără această permisiune și să fim atenți la locația dvs. actuală. Puteți modifica această permisiune în setările telefonului.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Permisiunea de locație este o cerință pentru a primi comenzi în jurul dvs. și, de asemenea, pentru ca călărețul să vă urmărească locația. Nu puteți primi comenzi fără această permisiune și să fim atenți la locația dvs. actuală. Puteți modifica această permisiune în setările telefonului.';
 
   @override
   String get allow => 'Permite';
@@ -1084,13 +1113,15 @@ class SRo extends S {
   String get driverOnlineTitle => 'Căutând o plimbare';
 
   @override
-  String get driverOfflineTitle => 'Conectați-vă pentru a începe să primiți solicitări';
+  String get driverOfflineTitle =>
+      'Conectați-vă pentru a începe să primiți solicitări';
 
   @override
   String get payInCash => 'Plată în numerar';
 
   @override
-  String get payInCashDescription => 'Vă rugăm să continuați cu plata în numerar către șofer. Soferul va confirma plata odata primita.';
+  String get payInCashDescription =>
+      'Vă rugăm să continuați cu plata în numerar către șofer. Soferul va confirma plata odata primita.';
 
   @override
   String get addToFavoriteDrivers => 'Adaugă la driverele favorite';
@@ -1108,19 +1139,22 @@ class SRo extends S {
   String get noticePickingUpRiderIn => 'Ridicarea călărețului în:';
 
   @override
-  String get noticeRiderNotified => 'Călărețul a fost anunțat, ridicați călărețul și începeți călătoria';
+  String get noticeRiderNotified =>
+      'Călărețul a fost anunțat, ridicați călărețul și începeți călătoria';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

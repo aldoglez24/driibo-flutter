@@ -95,7 +95,6 @@ class SKo extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SKo extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SKo extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SKo extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SKo extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SKo extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,7 +172,8 @@ class SKo extends S {
   }
 
   @override
-  String get welcomeSubtitle => '귀하의 편안함을 위해 설계된 택시 서비스는 귀하가 좋아하는 운전자와 함께 여행하고 선호하는 차량 서비스를 선택합니다';
+  String get welcomeSubtitle =>
+      '귀하의 편안함을 위해 설계된 택시 서비스는 귀하가 좋아하는 운전자와 함께 여행하고 선호하는 차량 서비스를 선택합니다';
 
   @override
   String get onboardingRewardTitle => '보상을 받다!';
@@ -274,7 +269,8 @@ class SKo extends S {
   String get reserveRideMessage => '차량을 예약하려는 정확한 날짜와 시간을 선택하세요.';
 
   @override
-  String get reserveRideMessageSuccess => '차량 예약이 성공적으로 완료되었습니다. \'예정된 탑승\' 섹션에서 예약된 탑승을 확인할 수 있습니다.';
+  String get reserveRideMessageSuccess =>
+      '차량 예약이 성공적으로 완료되었습니다. \'예정된 탑승\' 섹션에서 예약된 탑승을 확인할 수 있습니다.';
 
   @override
   String get cancelReservation => '예약 취소';
@@ -473,7 +469,8 @@ class SKo extends S {
   String get whereIsYourNewFavoriteLocation => '당신이 새롭게 좋아하는 장소는 어디인가요?';
 
   @override
-  String get locateFavoriteLocationDescription => '정확한 위치를 고정하려면 아래 검색창이나 지도를 사용하세요.';
+  String get locateFavoriteLocationDescription =>
+      '정확한 위치를 고정하려면 아래 검색창이나 지도를 사용하세요.';
 
   @override
   String get searchLocation => '위치 검색';
@@ -562,7 +559,8 @@ class SKo extends S {
   String get selectCards => '카드 선택';
 
   @override
-  String get selectCardsDescription => '청구서의 결제 방법 목록에 표시하려는 카드 번호를 선택할 수 있습니다.';
+  String get selectCardsDescription =>
+      '청구서의 결제 방법 목록에 표시하려는 카드 번호를 선택할 수 있습니다.';
 
   @override
   String get delete => '삭제';
@@ -972,7 +970,8 @@ class SKo extends S {
   String get deleteAccount => '계정 삭제';
 
   @override
-  String get deleteAccountNotice => '정말로 계정을 삭제하시겠습니까? 30일 후에는 귀하의 계정이 영구적으로 삭제됩니다. 이 기간 동안 다시 로그인하여 계정을 복원할 수 있습니다.';
+  String get deleteAccountNotice =>
+      '정말로 계정을 삭제하시겠습니까? 30일 후에는 귀하의 계정이 영구적으로 삭제됩니다. 이 기간 동안 다시 로그인하여 계정을 복원할 수 있습니다.';
 
   @override
   String get confirmAndDeleteAccount => '확인하다 ';
@@ -986,12 +985,14 @@ class SKo extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' 내 운전자 이름은 $firstName $lastName이고, 휴대폰 번호는 $mobileNumber입니다.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' 저와 함께 오신 라이더 이름은 $firstName $lastName, 휴대폰 번호는 $mobileNumber 입니다.';
   }
 
@@ -1039,7 +1040,8 @@ class SKo extends S {
   String get reportSubmitted => '보고서가 제출되었습니다.';
 
   @override
-  String get reportSubmittedDescription => '귀하의 신고가 성공적으로 제출되었습니다. 저희는 이를 검토하고 필요한 조치를 취하겠습니다.';
+  String get reportSubmittedDescription =>
+      '귀하의 신고가 성공적으로 제출되었습니다. 저희는 이를 검토하고 필요한 조치를 취하겠습니다.';
 
   @override
   String get cardNumber => '카드 번호';
@@ -1057,10 +1059,12 @@ class SKo extends S {
   String get noFavoriteDrivers => '즐겨찾는 드라이버가 없습니다.';
 
   @override
-  String get noFavoriteDriversDescription => '여행 후 선호하는 운전자를 평가할 때 즐겨찾기로 표시할 수 있습니다.';
+  String get noFavoriteDriversDescription =>
+      '여행 후 선호하는 운전자를 평가할 때 즐겨찾기로 표시할 수 있습니다.';
 
   @override
-  String get pickupLocationNotFound => 'GPS를 픽업 지점으로 사용하여 현재 위치를 확인할 수 없습니다. 픽업 장소를 수동으로 입력해주세요.';
+  String get pickupLocationNotFound =>
+      'GPS를 픽업 지점으로 사용하여 현재 위치를 확인할 수 없습니다. 픽업 장소를 수동으로 입력해주세요.';
 
   @override
   String get dragToSelect => '드래그하여 선택';
@@ -1075,7 +1079,8 @@ class SKo extends S {
   String get locationPermission => '위치 권한';
 
   @override
-  String get locationPermissionDeniedForeverMessage => '위치 권한은 주변에서 주문을 받고 라이더가 위치를 추적하는 데 필요합니다. 이 허가 없이는 주문을 받을 수 없으며 당사는 귀하의 현재 위치를 감시하고 있습니다. 휴대폰 설정에서 이 권한을 변경할 수 있습니다.';
+  String get locationPermissionDeniedForeverMessage =>
+      '위치 권한은 주변에서 주문을 받고 라이더가 위치를 추적하는 데 필요합니다. 이 허가 없이는 주문을 받을 수 없으며 당사는 귀하의 현재 위치를 감시하고 있습니다. 휴대폰 설정에서 이 권한을 변경할 수 있습니다.';
 
   @override
   String get allow => '허용하다';
@@ -1090,7 +1095,8 @@ class SKo extends S {
   String get payInCash => '현금 결제';
 
   @override
-  String get payInCashDescription => '운전기사에게 현금결제를 진행해주세요. 운전기사는 결제가 완료되면 확인합니다.';
+  String get payInCashDescription =>
+      '운전기사에게 현금결제를 진행해주세요. 운전기사는 결제가 완료되면 확인합니다.';
 
   @override
   String get addToFavoriteDrivers => '즐겨찾는 드라이버에 추가';
@@ -1114,13 +1120,15 @@ class SKo extends S {
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

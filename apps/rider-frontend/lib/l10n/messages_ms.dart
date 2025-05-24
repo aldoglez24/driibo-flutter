@@ -95,7 +95,6 @@ class SMs extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SMs extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SMs extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SMs extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SMs extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SMs extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SMs extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Perkhidmatan teksi yang direka untuk keselesaan anda mempunyai Perjalanan dengan pemandu kegemaran anda dan pilih pilihan perjalanan anda';
+  String get welcomeSubtitle =>
+      'Perkhidmatan teksi yang direka untuk keselesaan anda mempunyai Perjalanan dengan pemandu kegemaran anda dan pilih pilihan perjalanan anda';
 
   @override
   String get onboardingRewardTitle => 'Dapatkan ganjaran!';
 
   @override
-  String get onboardingRewardSubtitle => 'Dapatkan bonus tambahan untuk merujuk rakan, melengkapkan perjalanan dan banyak lagi...';
+  String get onboardingRewardSubtitle =>
+      'Dapatkan bonus tambahan untuk merujuk rakan, melengkapkan perjalanan dan banyak lagi...';
 
   @override
   String get selectLanguage => 'Pilih Bahasa';
@@ -271,10 +267,12 @@ class SMs extends S {
   String get reserveRide => 'Rizab perjalanan';
 
   @override
-  String get reserveRideMessage => 'Pilih tarikh dan masa yang tepat anda ingin perjalanan anda ditempah';
+  String get reserveRideMessage =>
+      'Pilih tarikh dan masa yang tepat anda ingin perjalanan anda ditempah';
 
   @override
-  String get reserveRideMessageSuccess => 'Perjalanan anda telah berjaya ditempah. Anda boleh melihat tunggangan yang ditempah dalam bahagian \'Tunggangan berjadual\'.';
+  String get reserveRideMessageSuccess =>
+      'Perjalanan anda telah berjaya ditempah. Anda boleh melihat tunggangan yang ditempah dalam bahagian \'Tunggangan berjadual\'.';
 
   @override
   String get cancelReservation => 'Batalkan tempahan';
@@ -283,7 +281,8 @@ class SMs extends S {
   String get confirmResrve => 'sahkan ';
 
   @override
-  String get enterCouponDescription => 'Masukkan kod kupon anda untuk digunakan pada harga';
+  String get enterCouponDescription =>
+      'Masukkan kod kupon anda untuk digunakan pada harga';
 
   @override
   String get enterCoupon => 'Masukkan kupon';
@@ -292,7 +291,8 @@ class SMs extends S {
   String get couponApplied => 'Kupon digunakan';
 
   @override
-  String get couponAppliedDescription => 'Kupon telah digunakan pada tambang perjalanan anda';
+  String get couponAppliedDescription =>
+      'Kupon telah digunakan pada tambang perjalanan anda';
 
   @override
   String get done => 'Selesai!';
@@ -329,7 +329,8 @@ class SMs extends S {
   String get shareTripInformation => 'Kongsi maklumat perjalanan';
 
   @override
-  String get shareTripInformationDescription => 'Anda boleh berkongsi maklumat perjalanan anda dengan rakan';
+  String get shareTripInformationDescription =>
+      'Anda boleh berkongsi maklumat perjalanan anda dengan rakan';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SMs extends S {
   String get reportAnIssue => 'Laporkan isu';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Kongsi isu keselamatan semasa dalam perjalanan';
+  String get reportAnIssueMidTripDescription =>
+      'Kongsi isu keselamatan semasa dalam perjalanan';
 
   @override
   String get rideOptions => 'Pilihan tunggangan';
@@ -414,7 +416,8 @@ class SMs extends S {
   String get searchForPickupLocation => 'Cari lokasi pengambilan';
 
   @override
-  String get placeConfirmDialogPlaceholder => 'Di manakah lokasi penghantaran anda?';
+  String get placeConfirmDialogPlaceholder =>
+      'Di manakah lokasi penghantaran anda?';
 
   @override
   String get noAnnouncements => 'Tiada pengumuman';
@@ -458,7 +461,8 @@ class SMs extends S {
   String get favoriteLocations => 'Lokasi kegemaran';
 
   @override
-  String get favoriteLocationsSubtitle => 'Simpan lokasi kegemaran anda untuk akses yang lebih mudah';
+  String get favoriteLocationsSubtitle =>
+      'Simpan lokasi kegemaran anda untuk akses yang lebih mudah';
 
   @override
   String get createAFavoriteLocation => 'Buat lokasi kegemaran';
@@ -470,10 +474,12 @@ class SMs extends S {
   String get clickToSetLocation => 'Klik untuk menetapkan lokasi';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Di manakah lokasi kegemaran baharu anda?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Di manakah lokasi kegemaran baharu anda?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Gunakan sama ada kotak carian di bawah atau peta untuk menyemat lokasi yang tepat';
+  String get locateFavoriteLocationDescription =>
+      'Gunakan sama ada kotak carian di bawah atau peta untuk menyemat lokasi yang tepat';
 
   @override
   String get searchLocation => 'Cari lokasi';
@@ -512,7 +518,8 @@ class SMs extends S {
   String get redeemGiftCard => 'Tebus Kad Hadiah';
 
   @override
-  String get redeemGiftCardDescription => 'Masukkan kod kad hadiah anda untuk menebusnya.';
+  String get redeemGiftCardDescription =>
+      'Masukkan kod kad hadiah anda untuk menebusnya.';
 
   @override
   String get redeemSuccessTitle => 'Kad Hadiah Tebus!';
@@ -562,7 +569,8 @@ class SMs extends S {
   String get selectCards => 'Pilih kad';
 
   @override
-  String get selectCardsDescription => 'Anda boleh memilih nombor kad yang anda ingin dipaparkan dalam senarai kaedah pembayaran pada invois.';
+  String get selectCardsDescription =>
+      'Anda boleh memilih nombor kad yang anda ingin dipaparkan dalam senarai kaedah pembayaran pada invois.';
 
   @override
   String get delete => 'Padam';
@@ -580,7 +588,8 @@ class SMs extends S {
   String get addPaymentMethod => 'Tambah Kaedah Pembayaran';
 
   @override
-  String get addPaymentMethodDescription => 'Tambahkan kaedah pembayaran baharu pada akaun anda';
+  String get addPaymentMethodDescription =>
+      'Tambahkan kaedah pembayaran baharu pada akaun anda';
 
   @override
   String get saveCard => 'Simpan kad';
@@ -595,7 +604,8 @@ class SMs extends S {
   String get preferences => 'Keutamaan:';
 
   @override
-  String get onboardingDescription => 'Beberapa saat lagi untuk mendaftar akaun anda dan menikmati tunggangan yang selesa';
+  String get onboardingDescription =>
+      'Beberapa saat lagi untuk mendaftar akaun anda dan menikmati tunggangan yang selesa';
 
   @override
   String get signInSignUp => 'Daftar masuk/ Daftar';
@@ -607,7 +617,8 @@ class SMs extends S {
   String get enterPassword => 'Masukkan kata laluan';
 
   @override
-  String get enterPasswordDescription => 'Sila masukkan kata laluan anda untuk meneruskan';
+  String get enterPasswordDescription =>
+      'Sila masukkan kata laluan anda untuk meneruskan';
 
   @override
   String get setPassword => 'Tetapkan kata laluan';
@@ -616,7 +627,8 @@ class SMs extends S {
   String get password => 'Kata laluan';
 
   @override
-  String get passwordRuleDescription => 'Sertakan sekurang-kurangnya dua daripada yang berikut:';
+  String get passwordRuleDescription =>
+      'Sertakan sekurang-kurangnya dua daripada yang berikut:';
 
   @override
   String get passwordRuleLength => 'Antara 9 dan 64 aksara';
@@ -655,7 +667,8 @@ class SMs extends S {
   String get skipForNow => 'Langkau buat masa ini';
 
   @override
-  String get sendOtpDescription => 'Kod pengesahan telah dihantar ke nombor telefon anda';
+  String get sendOtpDescription =>
+      'Kod pengesahan telah dihantar ke nombor telefon anda';
 
   @override
   String get resendOtp => 'Hantar semula kod';
@@ -724,7 +737,8 @@ class SMs extends S {
   String get rideCancellation => 'Pembatalan Perjalanan';
 
   @override
-  String get cancelRideMessage => 'Adakah anda pasti mahu membatalkan perjalanan anda?';
+  String get cancelRideMessage =>
+      'Adakah anda pasti mahu membatalkan perjalanan anda?';
 
   @override
   String get cancelRideSuccess => 'Perjalanan telah berjaya dibatalkan';
@@ -801,7 +815,8 @@ class SMs extends S {
   String get selectProfileImage => 'Pilih Imej Profil';
 
   @override
-  String get chooseAvatarDescription => 'Atau pilih avatar daripada senarai di bawah:';
+  String get chooseAvatarDescription =>
+      'Atau pilih avatar daripada senarai di bawah:';
 
   @override
   String get fullName => 'Nama penuh';
@@ -831,13 +846,15 @@ class SMs extends S {
   String get monthly => 'Bulanan';
 
   @override
-  String get noRecordsFoundEarnings => 'Tiada rekod perjalanan ditemui untuk penapis ini';
+  String get noRecordsFoundEarnings =>
+      'Tiada rekod perjalanan ditemui untuk penapis ini';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Tiada maklum balas lagi';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Anda belum mempunyai maklum balas yang mencukupi untuk ditunjukkan.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Anda belum mempunyai maklum balas yang mencukupi untuk ditunjukkan.';
 
   @override
   String get feedbacksSummary => 'Ringkasan Maklum Balas';
@@ -846,19 +863,23 @@ class SMs extends S {
   String get feedbacksGoodTitle => 'Kerja Cemerlang!';
 
   @override
-  String get feedbacksGoodSubtitle => 'Penilaian anda kelihatan baik setakat ini';
+  String get feedbacksGoodSubtitle =>
+      'Penilaian anda kelihatan baik setakat ini';
 
   @override
   String get feedbacksBadTitle => 'Purata';
 
   @override
-  String get feedbacksBadSubtitle => 'Anda boleh menggunakan beberapa penambahbaikan';
+  String get feedbacksBadSubtitle =>
+      'Anda boleh menggunakan beberapa penambahbaikan';
 
   @override
-  String get feedbacksGoodPointsTitle => 'Beberapa perkara yang baik tentang anda:';
+  String get feedbacksGoodPointsTitle =>
+      'Beberapa perkara yang baik tentang anda:';
 
   @override
-  String get feedbacksbadPointsTitle => 'Beberapa perkara yang boleh anda perbaiki:';
+  String get feedbacksbadPointsTitle =>
+      'Beberapa perkara yang boleh anda perbaiki:';
 
   @override
   String get feedbacksReviewsTitle => 'Beberapa ulasan terdahulu';
@@ -870,7 +891,8 @@ class SMs extends S {
   String get notice => 'Notis:';
 
   @override
-  String get payoutNoticeTitle => 'Anda secara automatik akan dibayar oleh admin dua kali seminggu.';
+  String get payoutNoticeTitle =>
+      'Anda secara automatik akan dibayar oleh admin dua kali seminggu.';
 
   @override
   String get addPayoutMethod => 'Tambah Kaedah pembayaran';
@@ -966,13 +988,15 @@ class SMs extends S {
   String get driverShouldAriveInNotice => 'Pemandu dianggarkan tiba';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Pemandu sepatutnya tiba pada bila-bila masa sekarang';
+  String get driverShouldHaveArrivedNotice =>
+      'Pemandu sepatutnya tiba pada bila-bila masa sekarang';
 
   @override
   String get deleteAccount => 'Padam Akaun';
 
   @override
-  String get deleteAccountNotice => 'Adakah anda pasti mahu memadamkan akaun anda? Selepas 30 hari, akaun anda akan dipadamkan secara kekal. Pada masa ini, anda boleh memulihkan akaun anda dengan melog masuk semula.';
+  String get deleteAccountNotice =>
+      'Adakah anda pasti mahu memadamkan akaun anda? Selepas 30 hari, akaun anda akan dipadamkan secara kekal. Pada masa ini, anda boleh memulihkan akaun anda dengan melog masuk semula.';
 
   @override
   String get confirmAndDeleteAccount => 'sahkan ';
@@ -986,12 +1010,14 @@ class SMs extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Nama pemandu saya ialah $firstName $lastName, nombor telefon bimbit ialah $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Penunggang dengan nama saya ialah $firstName $lastName, nombor telefon bimbit ialah $mobileNumber.';
   }
 
@@ -1006,7 +1032,8 @@ class SMs extends S {
   }
 
   @override
-  String get sendSOSMessage => 'PENTING: Sila gunakan ciri ini hanya sekiranya berlaku kecemasan. Kami akan menghubungi pihak berkuasa bagi pihak anda.';
+  String get sendSOSMessage =>
+      'PENTING: Sila gunakan ciri ini hanya sekiranya berlaku kecemasan. Kami akan menghubungi pihak berkuasa bagi pihak anda.';
 
   @override
   String get confirmAndSendSOS => 'sahkan ';
@@ -1018,7 +1045,8 @@ class SMs extends S {
   String get topUpSuccess => 'Dompet telah berjaya ditambah nilai';
 
   @override
-  String get cancelNotAllowed => 'Pembatalan perjalanan yang telah dimulakan tidak mungkin.';
+  String get cancelNotAllowed =>
+      'Pembatalan perjalanan yang telah dimulakan tidak mungkin.';
 
   @override
   String get error => 'ralat';
@@ -1039,7 +1067,8 @@ class SMs extends S {
   String get reportSubmitted => 'Laporan Dihantar';
 
   @override
-  String get reportSubmittedDescription => 'Laporan anda telah berjaya diserahkan, kami akan menyemaknya dan mengambil tindakan yang perlu.';
+  String get reportSubmittedDescription =>
+      'Laporan anda telah berjaya diserahkan, kami akan menyemaknya dan mengambil tindakan yang perlu.';
 
   @override
   String get cardNumber => 'Nombor kad';
@@ -1057,10 +1086,12 @@ class SMs extends S {
   String get noFavoriteDrivers => 'Tiada pemandu kegemaran';
 
   @override
-  String get noFavoriteDriversDescription => 'Anda boleh menandakan pemandu pilihan anda sebagai kegemaran apabila menilai mereka selepas perjalanan.';
+  String get noFavoriteDriversDescription =>
+      'Anda boleh menandakan pemandu pilihan anda sebagai kegemaran apabila menilai mereka selepas perjalanan.';
 
   @override
-  String get pickupLocationNotFound => 'Kami tidak dapat menentukan lokasi semasa anda menggunakan GPS sebagai tempat pengambilan. Sila masukkan tempat pengambilan anda secara manual.';
+  String get pickupLocationNotFound =>
+      'Kami tidak dapat menentukan lokasi semasa anda menggunakan GPS sebagai tempat pengambilan. Sila masukkan tempat pengambilan anda secara manual.';
 
   @override
   String get dragToSelect => 'Seret untuk memilih';
@@ -1075,7 +1106,8 @@ class SMs extends S {
   String get locationPermission => 'Kebenaran lokasi';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Kebenaran lokasi adalah keperluan untuk menerima pesanan di sekeliling anda dan juga untuk penunggang menjejaki lokasi anda. Anda tidak boleh menerima pesanan tanpa kebenaran ini dan kami berhati-hati dengan lokasi semasa anda. Anda boleh menukar kebenaran ini dalam tetapan telefon anda.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Kebenaran lokasi adalah keperluan untuk menerima pesanan di sekeliling anda dan juga untuk penunggang menjejaki lokasi anda. Anda tidak boleh menerima pesanan tanpa kebenaran ini dan kami berhati-hati dengan lokasi semasa anda. Anda boleh menukar kebenaran ini dalam tetapan telefon anda.';
 
   @override
   String get allow => 'benarkan';
@@ -1084,13 +1116,15 @@ class SMs extends S {
   String get driverOnlineTitle => 'Mencari tumpangan';
 
   @override
-  String get driverOfflineTitle => 'Dapatkan dalam talian untuk mula menerima permintaan';
+  String get driverOfflineTitle =>
+      'Dapatkan dalam talian untuk mula menerima permintaan';
 
   @override
   String get payInCash => 'Pembayaran tunai';
 
   @override
-  String get payInCashDescription => 'Sila teruskan pembayaran tunai kepada pemandu. Pemandu akan mengesahkan pembayaran setelah diterima.';
+  String get payInCashDescription =>
+      'Sila teruskan pembayaran tunai kepada pemandu. Pemandu akan mengesahkan pembayaran setelah diterima.';
 
   @override
   String get addToFavoriteDrivers => 'Tambahkan pada pemandu kegemaran';
@@ -1108,19 +1142,22 @@ class SMs extends S {
   String get noticePickingUpRiderIn => 'Mengambil penunggang masuk:';
 
   @override
-  String get noticeRiderNotified => 'Penunggang telah dimaklumkan, Angkat penunggang dan mulakan tunggangan';
+  String get noticeRiderNotified =>
+      'Penunggang telah dimaklumkan, Angkat penunggang dan mulakan tunggangan';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

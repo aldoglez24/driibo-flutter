@@ -95,7 +95,6 @@ class SNo extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SNo extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SNo extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SNo extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SNo extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SNo extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SNo extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Taxitjeneste designet for din komfort har turer med favorittsjåførene dine og velg dine kjørepreferanser';
+  String get welcomeSubtitle =>
+      'Taxitjeneste designet for din komfort har turer med favorittsjåførene dine og velg dine kjørepreferanser';
 
   @override
   String get onboardingRewardTitle => 'Bli belønnet!';
 
   @override
-  String get onboardingRewardSubtitle => 'Få ekstra bonuser for å verve en venn, fullføre turer og mange flere...';
+  String get onboardingRewardSubtitle =>
+      'Få ekstra bonuser for å verve en venn, fullføre turer og mange flere...';
 
   @override
   String get selectLanguage => 'Velg språk';
@@ -271,10 +267,12 @@ class SNo extends S {
   String get reserveRide => 'Reserver tur';
 
   @override
-  String get reserveRideMessage => 'Velg nøyaktig dato og klokkeslett du ønsker at turen skal reserveres';
+  String get reserveRideMessage =>
+      'Velg nøyaktig dato og klokkeslett du ønsker at turen skal reserveres';
 
   @override
-  String get reserveRideMessageSuccess => 'Turen din er reservert. Du kan se dine reserverte turer i delen \"Planlagte turer\".';
+  String get reserveRideMessageSuccess =>
+      'Turen din er reservert. Du kan se dine reserverte turer i delen \"Planlagte turer\".';
 
   @override
   String get cancelReservation => 'Kanseller reservasjon';
@@ -283,7 +281,8 @@ class SNo extends S {
   String get confirmResrve => 'Bekrefte';
 
   @override
-  String get enterCouponDescription => 'Sett inn kupongkoden din som skal brukes på prisene';
+  String get enterCouponDescription =>
+      'Sett inn kupongkoden din som skal brukes på prisene';
 
   @override
   String get enterCoupon => 'Skriv inn kupongen';
@@ -292,7 +291,8 @@ class SNo extends S {
   String get couponApplied => 'Kupongen er brukt';
 
   @override
-  String get couponAppliedDescription => 'Kupongen er brukt på turens billettpris';
+  String get couponAppliedDescription =>
+      'Kupongen er brukt på turens billettpris';
 
   @override
   String get done => 'Ferdig!';
@@ -329,7 +329,8 @@ class SNo extends S {
   String get shareTripInformation => 'Del turinformasjon';
 
   @override
-  String get shareTripInformationDescription => 'Du kan dele turinformasjonen din med en venn';
+  String get shareTripInformationDescription =>
+      'Du kan dele turinformasjonen din med en venn';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SNo extends S {
   String get reportAnIssue => 'Rapporter et problem';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Del et sikkerhetsproblem på tur';
+  String get reportAnIssueMidTripDescription =>
+      'Del et sikkerhetsproblem på tur';
 
   @override
   String get rideOptions => 'Ridealternativer';
@@ -458,7 +460,8 @@ class SNo extends S {
   String get favoriteLocations => 'Favorittsteder';
 
   @override
-  String get favoriteLocationsSubtitle => 'Lagre favorittstedene dine for enklere tilgang';
+  String get favoriteLocationsSubtitle =>
+      'Lagre favorittstedene dine for enklere tilgang';
 
   @override
   String get createAFavoriteLocation => 'Lag et favorittsted';
@@ -473,7 +476,8 @@ class SNo extends S {
   String get whereIsYourNewFavoriteLocation => 'Hvor er ditt nye favorittsted?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Bruk enten søkeboksen nedenfor eller kartet for å feste den nøyaktige plasseringen';
+  String get locateFavoriteLocationDescription =>
+      'Bruk enten søkeboksen nedenfor eller kartet for å feste den nøyaktige plasseringen';
 
   @override
   String get searchLocation => 'Søk plassering';
@@ -512,7 +516,8 @@ class SNo extends S {
   String get redeemGiftCard => 'Løs inn gavekort';
 
   @override
-  String get redeemGiftCardDescription => 'Skriv inn gavekortkoden for å løse den inn.';
+  String get redeemGiftCardDescription =>
+      'Skriv inn gavekortkoden for å løse den inn.';
 
   @override
   String get redeemSuccessTitle => 'Gavekort innløst!';
@@ -562,7 +567,8 @@ class SNo extends S {
   String get selectCards => 'Velg kort';
 
   @override
-  String get selectCardsDescription => 'Du kan velge kortnumrene du ønsker skal vises i listen over betalingsmåter på fakturaer.';
+  String get selectCardsDescription =>
+      'Du kan velge kortnumrene du ønsker skal vises i listen over betalingsmåter på fakturaer.';
 
   @override
   String get delete => 'Slett';
@@ -580,7 +586,8 @@ class SNo extends S {
   String get addPaymentMethod => 'Legg til betalingsmåte';
 
   @override
-  String get addPaymentMethodDescription => 'Legg til en ny betalingsmåte på kontoen din';
+  String get addPaymentMethodDescription =>
+      'Legg til en ny betalingsmåte på kontoen din';
 
   @override
   String get saveCard => 'Lagre kortet';
@@ -595,7 +602,8 @@ class SNo extends S {
   String get preferences => 'Preferanser:';
 
   @override
-  String get onboardingDescription => 'Øyeblikk unna å registrere kontoen din og nyte komfortable turer';
+  String get onboardingDescription =>
+      'Øyeblikk unna å registrere kontoen din og nyte komfortable turer';
 
   @override
   String get signInSignUp => 'Logg inn Registrer deg';
@@ -607,7 +615,8 @@ class SNo extends S {
   String get enterPassword => 'Oppgi passord';
 
   @override
-  String get enterPasswordDescription => 'Vennligst skriv inn passordet ditt for å fortsette';
+  String get enterPasswordDescription =>
+      'Vennligst skriv inn passordet ditt for å fortsette';
 
   @override
   String get setPassword => 'Lag et passord';
@@ -655,7 +664,8 @@ class SNo extends S {
   String get skipForNow => 'Hopp over for nå';
 
   @override
-  String get sendOtpDescription => 'En bekreftelseskode er sendt til telefonnummeret ditt';
+  String get sendOtpDescription =>
+      'En bekreftelseskode er sendt til telefonnummeret ditt';
 
   @override
   String get resendOtp => 'Send kode på nytt';
@@ -801,7 +811,8 @@ class SNo extends S {
   String get selectProfileImage => 'Velg Profilbilde';
 
   @override
-  String get chooseAvatarDescription => 'Eller velg en avatar fra listen nedenfor:';
+  String get chooseAvatarDescription =>
+      'Eller velg en avatar fra listen nedenfor:';
 
   @override
   String get fullName => 'Fullt navn';
@@ -837,7 +848,8 @@ class SNo extends S {
   String get feedbacksSummaryEmptyStateHeading => 'Ingen tilbakemeldinger ennå';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Du har ikke nok tilbakemeldinger å vise ennå.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Du har ikke nok tilbakemeldinger å vise ennå.';
 
   @override
   String get feedbacksSummary => 'Sammendrag av tilbakemeldinger';
@@ -870,7 +882,8 @@ class SNo extends S {
   String get notice => 'Legge merke til:';
 
   @override
-  String get payoutNoticeTitle => 'Du vil automatisk bli betalt av administratoren to ganger i uken.';
+  String get payoutNoticeTitle =>
+      'Du vil automatisk bli betalt av administratoren to ganger i uken.';
 
   @override
   String get addPayoutMethod => 'Legg til utbetalingsmetode';
@@ -966,13 +979,15 @@ class SNo extends S {
   String get driverShouldAriveInNotice => 'Sjåføren anslås å ankomme';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Sjåføren skal ankomme når som helst nå';
+  String get driverShouldHaveArrivedNotice =>
+      'Sjåføren skal ankomme når som helst nå';
 
   @override
   String get deleteAccount => 'Slett konto';
 
   @override
-  String get deleteAccountNotice => 'Er du sikker på at du vil slette kontoen din? Etter 30 dager blir kontoen din slettet permanent. I løpet av denne tiden kan du gjenopprette kontoen din ved å logge på igjen.';
+  String get deleteAccountNotice =>
+      'Er du sikker på at du vil slette kontoen din? Etter 30 dager blir kontoen din slettet permanent. I løpet av denne tiden kan du gjenopprette kontoen din ved å logge på igjen.';
 
   @override
   String get confirmAndDeleteAccount => 'Bekrefte ';
@@ -986,12 +1001,14 @@ class SNo extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Sjåførnavnet mitt er $firstName $lastName, mobilnummeret er $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Rytteren med mitt navn er $firstName $lastName, mobilnummeret er $mobileNumber.';
   }
 
@@ -1006,7 +1023,8 @@ class SNo extends S {
   }
 
   @override
-  String get sendSOSMessage => 'VIKTIG: Bruk denne funksjonen kun i nødstilfeller. Vi vil kontakte myndighetene på vegne av deg.';
+  String get sendSOSMessage =>
+      'VIKTIG: Bruk denne funksjonen kun i nødstilfeller. Vi vil kontakte myndighetene på vegne av deg.';
 
   @override
   String get confirmAndSendSOS => 'Bekrefte';
@@ -1018,7 +1036,8 @@ class SNo extends S {
   String get topUpSuccess => 'Lommeboken er fullført';
 
   @override
-  String get cancelNotAllowed => 'Kansellering av en allerede påbegynt tur er ikke mulig.';
+  String get cancelNotAllowed =>
+      'Kansellering av en allerede påbegynt tur er ikke mulig.';
 
   @override
   String get error => 'Feil';
@@ -1039,7 +1058,8 @@ class SNo extends S {
   String get reportSubmitted => 'Rapport innsendt';
 
   @override
-  String get reportSubmittedDescription => 'Rapporten din har blitt sendt inn, vi vil vurdere den og iverksette nødvendige tiltak.';
+  String get reportSubmittedDescription =>
+      'Rapporten din har blitt sendt inn, vi vil vurdere den og iverksette nødvendige tiltak.';
 
   @override
   String get cardNumber => 'Kortnummer';
@@ -1057,10 +1077,12 @@ class SNo extends S {
   String get noFavoriteDrivers => 'Ingen favorittsjåfører';
 
   @override
-  String get noFavoriteDriversDescription => 'Du kan merke dine foretrukne sjåfører som favoritter når du vurderer dem etter reisen.';
+  String get noFavoriteDriversDescription =>
+      'Du kan merke dine foretrukne sjåfører som favoritter når du vurderer dem etter reisen.';
 
   @override
-  String get pickupLocationNotFound => 'Vi kunne ikke finne din nåværende posisjon ved å bruke GPS som hentepunkt. Vennligst skriv inn hentestedet ditt manuelt.';
+  String get pickupLocationNotFound =>
+      'Vi kunne ikke finne din nåværende posisjon ved å bruke GPS som hentepunkt. Vennligst skriv inn hentestedet ditt manuelt.';
 
   @override
   String get dragToSelect => 'Dra for å velge';
@@ -1075,7 +1097,8 @@ class SNo extends S {
   String get locationPermission => 'Stedstillatelse';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Posisjonstillatelse er et krav for å motta bestillinger rundt deg, og også for rytteren for å spore posisjonen din. Du kan ikke motta bestillinger uten denne tillatelsen, og vi passer på din nåværende plassering. Du kan endre denne tillatelsen i telefoninnstillingene.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Posisjonstillatelse er et krav for å motta bestillinger rundt deg, og også for rytteren for å spore posisjonen din. Du kan ikke motta bestillinger uten denne tillatelsen, og vi passer på din nåværende plassering. Du kan endre denne tillatelsen i telefoninnstillingene.';
 
   @override
   String get allow => 'Tillate';
@@ -1084,13 +1107,15 @@ class SNo extends S {
   String get driverOnlineTitle => 'Søker etter en tur';
 
   @override
-  String get driverOfflineTitle => 'Kom deg på nett for å begynne å motta forespørsler';
+  String get driverOfflineTitle =>
+      'Kom deg på nett for å begynne å motta forespørsler';
 
   @override
   String get payInCash => 'Kontant betaling';
 
   @override
-  String get payInCashDescription => 'Fortsett med kontantbetalingen til sjåføren. Sjåføren vil bekrefte betalingen når den er mottatt.';
+  String get payInCashDescription =>
+      'Fortsett med kontantbetalingen til sjåføren. Sjåføren vil bekrefte betalingen når den er mottatt.';
 
   @override
   String get addToFavoriteDrivers => 'Legg til favorittdrivere';
@@ -1108,19 +1133,22 @@ class SNo extends S {
   String get noticePickingUpRiderIn => 'Henting av rytteren i:';
 
   @override
-  String get noticeRiderNotified => 'Rytteren er varslet, Hent rytteren og start turen';
+  String get noticeRiderNotified =>
+      'Rytteren er varslet, Hent rytteren og start turen';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

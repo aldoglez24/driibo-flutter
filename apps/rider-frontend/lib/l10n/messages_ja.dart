@@ -95,7 +95,6 @@ class SJa extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SJa extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SJa extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SJa extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SJa extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SJa extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,7 +172,8 @@ class SJa extends S {
   }
 
   @override
-  String get welcomeSubtitle => '快適さを追求したタクシー サービスは、お気に入りのドライバーと乗車し、好みの乗り物を選択できます';
+  String get welcomeSubtitle =>
+      '快適さを追求したタクシー サービスは、お気に入りのドライバーと乗車し、好みの乗り物を選択できます';
 
   @override
   String get onboardingRewardTitle => '報酬を受ける！';
@@ -274,7 +269,8 @@ class SJa extends S {
   String get reserveRideMessage => '乗車を予約したい正確な日付と時刻を選択してください';
 
   @override
-  String get reserveRideMessageSuccess => '乗車は正常に予約されました。予約した乗り物は「予約された乗り物」セクションで確認できます。';
+  String get reserveRideMessageSuccess =>
+      '乗車は正常に予約されました。予約した乗り物は「予約された乗り物」セクションで確認できます。';
 
   @override
   String get cancelReservation => '予約をキャンセルする';
@@ -473,7 +469,8 @@ class SJa extends S {
   String get whereIsYourNewFavoriteLocation => 'あなたの新しいお気に入りの場所はどこですか?';
 
   @override
-  String get locateFavoriteLocationDescription => '下の検索ボックスまたは地図を使用して、正確な場所をピン留めします';
+  String get locateFavoriteLocationDescription =>
+      '下の検索ボックスまたは地図を使用して、正確な場所をピン留めします';
 
   @override
   String get searchLocation => '検索場所';
@@ -972,7 +969,8 @@ class SJa extends S {
   String get deleteAccount => 'アカウントを削除する';
 
   @override
-  String get deleteAccountNotice => 'アカウントを削除してもよろしいですか? 30 日後、アカウントは完全に削除されます。この間、再度サインインすることでアカウントを復元できます。';
+  String get deleteAccountNotice =>
+      'アカウントを削除してもよろしいですか? 30 日後、アカウントは完全に削除されます。この間、再度サインインすることでアカウントを復元できます。';
 
   @override
   String get confirmAndDeleteAccount => '確認する ';
@@ -986,12 +984,14 @@ class SJa extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' 私のドライバーの名前は$firstName $lastName、携帯番号は$mobileNumberです。';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' 私の名前のライダーは$firstName $lastName、携帯番号は$mobileNumberです。';
   }
 
@@ -1006,7 +1006,8 @@ class SJa extends S {
   }
 
   @override
-  String get sendSOSMessage => '重要: この機能は緊急の場合にのみ使用してください。私たちがあなたに代わって当局に連絡します。';
+  String get sendSOSMessage =>
+      '重要: この機能は緊急の場合にのみ使用してください。私たちがあなたに代わって当局に連絡します。';
 
   @override
   String get confirmAndSendSOS => '確認する ';
@@ -1039,7 +1040,8 @@ class SJa extends S {
   String get reportSubmitted => '報告書が提出されました';
 
   @override
-  String get reportSubmittedDescription => 'あなたのレポートは正常に送信されました。私たちはそれを確認し、必要な措置を講じます。';
+  String get reportSubmittedDescription =>
+      'あなたのレポートは正常に送信されました。私たちはそれを確認し、必要な措置を講じます。';
 
   @override
   String get cardNumber => 'カード番号';
@@ -1057,10 +1059,12 @@ class SJa extends S {
   String get noFavoriteDrivers => 'お気に入りのドライバーはいません';
 
   @override
-  String get noFavoriteDriversDescription => '旅行後に評価するときに、お気に入りのドライバーをお気に入りとしてマークできます。';
+  String get noFavoriteDriversDescription =>
+      '旅行後に評価するときに、お気に入りのドライバーをお気に入りとしてマークできます。';
 
   @override
-  String get pickupLocationNotFound => 'GPS を集合場所として使用して現在地を特定できませんでした。乗車場所を手動で入力してください。';
+  String get pickupLocationNotFound =>
+      'GPS を集合場所として使用して現在地を特定できませんでした。乗車場所を手動で入力してください。';
 
   @override
   String get dragToSelect => 'ドラッグして選択します';
@@ -1075,7 +1079,8 @@ class SJa extends S {
   String get locationPermission => '位置情報の許可';
 
   @override
-  String get locationPermissionDeniedForeverMessage => '位置情報の許可は、周囲で注文を受信するため、またライダーがあなたの位置を追跡するための要件です。この許可がなければ注文を受け取ることはできず、当社はあなたの現在地に注意しています。この権限は電話の設定で変更できます。';
+  String get locationPermissionDeniedForeverMessage =>
+      '位置情報の許可は、周囲で注文を受信するため、またライダーがあなたの位置を追跡するための要件です。この許可がなければ注文を受け取ることはできず、当社はあなたの現在地に注意しています。この権限は電話の設定で変更できます。';
 
   @override
   String get allow => '許可する';
@@ -1114,13 +1119,15 @@ class SJa extends S {
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

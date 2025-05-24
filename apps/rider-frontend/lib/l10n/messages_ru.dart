@@ -95,7 +95,6 @@ class SRu extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SRu extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SRu extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SRu extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SRu extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SRu extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SRu extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Служба такси, созданная для вашего комфорта, предлагает поездки с вашими любимыми водителями и выбор предпочтений в поездке.';
+  String get welcomeSubtitle =>
+      'Служба такси, созданная для вашего комфорта, предлагает поездки с вашими любимыми водителями и выбор предпочтений в поездке.';
 
   @override
   String get onboardingRewardTitle => 'Получите вознаграждение!';
 
   @override
-  String get onboardingRewardSubtitle => 'Получайте дополнительные бонусы за приглашение друга, совершение поездок и многое другое...';
+  String get onboardingRewardSubtitle =>
+      'Получайте дополнительные бонусы за приглашение друга, совершение поездок и многое другое...';
 
   @override
   String get selectLanguage => 'Выберите язык';
@@ -271,10 +267,12 @@ class SRu extends S {
   String get reserveRide => 'Резервная поездка';
 
   @override
-  String get reserveRideMessage => 'Выберите точную дату и время, когда вы хотите зарезервировать поездку.';
+  String get reserveRideMessage =>
+      'Выберите точную дату и время, когда вы хотите зарезервировать поездку.';
 
   @override
-  String get reserveRideMessageSuccess => 'Ваша поездка успешно зарезервирована. Вы можете просмотреть зарезервированные поездки в разделе «Запланированные поездки».';
+  String get reserveRideMessageSuccess =>
+      'Ваша поездка успешно зарезервирована. Вы можете просмотреть зарезервированные поездки в разделе «Запланированные поездки».';
 
   @override
   String get cancelReservation => 'Отмена бронирования';
@@ -283,7 +281,8 @@ class SRu extends S {
   String get confirmResrve => 'Подтверждать';
 
   @override
-  String get enterCouponDescription => 'Введите код купона, который будет применяться к ценам.';
+  String get enterCouponDescription =>
+      'Введите код купона, который будет применяться к ценам.';
 
   @override
   String get enterCoupon => 'Введите купон';
@@ -292,7 +291,8 @@ class SRu extends S {
   String get couponApplied => 'Купон применен';
 
   @override
-  String get couponAppliedDescription => 'Купон был применен к стоимости вашей поездки.';
+  String get couponAppliedDescription =>
+      'Купон был применен к стоимости вашей поездки.';
 
   @override
   String get done => 'Сделанный!';
@@ -329,7 +329,8 @@ class SRu extends S {
   String get shareTripInformation => 'Поделитесь информацией о поездке';
 
   @override
-  String get shareTripInformationDescription => 'Вы можете поделиться информацией о поездке с другом';
+  String get shareTripInformationDescription =>
+      'Вы можете поделиться информацией о поездке с другом';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SRu extends S {
   String get reportAnIssue => 'Сообщить о проблеме';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Расскажите о проблеме безопасности в поездке';
+  String get reportAnIssueMidTripDescription =>
+      'Расскажите о проблеме безопасности в поездке';
 
   @override
   String get rideOptions => 'Варианты поездок';
@@ -458,7 +460,8 @@ class SRu extends S {
   String get favoriteLocations => 'Любимые места';
 
   @override
-  String get favoriteLocationsSubtitle => 'Сохраните свои любимые места для более удобного доступа.';
+  String get favoriteLocationsSubtitle =>
+      'Сохраните свои любимые места для более удобного доступа.';
 
   @override
   String get createAFavoriteLocation => 'Создайте любимое место';
@@ -473,7 +476,8 @@ class SRu extends S {
   String get whereIsYourNewFavoriteLocation => 'Где ваше новое любимое место?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Используйте поле поиска ниже или карту, чтобы указать точное местоположение.';
+  String get locateFavoriteLocationDescription =>
+      'Используйте поле поиска ниже или карту, чтобы указать точное местоположение.';
 
   @override
   String get searchLocation => 'Поиск местоположения';
@@ -500,7 +504,8 @@ class SRu extends S {
   String get activities => 'Деятельность';
 
   @override
-  String get pleaseEnterGiftCardCode => 'Пожалуйста, введите код подарочной карты';
+  String get pleaseEnterGiftCardCode =>
+      'Пожалуйста, введите код подарочной карты';
 
   @override
   String get redeem => 'Выкупать';
@@ -512,7 +517,8 @@ class SRu extends S {
   String get redeemGiftCard => 'Погасить подарочную карту';
 
   @override
-  String get redeemGiftCardDescription => 'Введите код подарочной карты, чтобы активировать ее.';
+  String get redeemGiftCardDescription =>
+      'Введите код подарочной карты, чтобы активировать ее.';
 
   @override
   String get redeemSuccessTitle => 'Подарочная карта активирована!';
@@ -562,7 +568,8 @@ class SRu extends S {
   String get selectCards => 'Выберите карты';
 
   @override
-  String get selectCardsDescription => 'Вы можете выбрать номера карт, которые будут отображаться в списке способов оплаты в счетах.';
+  String get selectCardsDescription =>
+      'Вы можете выбрать номера карт, которые будут отображаться в списке способов оплаты в счетах.';
 
   @override
   String get delete => 'Удалить';
@@ -580,7 +587,8 @@ class SRu extends S {
   String get addPaymentMethod => 'Добавить способ оплаты';
 
   @override
-  String get addPaymentMethodDescription => 'Добавьте новый способ оплаты в свой аккаунт';
+  String get addPaymentMethodDescription =>
+      'Добавьте новый способ оплаты в свой аккаунт';
 
   @override
   String get saveCard => 'Сохранить карту';
@@ -595,7 +603,8 @@ class SRu extends S {
   String get preferences => 'Предпочтения:';
 
   @override
-  String get onboardingDescription => 'Всего несколько мгновений отделяют вас от регистрации аккаунта и наслаждения комфортными поездками.';
+  String get onboardingDescription =>
+      'Всего несколько мгновений отделяют вас от регистрации аккаунта и наслаждения комфортными поездками.';
 
   @override
   String get signInSignUp => 'Войти Зарегистрироваться';
@@ -607,7 +616,8 @@ class SRu extends S {
   String get enterPassword => 'Введите пароль';
 
   @override
-  String get enterPasswordDescription => 'Пожалуйста, введите Ваш пароль чтобы продолжить';
+  String get enterPasswordDescription =>
+      'Пожалуйста, введите Ваш пароль чтобы продолжить';
 
   @override
   String get setPassword => 'Установка пароля';
@@ -616,7 +626,8 @@ class SRu extends S {
   String get password => 'Пароль';
 
   @override
-  String get passwordRuleDescription => 'Включите как минимум два из следующих пунктов:';
+  String get passwordRuleDescription =>
+      'Включите как минимум два из следующих пунктов:';
 
   @override
   String get passwordRuleLength => 'От 9 до 64 символов';
@@ -655,7 +666,8 @@ class SRu extends S {
   String get skipForNow => 'Пропустить сейчас';
 
   @override
-  String get sendOtpDescription => 'На ваш номер телефона был отправлен код подтверждения';
+  String get sendOtpDescription =>
+      'На ваш номер телефона был отправлен код подтверждения';
 
   @override
   String get resendOtp => 'Отправить код еще раз';
@@ -831,13 +843,15 @@ class SRu extends S {
   String get monthly => 'Ежемесячно';
 
   @override
-  String get noRecordsFoundEarnings => 'Для этих фильтров не найдено записей о поездках';
+  String get noRecordsFoundEarnings =>
+      'Для этих фильтров не найдено записей о поездках';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Пока нет отзывов';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'У вас еще недостаточно отзывов для показа.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'У вас еще недостаточно отзывов для показа.';
 
   @override
   String get feedbacksSummary => 'Сводка отзывов';
@@ -852,13 +866,15 @@ class SRu extends S {
   String get feedbacksBadTitle => 'Средний';
 
   @override
-  String get feedbacksBadSubtitle => 'Вы можете использовать некоторые улучшения';
+  String get feedbacksBadSubtitle =>
+      'Вы можете использовать некоторые улучшения';
 
   @override
   String get feedbacksGoodPointsTitle => 'Несколько хороших слов о вас:';
 
   @override
-  String get feedbacksbadPointsTitle => 'Некоторые моменты, которые вы можете улучшить:';
+  String get feedbacksbadPointsTitle =>
+      'Некоторые моменты, которые вы можете улучшить:';
 
   @override
   String get feedbacksReviewsTitle => 'Некоторые ранние обзоры';
@@ -870,7 +886,8 @@ class SRu extends S {
   String get notice => 'Уведомление:';
 
   @override
-  String get payoutNoticeTitle => 'Администратор будет автоматически платить вам два раза в неделю.';
+  String get payoutNoticeTitle =>
+      'Администратор будет автоматически платить вам два раза в неделю.';
 
   @override
   String get addPayoutMethod => 'Добавить метод выплаты';
@@ -966,13 +983,15 @@ class SRu extends S {
   String get driverShouldAriveInNotice => 'Ожидается, что водитель прибудет в';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Водитель должен приехать в любой момент';
+  String get driverShouldHaveArrivedNotice =>
+      'Водитель должен приехать в любой момент';
 
   @override
   String get deleteAccount => 'Удалить аккаунт';
 
   @override
-  String get deleteAccountNotice => 'Вы уверены, что хотите удалить свою учетную запись? Через 30 дней ваша учетная запись будет удалена навсегда. В течение этого времени вы можете восстановить свою учетную запись, войдя в систему еще раз.';
+  String get deleteAccountNotice =>
+      'Вы уверены, что хотите удалить свою учетную запись? Через 30 дней ваша учетная запись будет удалена навсегда. В течение этого времени вы можете восстановить свою учетную запись, войдя в систему еще раз.';
 
   @override
   String get confirmAndDeleteAccount => 'Подтверждать';
@@ -986,12 +1005,14 @@ class SRu extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Имя моего водителя $firstName $lastName, номер мобильного телефона $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Имя гонщика со мной $firstName $lastName, номер мобильного телефона $mobileNumber.';
   }
 
@@ -1006,7 +1027,8 @@ class SRu extends S {
   }
 
   @override
-  String get sendSOSMessage => 'ВАЖНО: Используйте эту функцию только в случае крайней необходимости. Мы свяжемся с властями от вашего имени.';
+  String get sendSOSMessage =>
+      'ВАЖНО: Используйте эту функцию только в случае крайней необходимости. Мы свяжемся с властями от вашего имени.';
 
   @override
   String get confirmAndSendSOS => 'Подтверждать';
@@ -1039,7 +1061,8 @@ class SRu extends S {
   String get reportSubmitted => 'Отчет отправлен';
 
   @override
-  String get reportSubmittedDescription => 'Ваш отчет успешно отправлен, мы рассмотрим его и предпримем необходимые действия.';
+  String get reportSubmittedDescription =>
+      'Ваш отчет успешно отправлен, мы рассмотрим его и предпримем необходимые действия.';
 
   @override
   String get cardNumber => 'Номер карты';
@@ -1057,10 +1080,12 @@ class SRu extends S {
   String get noFavoriteDrivers => 'Нет любимых водителей';
 
   @override
-  String get noFavoriteDriversDescription => 'Вы можете пометить предпочитаемых водителей как избранных, оценивая их после поездки.';
+  String get noFavoriteDriversDescription =>
+      'Вы можете пометить предпочитаемых водителей как избранных, оценивая их после поездки.';
 
   @override
-  String get pickupLocationNotFound => 'Нам не удалось определить ваше текущее местоположение, используя GPS в качестве точки посадки. Пожалуйста, введите пункт выдачи вручную.';
+  String get pickupLocationNotFound =>
+      'Нам не удалось определить ваше текущее местоположение, используя GPS в качестве точки посадки. Пожалуйста, введите пункт выдачи вручную.';
 
   @override
   String get dragToSelect => 'Перетащите, чтобы выбрать';
@@ -1075,7 +1100,8 @@ class SRu extends S {
   String get locationPermission => 'Разрешение на местоположение';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Разрешение на определение местоположения требуется для получения заказов вокруг вас, а также для того, чтобы водитель мог отслеживать ваше местоположение. Вы не можете получать заказы без этого разрешения, и мы обращаем внимание на ваше текущее местоположение. Вы можете изменить это разрешение в настройках телефона.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Разрешение на определение местоположения требуется для получения заказов вокруг вас, а также для того, чтобы водитель мог отслеживать ваше местоположение. Вы не можете получать заказы без этого разрешения, и мы обращаем внимание на ваше текущее местоположение. Вы можете изменить это разрешение в настройках телефона.';
 
   @override
   String get allow => 'Позволять';
@@ -1084,13 +1110,15 @@ class SRu extends S {
   String get driverOnlineTitle => 'В поисках поездки';
 
   @override
-  String get driverOfflineTitle => 'Подключитесь к Интернету, чтобы начать получать запросы';
+  String get driverOfflineTitle =>
+      'Подключитесь к Интернету, чтобы начать получать запросы';
 
   @override
   String get payInCash => 'Наличный расчет';
 
   @override
-  String get payInCashDescription => 'Пожалуйста, продолжите оплату наличными водителю. Водитель подтвердит оплату после получения.';
+  String get payInCashDescription =>
+      'Пожалуйста, продолжите оплату наличными водителю. Водитель подтвердит оплату после получения.';
 
   @override
   String get addToFavoriteDrivers => 'Добавить в избранные драйверы';
@@ -1108,19 +1136,22 @@ class SRu extends S {
   String get noticePickingUpRiderIn => 'Забираем гонщика через:';
 
   @override
-  String get noticeRiderNotified => 'Водитель получил уведомление. Возьмите его и начните поездку.';
+  String get noticeRiderNotified =>
+      'Водитель получил уведомление. Возьмите его и начните поездку.';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

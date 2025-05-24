@@ -95,7 +95,6 @@ class STh extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class STh extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class STh extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class STh extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class STh extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class STh extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class STh extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'บริการแท็กซี่ที่ออกแบบมาเพื่อความสะดวกสบายของคุณ มีทริปพร้อมคนขับคนโปรดของคุณ และเลือกรูปแบบการเดินทางของคุณ';
+  String get welcomeSubtitle =>
+      'บริการแท็กซี่ที่ออกแบบมาเพื่อความสะดวกสบายของคุณ มีทริปพร้อมคนขับคนโปรดของคุณ และเลือกรูปแบบการเดินทางของคุณ';
 
   @override
   String get onboardingRewardTitle => 'รับรางวัล!';
 
   @override
-  String get onboardingRewardSubtitle => 'รับโบนัสพิเศษจากการแนะนำเพื่อน การเดินทางให้สำเร็จ และอื่นๆ อีกมากมาย...';
+  String get onboardingRewardSubtitle =>
+      'รับโบนัสพิเศษจากการแนะนำเพื่อน การเดินทางให้สำเร็จ และอื่นๆ อีกมากมาย...';
 
   @override
   String get selectLanguage => 'เลือกภาษา';
@@ -274,7 +270,8 @@ class STh extends S {
   String get reserveRideMessage => 'เลือกวันที่และเวลาที่คุณต้องการจองรถ';
 
   @override
-  String get reserveRideMessageSuccess => 'การจองรถของคุณสำเร็จแล้ว คุณสามารถดูการเดินทางที่จองไว้ได้ในส่วน \"การเดินทางตามกำหนดการ\"';
+  String get reserveRideMessageSuccess =>
+      'การจองรถของคุณสำเร็จแล้ว คุณสามารถดูการเดินทางที่จองไว้ได้ในส่วน \"การเดินทางตามกำหนดการ\"';
 
   @override
   String get cancelReservation => 'ยกเลิกการจอง';
@@ -329,7 +326,8 @@ class STh extends S {
   String get shareTripInformation => 'แบ่งปันข้อมูลการเดินทาง';
 
   @override
-  String get shareTripInformationDescription => 'คุณสามารถแบ่งปันข้อมูลการเดินทางของคุณกับเพื่อนได้';
+  String get shareTripInformationDescription =>
+      'คุณสามารถแบ่งปันข้อมูลการเดินทางของคุณกับเพื่อนได้';
 
   @override
   String get sos => 'สัญญาณขอความช่วยเหลือ';
@@ -341,7 +339,8 @@ class STh extends S {
   String get reportAnIssue => 'รายงานปัญหา';
 
   @override
-  String get reportAnIssueMidTripDescription => 'แบ่งปันประเด็นด้านความปลอดภัยในการเดินทาง';
+  String get reportAnIssueMidTripDescription =>
+      'แบ่งปันประเด็นด้านความปลอดภัยในการเดินทาง';
 
   @override
   String get rideOptions => 'ตัวเลือกการขับขี่';
@@ -458,7 +457,8 @@ class STh extends S {
   String get favoriteLocations => 'สถานที่โปรด';
 
   @override
-  String get favoriteLocationsSubtitle => 'บันทึกตำแหน่งที่คุณชื่นชอบเพื่อให้เข้าถึงได้ง่ายขึ้น';
+  String get favoriteLocationsSubtitle =>
+      'บันทึกตำแหน่งที่คุณชื่นชอบเพื่อให้เข้าถึงได้ง่ายขึ้น';
 
   @override
   String get createAFavoriteLocation => 'สร้างสถานที่โปรด';
@@ -470,10 +470,12 @@ class STh extends S {
   String get clickToSetLocation => 'คลิกเพื่อกำหนดตำแหน่ง';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'สถานที่โปรดแห่งใหม่ของคุณคือที่ไหน?';
+  String get whereIsYourNewFavoriteLocation =>
+      'สถานที่โปรดแห่งใหม่ของคุณคือที่ไหน?';
 
   @override
-  String get locateFavoriteLocationDescription => 'ใช้ช่องค้นหาด้านล่างหรือแผนที่เพื่อปักหมุดตำแหน่งที่แน่นอน';
+  String get locateFavoriteLocationDescription =>
+      'ใช้ช่องค้นหาด้านล่างหรือแผนที่เพื่อปักหมุดตำแหน่งที่แน่นอน';
 
   @override
   String get searchLocation => 'ค้นหาตำแหน่ง';
@@ -562,7 +564,8 @@ class STh extends S {
   String get selectCards => 'เลือกการ์ด';
 
   @override
-  String get selectCardsDescription => 'คุณสามารถเลือกหมายเลขบัตรที่คุณต้องการให้แสดงในรายการวิธีการชำระเงินในใบแจ้งหนี้';
+  String get selectCardsDescription =>
+      'คุณสามารถเลือกหมายเลขบัตรที่คุณต้องการให้แสดงในรายการวิธีการชำระเงินในใบแจ้งหนี้';
 
   @override
   String get delete => 'ลบ';
@@ -580,7 +583,8 @@ class STh extends S {
   String get addPaymentMethod => 'เพิ่มวิธีการชำระเงิน';
 
   @override
-  String get addPaymentMethodDescription => 'เพิ่มวิธีการชำระเงินใหม่ให้กับบัญชีของคุณ';
+  String get addPaymentMethodDescription =>
+      'เพิ่มวิธีการชำระเงินใหม่ให้กับบัญชีของคุณ';
 
   @override
   String get saveCard => 'บันทึกการ์ด';
@@ -595,7 +599,8 @@ class STh extends S {
   String get preferences => 'การตั้งค่า:';
 
   @override
-  String get onboardingDescription => 'อีกไม่กี่นาทีจากการลงทะเบียนบัญชีของคุณและเพลิดเพลินกับการเดินทางที่สะดวกสบาย';
+  String get onboardingDescription =>
+      'อีกไม่กี่นาทีจากการลงทะเบียนบัญชีของคุณและเพลิดเพลินกับการเดินทางที่สะดวกสบาย';
 
   @override
   String get signInSignUp => 'เข้าสู่ระบบ / ลงทะเบียน';
@@ -655,7 +660,8 @@ class STh extends S {
   String get skipForNow => 'ข้ามไปก่อน';
 
   @override
-  String get sendOtpDescription => 'รหัสยืนยันได้ถูกส่งไปยังหมายเลขโทรศัพท์ของคุณแล้ว';
+  String get sendOtpDescription =>
+      'รหัสยืนยันได้ถูกส่งไปยังหมายเลขโทรศัพท์ของคุณแล้ว';
 
   @override
   String get resendOtp => 'ส่งรหัสอีกครั้ง';
@@ -831,13 +837,15 @@ class STh extends S {
   String get monthly => 'รายเดือน';
 
   @override
-  String get noRecordsFoundEarnings => 'ไม่พบบันทึกการเดินทางสำหรับตัวกรองเหล่านี้';
+  String get noRecordsFoundEarnings =>
+      'ไม่พบบันทึกการเดินทางสำหรับตัวกรองเหล่านี้';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'ยังไม่มีการตอบรับ';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'คุณยังไม่มีความคิดเห็นเพียงพอที่จะแสดง';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'คุณยังไม่มีความคิดเห็นเพียงพอที่จะแสดง';
 
   @override
   String get feedbacksSummary => 'สรุปการตอบกลับ';
@@ -870,7 +878,8 @@ class STh extends S {
   String get notice => 'สังเกต:';
 
   @override
-  String get payoutNoticeTitle => 'คุณจะได้รับเงินโดยอัตโนมัติจากผู้ดูแลระบบสัปดาห์ละสองครั้ง';
+  String get payoutNoticeTitle =>
+      'คุณจะได้รับเงินโดยอัตโนมัติจากผู้ดูแลระบบสัปดาห์ละสองครั้ง';
 
   @override
   String get addPayoutMethod => 'เพิ่มวิธีการจ่ายเงิน';
@@ -966,13 +975,15 @@ class STh extends S {
   String get driverShouldAriveInNotice => 'คาดว่าคนขับจะมาถึงแล้ว';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'คนขับควรจะมาถึงในเวลาใดก็ได้ตอนนี้';
+  String get driverShouldHaveArrivedNotice =>
+      'คนขับควรจะมาถึงในเวลาใดก็ได้ตอนนี้';
 
   @override
   String get deleteAccount => 'ลบบัญชี';
 
   @override
-  String get deleteAccountNotice => 'คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีของคุณ? หลังจาก 30 วัน บัญชีของคุณจะถูกลบอย่างถาวร ในระหว่างนี้ คุณสามารถกู้คืนบัญชีของคุณได้โดยการลงชื่อเข้าใช้อีกครั้ง';
+  String get deleteAccountNotice =>
+      'คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีของคุณ? หลังจาก 30 วัน บัญชีของคุณจะถูกลบอย่างถาวร ในระหว่างนี้ คุณสามารถกู้คืนบัญชีของคุณได้โดยการลงชื่อเข้าใช้อีกครั้ง';
 
   @override
   String get confirmAndDeleteAccount => 'ยืนยัน ';
@@ -986,12 +997,14 @@ class STh extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' ชื่อคนขับของฉันคือ $firstName$lastName เบอร์มือถือคือ $mobileNumber';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' ผู้ขับขี่ที่ชื่อผมคือ $firstName$lastName เบอร์มือถือคือ $mobileNumber';
   }
 
@@ -1006,7 +1019,8 @@ class STh extends S {
   }
 
   @override
-  String get sendSOSMessage => 'สิ่งสำคัญ: โปรดใช้คุณสมบัตินี้ในกรณีฉุกเฉินเท่านั้น เราจะติดต่อเจ้าหน้าที่ในนามของคุณ';
+  String get sendSOSMessage =>
+      'สิ่งสำคัญ: โปรดใช้คุณสมบัตินี้ในกรณีฉุกเฉินเท่านั้น เราจะติดต่อเจ้าหน้าที่ในนามของคุณ';
 
   @override
   String get confirmAndSendSOS => 'ยืนยัน ';
@@ -1039,7 +1053,8 @@ class STh extends S {
   String get reportSubmitted => 'ส่งรายงานแล้ว';
 
   @override
-  String get reportSubmittedDescription => 'ส่งรายงานของคุณเรียบร้อยแล้ว เราจะตรวจสอบและดำเนินการตามที่จำเป็น';
+  String get reportSubmittedDescription =>
+      'ส่งรายงานของคุณเรียบร้อยแล้ว เราจะตรวจสอบและดำเนินการตามที่จำเป็น';
 
   @override
   String get cardNumber => 'หมายเลขบัตร';
@@ -1057,10 +1072,12 @@ class STh extends S {
   String get noFavoriteDrivers => 'ไม่มีไดรเวอร์ที่ชื่นชอบ';
 
   @override
-  String get noFavoriteDriversDescription => 'คุณสามารถทำเครื่องหมายผู้ขับขี่ที่คุณต้องการให้เป็นรายการโปรดได้เมื่อให้คะแนนพวกเขาหลังการเดินทาง';
+  String get noFavoriteDriversDescription =>
+      'คุณสามารถทำเครื่องหมายผู้ขับขี่ที่คุณต้องการให้เป็นรายการโปรดได้เมื่อให้คะแนนพวกเขาหลังการเดินทาง';
 
   @override
-  String get pickupLocationNotFound => 'เราไม่สามารถระบุตำแหน่งปัจจุบันของคุณโดยใช้ GPS เป็นจุดรับได้ กรุณากรอกจุดรับด้วยตนเอง';
+  String get pickupLocationNotFound =>
+      'เราไม่สามารถระบุตำแหน่งปัจจุบันของคุณโดยใช้ GPS เป็นจุดรับได้ กรุณากรอกจุดรับด้วยตนเอง';
 
   @override
   String get dragToSelect => 'ลากเพื่อเลือก';
@@ -1075,7 +1092,8 @@ class STh extends S {
   String get locationPermission => 'การอนุญาตสถานที่';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'การอนุญาตตำแหน่งเป็นข้อกำหนดในการรับคำสั่งซื้อรอบตัวคุณและเพื่อให้ผู้ขับขี่ติดตามตำแหน่งของคุณ คุณไม่สามารถรับคำสั่งซื้อได้หากไม่ได้รับอนุญาตนี้ และเราจะระวังตำแหน่งปัจจุบันของคุณ คุณสามารถเปลี่ยนการอนุญาตนี้ได้ในการตั้งค่าโทรศัพท์ของคุณ';
+  String get locationPermissionDeniedForeverMessage =>
+      'การอนุญาตตำแหน่งเป็นข้อกำหนดในการรับคำสั่งซื้อรอบตัวคุณและเพื่อให้ผู้ขับขี่ติดตามตำแหน่งของคุณ คุณไม่สามารถรับคำสั่งซื้อได้หากไม่ได้รับอนุญาตนี้ และเราจะระวังตำแหน่งปัจจุบันของคุณ คุณสามารถเปลี่ยนการอนุญาตนี้ได้ในการตั้งค่าโทรศัพท์ของคุณ';
 
   @override
   String get allow => 'อนุญาต';
@@ -1090,7 +1108,8 @@ class STh extends S {
   String get payInCash => 'จ่ายเงินสด';
 
   @override
-  String get payInCashDescription => 'กรุณาดำเนินการชำระเงินสดให้กับพนักงานขับรถ พนักงานขับรถจะยืนยันการชำระเงินเมื่อได้รับเงินแล้ว';
+  String get payInCashDescription =>
+      'กรุณาดำเนินการชำระเงินสดให้กับพนักงานขับรถ พนักงานขับรถจะยืนยันการชำระเงินเมื่อได้รับเงินแล้ว';
 
   @override
   String get addToFavoriteDrivers => 'เพิ่มไปยังไดรเวอร์ที่ชื่นชอบ';
@@ -1108,19 +1127,22 @@ class STh extends S {
   String get noticePickingUpRiderIn => 'การรับผู้โดยสารใน:';
 
   @override
-  String get noticeRiderNotified => 'ผู้ขับขี่ได้รับแจ้งแล้ว ให้รับผู้ขับขี่และเริ่มการเดินทาง';
+  String get noticeRiderNotified =>
+      'ผู้ขับขี่ได้รับแจ้งแล้ว ให้รับผู้ขับขี่และเริ่มการเดินทาง';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

@@ -95,7 +95,6 @@ class SHy extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SHy extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SHy extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SHy extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SHy extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SHy extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SHy extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Ձեր հարմարավետության համար նախատեսված տաքսի ծառայությունը կատարեք Ուղևորություններ ձեր սիրելի վարորդների հետ և ընտրեք ձեր նախընտրությունները';
+  String get welcomeSubtitle =>
+      'Ձեր հարմարավետության համար նախատեսված տաքսի ծառայությունը կատարեք Ուղևորություններ ձեր սիրելի վարորդների հետ և ընտրեք ձեր նախընտրությունները';
 
   @override
   String get onboardingRewardTitle => 'Ստացեք պարգևատրում:';
 
   @override
-  String get onboardingRewardSubtitle => 'Ստացեք հավելյալ բոնուսներ ընկերոջը ուղղորդելու, ուղևորություններ ավարտելու և շատ ավելին...';
+  String get onboardingRewardSubtitle =>
+      'Ստացեք հավելյալ բոնուսներ ընկերոջը ուղղորդելու, ուղևորություններ ավարտելու և շատ ավելին...';
 
   @override
   String get selectLanguage => 'Ընտրել լեզուն';
@@ -271,10 +267,12 @@ class SHy extends S {
   String get reserveRide => 'Պահուստային զբոսանք';
 
   @override
-  String get reserveRideMessage => 'Ընտրեք ճշգրիտ ամսաթիվը և ժամը, որը ցանկանում եք, որ ձեր ուղևորությունը ամրագրվի';
+  String get reserveRideMessage =>
+      'Ընտրեք ճշգրիտ ամսաթիվը և ժամը, որը ցանկանում եք, որ ձեր ուղևորությունը ամրագրվի';
 
   @override
-  String get reserveRideMessageSuccess => 'Ձեր ուղևորությունը հաջողությամբ ամրագրված է: Դուք կարող եք դիտել ձեր վերապահված ուղևորությունները «Պլանավորված ուղևորություններ» բաժնում:';
+  String get reserveRideMessageSuccess =>
+      'Ձեր ուղևորությունը հաջողությամբ ամրագրված է: Դուք կարող եք դիտել ձեր վերապահված ուղևորությունները «Պլանավորված ուղևորություններ» բաժնում:';
 
   @override
   String get cancelReservation => 'Չեղարկել ամրագրումը';
@@ -283,7 +281,8 @@ class SHy extends S {
   String get confirmResrve => 'Հաստատել ';
 
   @override
-  String get enterCouponDescription => 'Տեղադրեք ձեր կուպոնի կոդը, որը կկիրառվի գների վրա';
+  String get enterCouponDescription =>
+      'Տեղադրեք ձեր կուպոնի կոդը, որը կկիրառվի գների վրա';
 
   @override
   String get enterCoupon => 'Մուտքագրեք կտրոնը';
@@ -292,7 +291,8 @@ class SHy extends S {
   String get couponApplied => 'Կտրոնը կիրառվում է';
 
   @override
-  String get couponAppliedDescription => 'Կտրոնը կիրառվել է ձեր ուղևորության ուղեվարձի համար';
+  String get couponAppliedDescription =>
+      'Կտրոնը կիրառվել է ձեր ուղևորության ուղեվարձի համար';
 
   @override
   String get done => 'Կատարած!';
@@ -326,22 +326,26 @@ class SHy extends S {
   String get rideSafety => 'Ուղևորության անվտանգություն';
 
   @override
-  String get shareTripInformation => 'Կիսվեք ուղևորության մասին տեղեկություններով';
+  String get shareTripInformation =>
+      'Կիսվեք ուղևորության մասին տեղեկություններով';
 
   @override
-  String get shareTripInformationDescription => 'Դուք կարող եք կիսվել ձեր ուղևորության մասին ընկերոջ հետ';
+  String get shareTripInformationDescription =>
+      'Դուք կարող եք կիսվել ձեր ուղևորության մասին ընկերոջ հետ';
 
   @override
   String get sos => 'SOS';
 
   @override
-  String get sosDescription => 'Տեղեկացրեք իշխանություններին արտակարգ իրավիճակի մասին';
+  String get sosDescription =>
+      'Տեղեկացրեք իշխանություններին արտակարգ իրավիճակի մասին';
 
   @override
   String get reportAnIssue => 'Հաղորդել խնդրի մասին';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Կիսվեք անվտանգության խնդրի հետ ուղևորության ժամանակ';
+  String get reportAnIssueMidTripDescription =>
+      'Կիսվեք անվտանգության խնդրի հետ ուղևորության ժամանակ';
 
   @override
   String get rideOptions => 'Ուղևորության ընտրանքներ';
@@ -458,7 +462,8 @@ class SHy extends S {
   String get favoriteLocations => 'Սիրված վայրերը';
 
   @override
-  String get favoriteLocationsSubtitle => 'Պահպանեք ձեր նախընտրած վայրերը՝ ավելի հեշտ մուտք գործելու համար';
+  String get favoriteLocationsSubtitle =>
+      'Պահպանեք ձեր նախընտրած վայրերը՝ ավելի հեշտ մուտք գործելու համար';
 
   @override
   String get createAFavoriteLocation => 'Ստեղծեք սիրելի վայր';
@@ -473,7 +478,8 @@ class SHy extends S {
   String get whereIsYourNewFavoriteLocation => 'Որտե՞ղ է ձեր նոր սիրելի վայրը:';
 
   @override
-  String get locateFavoriteLocationDescription => 'Օգտագործեք ստորև գտնվող որոնման դաշտը կամ քարտեզը՝ ճշգրիտ վայրը ամրացնելու համար';
+  String get locateFavoriteLocationDescription =>
+      'Օգտագործեք ստորև գտնվող որոնման դաշտը կամ քարտեզը՝ ճշգրիտ վայրը ամրացնելու համար';
 
   @override
   String get searchLocation => 'Որոնել գտնվելու վայրը';
@@ -500,7 +506,8 @@ class SHy extends S {
   String get activities => 'Գործունեություն';
 
   @override
-  String get pleaseEnterGiftCardCode => 'Խնդրում ենք մուտքագրել նվեր քարտի կոդը';
+  String get pleaseEnterGiftCardCode =>
+      'Խնդրում ենք մուտքագրել նվեր քարտի կոդը';
 
   @override
   String get redeem => 'Փրկել';
@@ -512,7 +519,8 @@ class SHy extends S {
   String get redeemGiftCard => 'Փրկեք նվեր քարտը';
 
   @override
-  String get redeemGiftCardDescription => 'Մուտքագրեք ձեր նվեր քարտի կոդը՝ այն մարելու համար:';
+  String get redeemGiftCardDescription =>
+      'Մուտքագրեք ձեր նվեր քարտի կոդը՝ այն մարելու համար:';
 
   @override
   String get redeemSuccessTitle => 'Նվեր քարտը մարվել է:';
@@ -562,7 +570,8 @@ class SHy extends S {
   String get selectCards => 'Ընտրեք քարտեր';
 
   @override
-  String get selectCardsDescription => 'Դուք կարող եք ընտրել քարտի համարները, որոնք ցանկանում եք, որ ցուցադրվեն հաշիվ-ապրանքագրերի վճարման եղանակների ցանկում:';
+  String get selectCardsDescription =>
+      'Դուք կարող եք ընտրել քարտի համարները, որոնք ցանկանում եք, որ ցուցադրվեն հաշիվ-ապրանքագրերի վճարման եղանակների ցանկում:';
 
   @override
   String get delete => 'Ջնջել';
@@ -580,7 +589,8 @@ class SHy extends S {
   String get addPaymentMethod => 'Ավելացնել վճարման եղանակ';
 
   @override
-  String get addPaymentMethodDescription => 'Ձեր հաշվին ավելացրեք վճարման նոր եղանակ';
+  String get addPaymentMethodDescription =>
+      'Ձեր հաշվին ավելացրեք վճարման նոր եղանակ';
 
   @override
   String get saveCard => 'Պահպանել քարտը';
@@ -595,7 +605,8 @@ class SHy extends S {
   String get preferences => 'Նախապատվություններ:';
 
   @override
-  String get onboardingDescription => 'Ձեր հաշիվը գրանցելուց և հարմարավետ զբոսանքներից մի քանի րոպե հեռու';
+  String get onboardingDescription =>
+      'Ձեր հաշիվը գրանցելուց և հարմարավետ զբոսանքներից մի քանի րոպե հեռու';
 
   @override
   String get signInSignUp => 'Մուտք գործեք / Գրանցվեք';
@@ -607,7 +618,8 @@ class SHy extends S {
   String get enterPassword => 'Մուտքագրեք գաղտնաբառը';
 
   @override
-  String get enterPasswordDescription => 'Շարունակելու համար խնդրում ենք մուտքագրել ձեր գաղտնաբառը';
+  String get enterPasswordDescription =>
+      'Շարունակելու համար խնդրում ենք մուտքագրել ձեր գաղտնաբառը';
 
   @override
   String get setPassword => 'Սահմանել գաղտնաբառը';
@@ -655,7 +667,8 @@ class SHy extends S {
   String get skipForNow => 'Առայժմ բաց թողեք';
 
   @override
-  String get sendOtpDescription => 'Ձեր հեռախոսահամարին ուղարկվել է հաստատման կոդը';
+  String get sendOtpDescription =>
+      'Ձեր հեռախոսահամարին ուղարկվել է հաստատման կոդը';
 
   @override
   String get resendOtp => 'Կրկին ուղարկել կոդը';
@@ -724,7 +737,8 @@ class SHy extends S {
   String get rideCancellation => 'Ուղևորության չեղարկում';
 
   @override
-  String get cancelRideMessage => 'Իսկապե՞ս ուզում եք չեղարկել ձեր ուղևորությունը:';
+  String get cancelRideMessage =>
+      'Իսկապե՞ս ուզում եք չեղարկել ձեր ուղևորությունը:';
 
   @override
   String get cancelRideSuccess => 'Ուղևորությունը հաջողությամբ չեղարկվել է';
@@ -801,7 +815,8 @@ class SHy extends S {
   String get selectProfileImage => 'Ընտրեք պրոֆիլի պատկերը';
 
   @override
-  String get chooseAvatarDescription => 'Կամ ընտրեք ավատար ստորև բերված ցանկից.';
+  String get chooseAvatarDescription =>
+      'Կամ ընտրեք ավատար ստորև բերված ցանկից.';
 
   @override
   String get fullName => 'Ամբողջական անուն';
@@ -831,13 +846,15 @@ class SHy extends S {
   String get monthly => 'Ամսական';
 
   @override
-  String get noRecordsFoundEarnings => 'Այս զտիչների համար ուղևորությունների գրանցում չի գտնվել';
+  String get noRecordsFoundEarnings =>
+      'Այս զտիչների համար ուղևորությունների գրանցում չի գտնվել';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Հետադարձ կապ դեռ չկա';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Դուք դեռ բավարար արձագանքներ չունեք ցուցադրելու համար:';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Դուք դեռ բավարար արձագանքներ չունեք ցուցադրելու համար:';
 
   @override
   String get feedbacksSummary => 'Հետադարձ կապի ամփոփում';
@@ -852,7 +869,8 @@ class SHy extends S {
   String get feedbacksBadTitle => 'Միջին';
 
   @override
-  String get feedbacksBadSubtitle => 'Դուք կարող եք օգտագործել որոշ բարելավումներ';
+  String get feedbacksBadSubtitle =>
+      'Դուք կարող եք օգտագործել որոշ բարելավումներ';
 
   @override
   String get feedbacksGoodPointsTitle => 'Որոշ լավ կետեր ձեր մասին.';
@@ -870,7 +888,8 @@ class SHy extends S {
   String get notice => 'Ծանուցում.';
 
   @override
-  String get payoutNoticeTitle => 'Ադմինը ձեզ ավտոմատ կերպով կվճարի շաբաթը երկու անգամ։';
+  String get payoutNoticeTitle =>
+      'Ադմինը ձեզ ավտոմատ կերպով կվճարի շաբաթը երկու անգամ։';
 
   @override
   String get addPayoutMethod => 'Ավելացնել վճարման մեթոդ';
@@ -963,16 +982,19 @@ class SHy extends S {
   String get driverArrivedNotice => 'Վարորդը սպասում է ձեզ';
 
   @override
-  String get driverShouldAriveInNotice => 'Մոտավոր հաշվարկներով վարորդը ժամանել է ներս';
+  String get driverShouldAriveInNotice =>
+      'Մոտավոր հաշվարկներով վարորդը ժամանել է ներս';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Վարորդը ցանկացած պահի պետք է ժամանի';
+  String get driverShouldHaveArrivedNotice =>
+      'Վարորդը ցանկացած պահի պետք է ժամանի';
 
   @override
   String get deleteAccount => 'Հաշիվը ջնջել';
 
   @override
-  String get deleteAccountNotice => 'Իսկապե՞ս ուզում եք ջնջել ձեր հաշիվը: 30 օր հետո ձեր հաշիվն ընդմիշտ կջնջվի: Այս ընթացքում դուք կարող եք վերականգնել ձեր հաշիվը՝ նորից մուտք գործելով:';
+  String get deleteAccountNotice =>
+      'Իսկապե՞ս ուզում եք ջնջել ձեր հաշիվը: 30 օր հետո ձեր հաշիվն ընդմիշտ կջնջվի: Այս ընթացքում դուք կարող եք վերականգնել ձեր հաշիվը՝ նորից մուտք գործելով:';
 
   @override
   String get confirmAndDeleteAccount => 'Հաստատել ';
@@ -986,12 +1008,14 @@ class SHy extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Իմ վարորդի անունը $firstName $lastName է, բջջային համարը՝ $mobileNumber։';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Ինձ հետ հեծյալի անունը $firstName $lastName է, բջջային համարը՝ $mobileNumber։';
   }
 
@@ -1006,7 +1030,8 @@ class SHy extends S {
   }
 
   @override
-  String get sendSOSMessage => 'ԿԱՐԵՎՈՐ. Խնդրում ենք օգտագործել այս հնարավորությունը միայն արտակարգ իրավիճակների դեպքում: Մենք ձեր անունից կկապվենք իշխանությունների հետ:';
+  String get sendSOSMessage =>
+      'ԿԱՐԵՎՈՐ. Խնդրում ենք օգտագործել այս հնարավորությունը միայն արտակարգ իրավիճակների դեպքում: Մենք ձեր անունից կկապվենք իշխանությունների հետ:';
 
   @override
   String get confirmAndSendSOS => 'Հաստատել ';
@@ -1039,7 +1064,8 @@ class SHy extends S {
   String get reportSubmitted => 'Զեկույցն ուղարկված է';
 
   @override
-  String get reportSubmittedDescription => 'Ձեր հաշվետվությունը հաջողությամբ ներկայացվել է, մենք կուսումնասիրենք այն և կձեռնարկենք անհրաժեշտ գործողություններ:';
+  String get reportSubmittedDescription =>
+      'Ձեր հաշվետվությունը հաջողությամբ ներկայացվել է, մենք կուսումնասիրենք այն և կձեռնարկենք անհրաժեշտ գործողություններ:';
 
   @override
   String get cardNumber => 'Քարտի համար';
@@ -1057,10 +1083,12 @@ class SHy extends S {
   String get noFavoriteDrivers => 'Սիրված վարորդներ չկան';
 
   @override
-  String get noFavoriteDriversDescription => 'Դուք կարող եք նշել ձեր նախընտրած վարորդներին որպես ֆավորիտներ, երբ դրանք գնահատեք ուղևորությունից հետո:';
+  String get noFavoriteDriversDescription =>
+      'Դուք կարող եք նշել ձեր նախընտրած վարորդներին որպես ֆավորիտներ, երբ դրանք գնահատեք ուղևորությունից հետո:';
 
   @override
-  String get pickupLocationNotFound => 'Մենք չկարողացանք որոշել ձեր ընթացիկ գտնվելու վայրը՝ օգտագործելով GPS-ը որպես վերցնելու կետ: Խնդրում ենք ձեռքով մուտքագրել ձեր հավաքման կետը:';
+  String get pickupLocationNotFound =>
+      'Մենք չկարողացանք որոշել ձեր ընթացիկ գտնվելու վայրը՝ օգտագործելով GPS-ը որպես վերցնելու կետ: Խնդրում ենք ձեռքով մուտքագրել ձեր հավաքման կետը:';
 
   @override
   String get dragToSelect => 'Քաշեք՝ ընտրելու համար';
@@ -1075,7 +1103,8 @@ class SHy extends S {
   String get locationPermission => 'Տեղադրության թույլտվություն';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Տեղադրության թույլտվությունը պահանջ է ձեր շուրջը պատվերներ ստանալու համար, ինչպես նաև ձեր գտնվելու վայրը հետևելու համար: Դուք չեք կարող պատվերներ ստանալ առանց այս թույլտվության, և մենք զգուշանում ենք ձեր ընթացիկ գտնվելու վայրից: Դուք կարող եք փոխել այս թույլտվությունը ձեր հեռախոսի կարգավորումներում:';
+  String get locationPermissionDeniedForeverMessage =>
+      'Տեղադրության թույլտվությունը պահանջ է ձեր շուրջը պատվերներ ստանալու համար, ինչպես նաև ձեր գտնվելու վայրը հետևելու համար: Դուք չեք կարող պատվերներ ստանալ առանց այս թույլտվության, և մենք զգուշանում ենք ձեր ընթացիկ գտնվելու վայրից: Դուք կարող եք փոխել այս թույլտվությունը ձեր հեռախոսի կարգավորումներում:';
 
   @override
   String get allow => 'Թույլատրել';
@@ -1090,7 +1119,8 @@ class SHy extends S {
   String get payInCash => 'Կանխիկ վճարում';
 
   @override
-  String get payInCashDescription => 'Խնդրում ենք շարունակել վարորդին կանխիկ վճարումը։ Վարորդը կհաստատի վճարումը ստանալուց հետո:';
+  String get payInCashDescription =>
+      'Խնդրում ենք շարունակել վարորդին կանխիկ վճարումը։ Վարորդը կհաստատի վճարումը ստանալուց հետո:';
 
   @override
   String get addToFavoriteDrivers => 'Ավելացնել սիրելի վարորդներին';
@@ -1108,19 +1138,22 @@ class SHy extends S {
   String get noticePickingUpRiderIn => 'Հեծանվորդին վերցնելը հետևյալում.';
 
   @override
-  String get noticeRiderNotified => 'Հեծանվորդը ծանուցվել է, վերցրեք վարորդին և սկսեք երթևեկությունը';
+  String get noticeRiderNotified =>
+      'Հեծանվորդը ծանուցվել է, վերցրեք վարորդին և սկսեք երթևեկությունը';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

@@ -95,7 +95,6 @@ class SFi extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SFi extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SFi extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SFi extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SFi extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SFi extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SFi extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Mukavuuttasi varten suunniteltu taksipalvelu tarjoaa Matkoja suosikkikuljettajiesi kanssa ja valitse ajomieltymyksesi';
+  String get welcomeSubtitle =>
+      'Mukavuuttasi varten suunniteltu taksipalvelu tarjoaa Matkoja suosikkikuljettajiesi kanssa ja valitse ajomieltymyksesi';
 
   @override
   String get onboardingRewardTitle => 'Palkitaan!';
 
   @override
-  String get onboardingRewardSubtitle => 'Saat ylimääräisiä bonuksia, kun kutsut ystävääsi, suoritat matkoja ja paljon muuta...';
+  String get onboardingRewardSubtitle =>
+      'Saat ylimääräisiä bonuksia, kun kutsut ystävääsi, suoritat matkoja ja paljon muuta...';
 
   @override
   String get selectLanguage => 'Valitse kieli';
@@ -271,10 +267,12 @@ class SFi extends S {
   String get reserveRide => 'Varaa kyyti';
 
   @override
-  String get reserveRideMessage => 'Valitse tarkka päivämäärä ja kellonaika, jolloin haluat kyytisi varattavan';
+  String get reserveRideMessage =>
+      'Valitse tarkka päivämäärä ja kellonaika, jolloin haluat kyytisi varattavan';
 
   @override
-  String get reserveRideMessageSuccess => 'Kyytisi on varattu onnistuneesti. Voit katsoa varatut kyytit kohdasta Aikataulutetut ajelut.';
+  String get reserveRideMessageSuccess =>
+      'Kyytisi on varattu onnistuneesti. Voit katsoa varatut kyytit kohdasta Aikataulutetut ajelut.';
 
   @override
   String get cancelReservation => 'Peruuta varaus';
@@ -283,7 +281,8 @@ class SFi extends S {
   String get confirmResrve => 'Vahvistaa ';
 
   @override
-  String get enterCouponDescription => 'Syötä kuponkikoodi, jota käytetään hintoihin';
+  String get enterCouponDescription =>
+      'Syötä kuponkikoodi, jota käytetään hintoihin';
 
   @override
   String get enterCoupon => 'Anna kuponki';
@@ -329,7 +328,8 @@ class SFi extends S {
   String get shareTripInformation => 'Jaa matkatiedot';
 
   @override
-  String get shareTripInformationDescription => 'Voit jakaa matkatietosi ystäväsi kanssa';
+  String get shareTripInformationDescription =>
+      'Voit jakaa matkatietosi ystäväsi kanssa';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +341,8 @@ class SFi extends S {
   String get reportAnIssue => 'Ilmoita ongelma';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Jaa turvallisuusongelma matkan aikana';
+  String get reportAnIssueMidTripDescription =>
+      'Jaa turvallisuusongelma matkan aikana';
 
   @override
   String get rideOptions => 'Ajovaihtoehdot';
@@ -458,7 +459,8 @@ class SFi extends S {
   String get favoriteLocations => 'Suosikkipaikat';
 
   @override
-  String get favoriteLocationsSubtitle => 'Tallenna suosikkipaikkasi helpommin pääsyä varten';
+  String get favoriteLocationsSubtitle =>
+      'Tallenna suosikkipaikkasi helpommin pääsyä varten';
 
   @override
   String get createAFavoriteLocation => 'Luo suosikkipaikka';
@@ -470,10 +472,12 @@ class SFi extends S {
   String get clickToSetLocation => 'Napsauta asettaaksesi sijainti';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Missä on uusi suosikkipaikkasi?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Missä on uusi suosikkipaikkasi?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Käytä joko alla olevaa hakukenttää tai karttaa määrittääksesi tarkan sijainnin';
+  String get locateFavoriteLocationDescription =>
+      'Käytä joko alla olevaa hakukenttää tai karttaa määrittääksesi tarkan sijainnin';
 
   @override
   String get searchLocation => 'Hae sijaintia';
@@ -512,7 +516,8 @@ class SFi extends S {
   String get redeemGiftCard => 'Lunasta lahjakortti';
 
   @override
-  String get redeemGiftCardDescription => 'Anna lahjakorttisi koodi lunastaaksesi sen.';
+  String get redeemGiftCardDescription =>
+      'Anna lahjakorttisi koodi lunastaaksesi sen.';
 
   @override
   String get redeemSuccessTitle => 'Lahjakortti lunastettu!';
@@ -562,7 +567,8 @@ class SFi extends S {
   String get selectCards => 'Valitse kortit';
 
   @override
-  String get selectCardsDescription => 'Voit valita korttien numerot, jotka haluat näkyvän laskujen maksutapaluettelossa.';
+  String get selectCardsDescription =>
+      'Voit valita korttien numerot, jotka haluat näkyvän laskujen maksutapaluettelossa.';
 
   @override
   String get delete => 'Poistaa';
@@ -595,7 +601,8 @@ class SFi extends S {
   String get preferences => 'Asetukset:';
 
   @override
-  String get onboardingDescription => 'Hetken päässä tilisi rekisteröimisestä ja mukavista kyydistä nauttimisesta';
+  String get onboardingDescription =>
+      'Hetken päässä tilisi rekisteröimisestä ja mukavista kyydistä nauttimisesta';
 
   @override
   String get signInSignUp => 'Kirjaudu Rekisteröidy';
@@ -616,7 +623,8 @@ class SFi extends S {
   String get password => 'Salasana';
 
   @override
-  String get passwordRuleDescription => 'Sisällytä vähintään kaksi seuraavista:';
+  String get passwordRuleDescription =>
+      'Sisällytä vähintään kaksi seuraavista:';
 
   @override
   String get passwordRuleLength => '9-64 merkkiä';
@@ -655,7 +663,8 @@ class SFi extends S {
   String get skipForNow => 'Ohita nyt';
 
   @override
-  String get sendOtpDescription => 'Vahvistuskoodi on lähetetty puhelinnumeroosi';
+  String get sendOtpDescription =>
+      'Vahvistuskoodi on lähetetty puhelinnumeroosi';
 
   @override
   String get resendOtp => 'Lähetä koodi uudelleen';
@@ -801,7 +810,8 @@ class SFi extends S {
   String get selectProfileImage => 'Valitse Profiilikuva';
 
   @override
-  String get chooseAvatarDescription => 'Tai valitse avatar alla olevasta luettelosta:';
+  String get chooseAvatarDescription =>
+      'Tai valitse avatar alla olevasta luettelosta:';
 
   @override
   String get fullName => 'Koko nimi';
@@ -831,13 +841,15 @@ class SFi extends S {
   String get monthly => 'Kuukausittain';
 
   @override
-  String get noRecordsFoundEarnings => 'Näille suodattimille ei löytynyt matkatietuetta';
+  String get noRecordsFoundEarnings =>
+      'Näille suodattimille ei löytynyt matkatietuetta';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Ei vielä palautetta';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Sinulla ei ole vielä tarpeeksi palautetta näytettäväksi.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Sinulla ei ole vielä tarpeeksi palautetta näytettäväksi.';
 
   @override
   String get feedbacksSummary => 'Palautteiden yhteenveto';
@@ -846,7 +858,8 @@ class SFi extends S {
   String get feedbacksGoodTitle => 'Erinomaista työtä!';
 
   @override
-  String get feedbacksGoodSubtitle => 'Arvosanasi näyttävät toistaiseksi hyviltä';
+  String get feedbacksGoodSubtitle =>
+      'Arvosanasi näyttävät toistaiseksi hyviltä';
 
   @override
   String get feedbacksBadTitle => 'Keskiverto';
@@ -870,7 +883,8 @@ class SFi extends S {
   String get notice => 'Ilmoitus:';
 
   @override
-  String get payoutNoticeTitle => 'Järjestelmänvalvoja maksaa sinulle automaattisesti kaksi kertaa viikossa.';
+  String get payoutNoticeTitle =>
+      'Järjestelmänvalvoja maksaa sinulle automaattisesti kaksi kertaa viikossa.';
 
   @override
   String get addPayoutMethod => 'Lisää maksutapa';
@@ -963,16 +977,19 @@ class SFi extends S {
   String get driverArrivedNotice => 'Kuljettaja odottaa sinua';
 
   @override
-  String get driverShouldAriveInNotice => 'Kuljettajan odotetaan saapuvan paikalle';
+  String get driverShouldAriveInNotice =>
+      'Kuljettajan odotetaan saapuvan paikalle';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Kuljettajan pitäisi olla perillä minä hetkenä hyvänsä';
+  String get driverShouldHaveArrivedNotice =>
+      'Kuljettajan pitäisi olla perillä minä hetkenä hyvänsä';
 
   @override
   String get deleteAccount => 'Poista tili';
 
   @override
-  String get deleteAccountNotice => 'Haluatko varmasti poistaa tilisi? 30 päivän kuluttua tilisi poistetaan pysyvästi. Tänä aikana voit palauttaa tilisi kirjautumalla uudelleen sisään.';
+  String get deleteAccountNotice =>
+      'Haluatko varmasti poistaa tilisi? 30 päivän kuluttua tilisi poistetaan pysyvästi. Tänä aikana voit palauttaa tilisi kirjautumalla uudelleen sisään.';
 
   @override
   String get confirmAndDeleteAccount => 'Vahvistaa ';
@@ -986,12 +1003,14 @@ class SFi extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Kuljettajan nimi on $firstName $lastName, matkapuhelinnumero on $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Minun kanssani olevan ratsastajan nimi on $firstName $lastName, matkapuhelinnumero on $mobileNumber.';
   }
 
@@ -1006,7 +1025,8 @@ class SFi extends S {
   }
 
   @override
-  String get sendSOSMessage => 'TÄRKEÄÄ: Käytä tätä ominaisuutta vain hätätapauksissa. Otamme puolestasi yhteyttä viranomaisiin.';
+  String get sendSOSMessage =>
+      'TÄRKEÄÄ: Käytä tätä ominaisuutta vain hätätapauksissa. Otamme puolestasi yhteyttä viranomaisiin.';
 
   @override
   String get confirmAndSendSOS => 'Vahvistaa ';
@@ -1018,7 +1038,8 @@ class SFi extends S {
   String get topUpSuccess => 'Lompakko on lisätty onnistuneesti';
 
   @override
-  String get cancelNotAllowed => 'Jo alkaneen matkan peruuttaminen ei ole mahdollista.';
+  String get cancelNotAllowed =>
+      'Jo alkaneen matkan peruuttaminen ei ole mahdollista.';
 
   @override
   String get error => 'Virhe';
@@ -1039,7 +1060,8 @@ class SFi extends S {
   String get reportSubmitted => 'Raportti lähetetty';
 
   @override
-  String get reportSubmittedDescription => 'Raporttisi on lähetetty onnistuneesti, tarkistamme sen ja ryhdymme tarvittaviin toimiin.';
+  String get reportSubmittedDescription =>
+      'Raporttisi on lähetetty onnistuneesti, tarkistamme sen ja ryhdymme tarvittaviin toimiin.';
 
   @override
   String get cardNumber => 'Kortin numero';
@@ -1057,10 +1079,12 @@ class SFi extends S {
   String get noFavoriteDrivers => 'Ei suosikkikuljettajia';
 
   @override
-  String get noFavoriteDriversDescription => 'Voit merkitä haluamasi kuljettajat suosikeiksi arvioidessasi niitä matkan jälkeen.';
+  String get noFavoriteDriversDescription =>
+      'Voit merkitä haluamasi kuljettajat suosikeiksi arvioidessasi niitä matkan jälkeen.';
 
   @override
-  String get pickupLocationNotFound => 'Emme pystyneet määrittämään nykyistä sijaintiasi käyttämällä GPS:ää noutopisteenä. Anna noutopiste manuaalisesti.';
+  String get pickupLocationNotFound =>
+      'Emme pystyneet määrittämään nykyistä sijaintiasi käyttämällä GPS:ää noutopisteenä. Anna noutopiste manuaalisesti.';
 
   @override
   String get dragToSelect => 'Valitse vetämällä';
@@ -1075,7 +1099,8 @@ class SFi extends S {
   String get locationPermission => 'Sijaintilupa';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Sijaintilupa on edellytys tilausten vastaanottamiselle ympärilläsi ja myös sille, että ratsastaja voi seurata sijaintiasi. Et voi vastaanottaa tilauksia ilman tätä lupaa, ja varomme nykyistä sijaintiasi. Voit muuttaa tätä lupaa puhelimen asetuksista.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Sijaintilupa on edellytys tilausten vastaanottamiselle ympärilläsi ja myös sille, että ratsastaja voi seurata sijaintiasi. Et voi vastaanottaa tilauksia ilman tätä lupaa, ja varomme nykyistä sijaintiasi. Voit muuttaa tätä lupaa puhelimen asetuksista.';
 
   @override
   String get allow => 'Sallia';
@@ -1084,13 +1109,15 @@ class SFi extends S {
   String get driverOnlineTitle => 'Kyytiä etsimässä';
 
   @override
-  String get driverOfflineTitle => 'Ota yhteyttä verkkoon aloittaaksesi pyyntöjen vastaanottamisen';
+  String get driverOfflineTitle =>
+      'Ota yhteyttä verkkoon aloittaaksesi pyyntöjen vastaanottamisen';
 
   @override
   String get payInCash => 'Käteismaksu';
 
   @override
-  String get payInCashDescription => 'Jatka käteismaksua kuljettajalle. Kuljettaja vahvistaa maksun saatuaan.';
+  String get payInCashDescription =>
+      'Jatka käteismaksua kuljettajalle. Kuljettaja vahvistaa maksun saatuaan.';
 
   @override
   String get addToFavoriteDrivers => 'Lisää suosikkiajureihin';
@@ -1108,19 +1135,22 @@ class SFi extends S {
   String get noticePickingUpRiderIn => 'Ratsastajan nouto:';
 
   @override
-  String get noticeRiderNotified => 'Ratsastajalle on ilmoitettu, ota ratsastaja ja aloita matka';
+  String get noticeRiderNotified =>
+      'Ratsastajalle on ilmoitettu, ota ratsastaja ja aloita matka';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

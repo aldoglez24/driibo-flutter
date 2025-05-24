@@ -95,7 +95,6 @@ class SFa extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SFa extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SFa extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SFa extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SFa extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SFa extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SFa extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'سرویس تاکسی که برای راحتی شما طراحی شده است، سفرهایی با رانندگان مورد علاقه خود داشته باشید و ترجیحات سواری خود را انتخاب کنید';
+  String get welcomeSubtitle =>
+      'سرویس تاکسی که برای راحتی شما طراحی شده است، سفرهایی با رانندگان مورد علاقه خود داشته باشید و ترجیحات سواری خود را انتخاب کنید';
 
   @override
   String get onboardingRewardTitle => 'پاداش بگیرید!';
 
   @override
-  String get onboardingRewardSubtitle => 'برای معرفی یک دوست، تکمیل سفرها و بسیاری موارد دیگر، جوایز اضافی دریافت کنید...';
+  String get onboardingRewardSubtitle =>
+      'برای معرفی یک دوست، تکمیل سفرها و بسیاری موارد دیگر، جوایز اضافی دریافت کنید...';
 
   @override
   String get selectLanguage => 'زبان را انتخاب کنید';
@@ -271,10 +267,12 @@ class SFa extends S {
   String get reserveRide => 'سواری رزرو کنید';
 
   @override
-  String get reserveRideMessage => 'تاریخ و ساعت دقیقی را که می‌خواهید سفرتان رزرو شود، انتخاب کنید';
+  String get reserveRideMessage =>
+      'تاریخ و ساعت دقیقی را که می‌خواهید سفرتان رزرو شود، انتخاب کنید';
 
   @override
-  String get reserveRideMessageSuccess => 'سواری شما با موفقیت رزرو شد. می‌توانید سواری‌های رزرو شده خود را در بخش «سوارهای برنامه‌ریزی‌شده» مشاهده کنید.';
+  String get reserveRideMessageSuccess =>
+      'سواری شما با موفقیت رزرو شد. می‌توانید سواری‌های رزرو شده خود را در بخش «سوارهای برنامه‌ریزی‌شده» مشاهده کنید.';
 
   @override
   String get cancelReservation => 'رزرو را لغو کنید';
@@ -283,7 +281,8 @@ class SFa extends S {
   String get confirmResrve => 'تایید ';
 
   @override
-  String get enterCouponDescription => 'کد کوپن خود را وارد کنید تا روی قیمت ها اعمال شود';
+  String get enterCouponDescription =>
+      'کد کوپن خود را وارد کنید تا روی قیمت ها اعمال شود';
 
   @override
   String get enterCoupon => 'کوپن را وارد کنید';
@@ -292,7 +291,8 @@ class SFa extends S {
   String get couponApplied => 'کوپن اعمال شد';
 
   @override
-  String get couponAppliedDescription => 'کوپن برای کرایه سواری شما اعمال شده است';
+  String get couponAppliedDescription =>
+      'کوپن برای کرایه سواری شما اعمال شده است';
 
   @override
   String get done => 'انجام شده!';
@@ -329,7 +329,8 @@ class SFa extends S {
   String get shareTripInformation => 'اطلاعات سفر را به اشتراک بگذارید';
 
   @override
-  String get shareTripInformationDescription => 'می توانید اطلاعات سفر خود را با یک دوست به اشتراک بگذارید';
+  String get shareTripInformationDescription =>
+      'می توانید اطلاعات سفر خود را با یک دوست به اشتراک بگذارید';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SFa extends S {
   String get reportAnIssue => 'یک مشکل را گزارش کنید';
 
   @override
-  String get reportAnIssueMidTripDescription => 'مشکل ایمنی در سفر را به اشتراک بگذارید';
+  String get reportAnIssueMidTripDescription =>
+      'مشکل ایمنی در سفر را به اشتراک بگذارید';
 
   @override
   String get rideOptions => 'گزینه های سواری';
@@ -458,7 +460,8 @@ class SFa extends S {
   String get favoriteLocations => 'مکان های مورد علاقه';
 
   @override
-  String get favoriteLocationsSubtitle => 'مکان های مورد علاقه خود را برای دسترسی آسان تر ذخیره کنید';
+  String get favoriteLocationsSubtitle =>
+      'مکان های مورد علاقه خود را برای دسترسی آسان تر ذخیره کنید';
 
   @override
   String get createAFavoriteLocation => 'یک مکان مورد علاقه ایجاد کنید';
@@ -470,10 +473,12 @@ class SFa extends S {
   String get clickToSetLocation => 'برای تنظیم مکان کلیک کنید';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'مکان مورد علاقه جدید شما کجاست؟';
+  String get whereIsYourNewFavoriteLocation =>
+      'مکان مورد علاقه جدید شما کجاست؟';
 
   @override
-  String get locateFavoriteLocationDescription => 'از کادر جستجوی زیر یا نقشه برای پین کردن مکان دقیق استفاده کنید';
+  String get locateFavoriteLocationDescription =>
+      'از کادر جستجوی زیر یا نقشه برای پین کردن مکان دقیق استفاده کنید';
 
   @override
   String get searchLocation => 'جستجوی مکان';
@@ -512,7 +517,8 @@ class SFa extends S {
   String get redeemGiftCard => 'بازخرید کارت هدیه';
 
   @override
-  String get redeemGiftCardDescription => 'کد کارت هدیه خود را برای بازخرید آن وارد کنید.';
+  String get redeemGiftCardDescription =>
+      'کد کارت هدیه خود را برای بازخرید آن وارد کنید.';
 
   @override
   String get redeemSuccessTitle => 'کارت هدیه بازخرید شد!';
@@ -562,7 +568,8 @@ class SFa extends S {
   String get selectCards => 'کارت ها را انتخاب کنید';
 
   @override
-  String get selectCardsDescription => 'می‌توانید شماره کارت‌هایی را که می‌خواهید در لیست روش‌های پرداخت روی فاکتورها نمایش داده شوند، انتخاب کنید.';
+  String get selectCardsDescription =>
+      'می‌توانید شماره کارت‌هایی را که می‌خواهید در لیست روش‌های پرداخت روی فاکتورها نمایش داده شوند، انتخاب کنید.';
 
   @override
   String get delete => 'حذف';
@@ -580,7 +587,8 @@ class SFa extends S {
   String get addPaymentMethod => 'افزودن روش پرداخت';
 
   @override
-  String get addPaymentMethodDescription => 'یک روش پرداخت جدید به حساب خود اضافه کنید';
+  String get addPaymentMethodDescription =>
+      'یک روش پرداخت جدید به حساب خود اضافه کنید';
 
   @override
   String get saveCard => 'ذخیره کارت';
@@ -595,7 +603,8 @@ class SFa extends S {
   String get preferences => 'اولویت ها:';
 
   @override
-  String get onboardingDescription => 'لحظاتی دور از ثبت حساب کاربری و لذت بردن از سواری راحت';
+  String get onboardingDescription =>
+      'لحظاتی دور از ثبت حساب کاربری و لذت بردن از سواری راحت';
 
   @override
   String get signInSignUp => 'ورود ثبت نام';
@@ -607,7 +616,8 @@ class SFa extends S {
   String get enterPassword => 'رمز عبور را وارد کنید';
 
   @override
-  String get enterPasswordDescription => 'لطفا برای ادامه رمز عبور خود را وارد کنید';
+  String get enterPasswordDescription =>
+      'لطفا برای ادامه رمز عبور خود را وارد کنید';
 
   @override
   String get setPassword => 'قراردادن رمز عبور';
@@ -616,7 +626,8 @@ class SFa extends S {
   String get password => 'کلمه عبور';
 
   @override
-  String get passwordRuleDescription => 'حداقل دو مورد از موارد زیر را شامل شود:';
+  String get passwordRuleDescription =>
+      'حداقل دو مورد از موارد زیر را شامل شود:';
 
   @override
   String get passwordRuleLength => 'بین 9 تا 64 کاراکتر';
@@ -655,7 +666,8 @@ class SFa extends S {
   String get skipForNow => 'فعلا رد شوید';
 
   @override
-  String get sendOtpDescription => 'یک کد تأیید به شماره تلفن شما ارسال شده است';
+  String get sendOtpDescription =>
+      'یک کد تأیید به شماره تلفن شما ارسال شده است';
 
   @override
   String get resendOtp => 'دوباره کد را ارسال کنید';
@@ -724,7 +736,8 @@ class SFa extends S {
   String get rideCancellation => 'لغو سواری';
 
   @override
-  String get cancelRideMessage => 'آیا مطمئن هستید که می خواهید سواری خود را لغو کنید؟';
+  String get cancelRideMessage =>
+      'آیا مطمئن هستید که می خواهید سواری خود را لغو کنید؟';
 
   @override
   String get cancelRideSuccess => 'سواری با موفقیت لغو شد';
@@ -831,13 +844,15 @@ class SFa extends S {
   String get monthly => 'ماهانه';
 
   @override
-  String get noRecordsFoundEarnings => 'هیچ سابقه سفری برای این فیلترها یافت نشد';
+  String get noRecordsFoundEarnings =>
+      'هیچ سابقه سفری برای این فیلترها یافت نشد';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'هنوز بازخوردی وجود ندارد';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'هنوز بازخورد کافی برای نشان دادن ندارید.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'هنوز بازخورد کافی برای نشان دادن ندارید.';
 
   @override
   String get feedbacksSummary => 'خلاصه بازخوردها';
@@ -846,7 +861,8 @@ class SFa extends S {
   String get feedbacksGoodTitle => 'کار عالی!';
 
   @override
-  String get feedbacksGoodSubtitle => 'رتبه بندی شما تا اینجا خوب به نظر می رسد';
+  String get feedbacksGoodSubtitle =>
+      'رتبه بندی شما تا اینجا خوب به نظر می رسد';
 
   @override
   String get feedbacksBadTitle => 'میانگین';
@@ -858,7 +874,8 @@ class SFa extends S {
   String get feedbacksGoodPointsTitle => 'چند نکته خوب در مورد شما:';
 
   @override
-  String get feedbacksbadPointsTitle => 'برخی از نکاتی که می توانید بهبود بخشید:';
+  String get feedbacksbadPointsTitle =>
+      'برخی از نکاتی که می توانید بهبود بخشید:';
 
   @override
   String get feedbacksReviewsTitle => 'برخی از بررسی های قبلی';
@@ -870,7 +887,8 @@ class SFa extends S {
   String get notice => 'اطلاع:';
 
   @override
-  String get payoutNoticeTitle => 'به طور خودکار هفته ای دو بار توسط ادمین پرداخت می شود.';
+  String get payoutNoticeTitle =>
+      'به طور خودکار هفته ای دو بار توسط ادمین پرداخت می شود.';
 
   @override
   String get addPayoutMethod => 'افزودن روش پرداخت';
@@ -966,13 +984,15 @@ class SFa extends S {
   String get driverShouldAriveInNotice => 'تخمین زده می شود که راننده وارد شود';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'راننده باید هر لحظه در حال حاضر برسد';
+  String get driverShouldHaveArrivedNotice =>
+      'راننده باید هر لحظه در حال حاضر برسد';
 
   @override
   String get deleteAccount => 'حذف حساب کاربری';
 
   @override
-  String get deleteAccountNotice => 'آیا مطمئن هستید که می خواهید اکانت خود را حذف کنید؟ پس از 30 روز، حساب شما برای همیشه حذف خواهد شد. در این مدت می توانید با ورود مجدد به حساب کاربری خود بازیابی کنید.';
+  String get deleteAccountNotice =>
+      'آیا مطمئن هستید که می خواهید اکانت خود را حذف کنید؟ پس از 30 روز، حساب شما برای همیشه حذف خواهد شد. در این مدت می توانید با ورود مجدد به حساب کاربری خود بازیابی کنید.';
 
   @override
   String get confirmAndDeleteAccount => 'تایید';
@@ -986,12 +1006,14 @@ class SFa extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'نام راننده من $firstName $lastName است، شماره موبایلم $mobileNumber است.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' نام سوار با من $firstName $lastName، شماره موبایل $mobileNumber است.';
   }
 
@@ -1006,7 +1028,8 @@ class SFa extends S {
   }
 
   @override
-  String get sendSOSMessage => 'مهم: لطفاً از این ویژگی فقط در مواقع اضطراری استفاده کنید. ما به نمایندگی از شما با مقامات تماس خواهیم گرفت.';
+  String get sendSOSMessage =>
+      'مهم: لطفاً از این ویژگی فقط در مواقع اضطراری استفاده کنید. ما به نمایندگی از شما با مقامات تماس خواهیم گرفت.';
 
   @override
   String get confirmAndSendSOS => 'تایید';
@@ -1018,7 +1041,8 @@ class SFa extends S {
   String get topUpSuccess => 'کیف پول با موفقیت شارژ شد';
 
   @override
-  String get cancelNotAllowed => 'لغو سفری که از قبل شروع شده است امکان پذیر نیست.';
+  String get cancelNotAllowed =>
+      'لغو سفری که از قبل شروع شده است امکان پذیر نیست.';
 
   @override
   String get error => 'خطا';
@@ -1039,7 +1063,8 @@ class SFa extends S {
   String get reportSubmitted => 'گزارش ارسال شد';
 
   @override
-  String get reportSubmittedDescription => 'گزارش شما با موفقیت ارسال شد، ما آن را بررسی کرده و اقدامات لازم را انجام خواهیم داد.';
+  String get reportSubmittedDescription =>
+      'گزارش شما با موفقیت ارسال شد، ما آن را بررسی کرده و اقدامات لازم را انجام خواهیم داد.';
 
   @override
   String get cardNumber => 'شماره کارت';
@@ -1057,10 +1082,12 @@ class SFa extends S {
   String get noFavoriteDrivers => 'بدون راننده مورد علاقه';
 
   @override
-  String get noFavoriteDriversDescription => 'می‌توانید هنگام رتبه‌بندی رانندگان پس از سفر، آنها را به‌عنوان موارد دلخواه علامت‌گذاری کنید.';
+  String get noFavoriteDriversDescription =>
+      'می‌توانید هنگام رتبه‌بندی رانندگان پس از سفر، آنها را به‌عنوان موارد دلخواه علامت‌گذاری کنید.';
 
   @override
-  String get pickupLocationNotFound => 'ما نتوانستیم مکان فعلی شما را با استفاده از GPS به عنوان نقطه تحویل تعیین کنیم. لطفا نقطه تحویل خود را به صورت دستی وارد کنید.';
+  String get pickupLocationNotFound =>
+      'ما نتوانستیم مکان فعلی شما را با استفاده از GPS به عنوان نقطه تحویل تعیین کنیم. لطفا نقطه تحویل خود را به صورت دستی وارد کنید.';
 
   @override
   String get dragToSelect => 'برای انتخاب بکشید';
@@ -1075,7 +1102,8 @@ class SFa extends S {
   String get locationPermission => 'مجوز مکان';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'مجوز موقعیت مکانی برای دریافت سفارشات در اطراف شما و همچنین برای ردیابی موقعیت مکانی شما توسط سوارکار الزامی است. شما نمی توانید بدون این اجازه سفارش دریافت کنید و ما مراقب مکان فعلی شما باشیم. می توانید این مجوز را در تنظیمات گوشی خود تغییر دهید.';
+  String get locationPermissionDeniedForeverMessage =>
+      'مجوز موقعیت مکانی برای دریافت سفارشات در اطراف شما و همچنین برای ردیابی موقعیت مکانی شما توسط سوارکار الزامی است. شما نمی توانید بدون این اجازه سفارش دریافت کنید و ما مراقب مکان فعلی شما باشیم. می توانید این مجوز را در تنظیمات گوشی خود تغییر دهید.';
 
   @override
   String get allow => 'اجازه';
@@ -1090,7 +1118,8 @@ class SFa extends S {
   String get payInCash => 'پرداخت نقدی';
 
   @override
-  String get payInCashDescription => 'لطفا نسبت به پرداخت نقدی به راننده اقدام نمایید. راننده پس از دریافت پرداخت را تایید می کند.';
+  String get payInCashDescription =>
+      'لطفا نسبت به پرداخت نقدی به راننده اقدام نمایید. راننده پس از دریافت پرداخت را تایید می کند.';
 
   @override
   String get addToFavoriteDrivers => 'به درایورهای مورد علاقه اضافه کنید';
@@ -1108,19 +1137,22 @@ class SFa extends S {
   String get noticePickingUpRiderIn => 'سوار کردن سوار در:';
 
   @override
-  String get noticeRiderNotified => 'به سوار اطلاع داده شده است، سوار را بردارید و سواری را شروع کنید';
+  String get noticeRiderNotified =>
+      'به سوار اطلاع داده شده است، سوار را بردارید و سواری را شروع کنید';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

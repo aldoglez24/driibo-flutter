@@ -95,7 +95,6 @@ class SZh extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SZh extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SZh extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SZh extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SZh extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SZh extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -972,7 +966,8 @@ class SZh extends S {
   String get deleteAccount => '删除帐户';
 
   @override
-  String get deleteAccountNotice => '您确定要删除您的帐户吗？ 30 天后，您的帐户将被永久删除。在此期间，您可以通过重新登录来恢复您的帐户。';
+  String get deleteAccountNotice =>
+      '您确定要删除您的帐户吗？ 30 天后，您的帐户将被永久删除。在此期间，您可以通过重新登录来恢复您的帐户。';
 
   @override
   String get confirmAndDeleteAccount => '确认';
@@ -986,12 +981,14 @@ class SZh extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return '我的司机姓名是$firstName$lastName，手机号码是$mobileNumber。';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return '我的骑手名字是$firstName$lastName，手机号码是$mobileNumber。';
   }
 
@@ -1057,7 +1054,8 @@ class SZh extends S {
   String get noFavoriteDrivers => '没有最喜欢的车手';
 
   @override
-  String get noFavoriteDriversDescription => 'You can mark your preferred drivers as favorites when rating them after the trip.';
+  String get noFavoriteDriversDescription =>
+      'You can mark your preferred drivers as favorites when rating them after the trip.';
 
   @override
   String get pickupLocationNotFound => '我们无法使用 GPS 作为上车点来确定您当前的位置。请手动输入您的接送点。';
@@ -1075,7 +1073,8 @@ class SZh extends S {
   String get locationPermission => '位置许可';
 
   @override
-  String get locationPermissionDeniedForeverMessage => '位置许可是接收您周围的订单以及骑手跟踪您的位置的必要条件。未经此许可，您无法接收订单，并且我们会留意您当前的位置。您可以在手机设置中更改此权限。';
+  String get locationPermissionDeniedForeverMessage =>
+      '位置许可是接收您周围的订单以及骑手跟踪您的位置的必要条件。未经此许可，您无法接收订单，并且我们会留意您当前的位置。您可以在手机设置中更改此权限。';
 
   @override
   String get allow => '允许';
@@ -1090,7 +1089,8 @@ class SZh extends S {
   String get payInCash => 'Cash payment';
 
   @override
-  String get payInCashDescription => 'Please proceed with the cash payment to the driver. The driver will confirm the payment once received.';
+  String get payInCashDescription =>
+      'Please proceed with the cash payment to the driver. The driver will confirm the payment once received.';
 
   @override
   String get addToFavoriteDrivers => 'Add to favorite drivers';
@@ -1108,19 +1108,22 @@ class SZh extends S {
   String get noticePickingUpRiderIn => 'Picking up the rider in:';
 
   @override
-  String get noticeRiderNotified => 'Rider has been notified, Pickup the rider and start the ride';
+  String get noticeRiderNotified =>
+      'Rider has been notified, Pickup the rider and start the ride';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';
@@ -1158,7 +1161,7 @@ class SZh extends S {
 
 /// The translations for Chinese, as used in China (`zh_CN`).
 class SZhCn extends SZh {
-  SZhCn(): super('zh_CN');
+  SZhCn() : super('zh_CN');
 
   @override
   String copyright_notice(Object company) {
@@ -1247,7 +1250,6 @@ class SZhCn extends SZh {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -1265,7 +1267,6 @@ class SZhCn extends SZh {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -1289,7 +1290,6 @@ class SZhCn extends SZh {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -1300,7 +1300,6 @@ class SZhCn extends SZh {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -2102,7 +2101,8 @@ class SZhCn extends SZh {
   String get deleteAccount => '删除帐户';
 
   @override
-  String get deleteAccountNotice => '您确定要删除您的帐户吗？ 30 天后，您的帐户将被永久删除。在此期间，您可以通过重新登录来恢复您的帐户。';
+  String get deleteAccountNotice =>
+      '您确定要删除您的帐户吗？ 30 天后，您的帐户将被永久删除。在此期间，您可以通过重新登录来恢复您的帐户。';
 
   @override
   String get confirmAndDeleteAccount => '确认';
@@ -2116,12 +2116,14 @@ class SZhCn extends SZh {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return '我的司机姓名是$firstName$lastName，手机号码是$mobileNumber。';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return '我的骑手名字是$firstName$lastName，手机号码是$mobileNumber。';
   }
 
@@ -2205,7 +2207,8 @@ class SZhCn extends SZh {
   String get locationPermission => '位置许可';
 
   @override
-  String get locationPermissionDeniedForeverMessage => '位置许可是接收您周围的订单以及骑手跟踪您的位置的必要条件。未经此许可，您无法接收订单，并且我们会留意您当前的位置。您可以在手机设置中更改此权限。';
+  String get locationPermissionDeniedForeverMessage =>
+      '位置许可是接收您周围的订单以及骑手跟踪您的位置的必要条件。未经此许可，您无法接收订单，并且我们会留意您当前的位置。您可以在手机设置中更改此权限。';
 
   @override
   String get allow => '允许';
@@ -2243,7 +2246,7 @@ class SZhCn extends SZh {
 
 /// The translations for Chinese, as used in Taiwan (`zh_TW`).
 class SZhTw extends SZh {
-  SZhTw(): super('zh_TW');
+  SZhTw() : super('zh_TW');
 
   @override
   String copyright_notice(Object company) {
@@ -2332,7 +2335,6 @@ class SZhTw extends SZh {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -2350,7 +2352,6 @@ class SZhTw extends SZh {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -2374,7 +2375,6 @@ class SZhTw extends SZh {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -2385,7 +2385,6 @@ class SZhTw extends SZh {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -3187,7 +3186,8 @@ class SZhTw extends SZh {
   String get deleteAccount => '刪除帳戶';
 
   @override
-  String get deleteAccountNotice => '您確定要刪除您的帳戶嗎？ 30 天后，您的帳戶將永久刪除。在此期間，您可以透過重新登入來恢復您的帳戶。';
+  String get deleteAccountNotice =>
+      '您確定要刪除您的帳戶嗎？ 30 天后，您的帳戶將永久刪除。在此期間，您可以透過重新登入來恢復您的帳戶。';
 
   @override
   String get confirmAndDeleteAccount => '確認 ';
@@ -3201,12 +3201,14 @@ class SZhTw extends SZh {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' 我的司機姓名是$firstName$lastName，手機號碼是$mobileNumber。';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' 我的騎士名字是$firstName$lastName，手機號碼是$mobileNumber。';
   }
 
@@ -3290,7 +3292,8 @@ class SZhTw extends SZh {
   String get locationPermission => '位置許可';
 
   @override
-  String get locationPermissionDeniedForeverMessage => '位置許可是接收您周圍的訂單以及騎士追蹤您的位置的必要條件。未經此許可，您無法接收訂單，我們會留意您目前的位置。您可以在手機設定中變更此權限。';
+  String get locationPermissionDeniedForeverMessage =>
+      '位置許可是接收您周圍的訂單以及騎士追蹤您的位置的必要條件。未經此許可，您無法接收訂單，我們會留意您目前的位置。您可以在手機設定中變更此權限。';
 
   @override
   String get allow => '允許';

@@ -95,7 +95,6 @@ class SVi extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SVi extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SVi extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SVi extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SVi extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SVi extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SVi extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Dịch vụ taxi được thiết kế để mang lại sự thoải mái cho bạn có Chuyến đi với tài xế yêu thích của bạn và chọn tùy chọn đi xe của bạn';
+  String get welcomeSubtitle =>
+      'Dịch vụ taxi được thiết kế để mang lại sự thoải mái cho bạn có Chuyến đi với tài xế yêu thích của bạn và chọn tùy chọn đi xe của bạn';
 
   @override
   String get onboardingRewardTitle => 'Nhận khen thưởng!';
 
   @override
-  String get onboardingRewardSubtitle => 'Nhận thêm tiền thưởng khi giới thiệu bạn bè, hoàn thành chuyến đi và nhiều hơn thế nữa...';
+  String get onboardingRewardSubtitle =>
+      'Nhận thêm tiền thưởng khi giới thiệu bạn bè, hoàn thành chuyến đi và nhiều hơn thế nữa...';
 
   @override
   String get selectLanguage => 'Chọn ngôn ngữ';
@@ -271,10 +267,12 @@ class SVi extends S {
   String get reserveRide => 'Đặt chuyến đi';
 
   @override
-  String get reserveRideMessage => 'Chọn ngày và giờ chính xác mà bạn muốn đặt chỗ cho chuyến đi của mình';
+  String get reserveRideMessage =>
+      'Chọn ngày và giờ chính xác mà bạn muốn đặt chỗ cho chuyến đi của mình';
 
   @override
-  String get reserveRideMessageSuccess => 'Chuyến đi của bạn đã được đặt thành công. Bạn có thể xem các chuyến đi đã đặt trước của mình trong phần \'Các chuyến đi đã lên lịch\'.';
+  String get reserveRideMessageSuccess =>
+      'Chuyến đi của bạn đã được đặt thành công. Bạn có thể xem các chuyến đi đã đặt trước của mình trong phần \'Các chuyến đi đã lên lịch\'.';
 
   @override
   String get cancelReservation => 'Hủy đặt phòng';
@@ -283,7 +281,8 @@ class SVi extends S {
   String get confirmResrve => 'Xác nhận';
 
   @override
-  String get enterCouponDescription => 'Chèn mã phiếu giảm giá của bạn để được áp dụng trên giá';
+  String get enterCouponDescription =>
+      'Chèn mã phiếu giảm giá của bạn để được áp dụng trên giá';
 
   @override
   String get enterCoupon => 'Nhập phiếu giảm giá';
@@ -292,7 +291,8 @@ class SVi extends S {
   String get couponApplied => 'Đã áp dụng phiếu giảm giá';
 
   @override
-  String get couponAppliedDescription => 'Phiếu giảm giá đã được áp dụng cho giá vé chuyến đi của bạn';
+  String get couponAppliedDescription =>
+      'Phiếu giảm giá đã được áp dụng cho giá vé chuyến đi của bạn';
 
   @override
   String get done => 'Xong!';
@@ -317,7 +317,8 @@ class SVi extends S {
   String get rideRequested => 'Yêu cầu đi xe';
 
   @override
-  String get searchingForAnOnlineDriver => 'Tìm kiếm trình điều khiển trực tuyến...';
+  String get searchingForAnOnlineDriver =>
+      'Tìm kiếm trình điều khiển trực tuyến...';
 
   @override
   String get cancelRide => 'Hủy chuyến đi';
@@ -329,19 +330,22 @@ class SVi extends S {
   String get shareTripInformation => 'Chia sẻ thông tin chuyến đi';
 
   @override
-  String get shareTripInformationDescription => 'Bạn có thể chia sẻ thông tin chuyến đi của mình với bạn bè';
+  String get shareTripInformationDescription =>
+      'Bạn có thể chia sẻ thông tin chuyến đi của mình với bạn bè';
 
   @override
   String get sos => 'SOS';
 
   @override
-  String get sosDescription => 'Thông báo cho cơ quan chức năng về trường hợp khẩn cấp';
+  String get sosDescription =>
+      'Thông báo cho cơ quan chức năng về trường hợp khẩn cấp';
 
   @override
   String get reportAnIssue => 'Báo cáo một vấn đề';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Chia sẻ vấn đề an toàn trong chuyến đi';
+  String get reportAnIssueMidTripDescription =>
+      'Chia sẻ vấn đề an toàn trong chuyến đi';
 
   @override
   String get rideOptions => 'Tùy chọn đi xe';
@@ -414,7 +418,8 @@ class SVi extends S {
   String get searchForPickupLocation => 'Tìm kiếm địa điểm đón';
 
   @override
-  String get placeConfirmDialogPlaceholder => 'Địa điểm trả khách của bạn ở đâu?';
+  String get placeConfirmDialogPlaceholder =>
+      'Địa điểm trả khách của bạn ở đâu?';
 
   @override
   String get noAnnouncements => 'Không có thông báo';
@@ -458,7 +463,8 @@ class SVi extends S {
   String get favoriteLocations => 'Địa điểm yêu thích';
 
   @override
-  String get favoriteLocationsSubtitle => 'Lưu các vị trí yêu thích của bạn để truy cập dễ dàng hơn';
+  String get favoriteLocationsSubtitle =>
+      'Lưu các vị trí yêu thích của bạn để truy cập dễ dàng hơn';
 
   @override
   String get createAFavoriteLocation => 'Tạo địa điểm yêu thích';
@@ -470,10 +476,12 @@ class SVi extends S {
   String get clickToSetLocation => 'Bấm để đặt vị trí';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Địa điểm yêu thích mới của bạn là ở đâu?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Địa điểm yêu thích mới của bạn là ở đâu?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Sử dụng hộp tìm kiếm bên dưới hoặc bản đồ để ghim vị trí chính xác';
+  String get locateFavoriteLocationDescription =>
+      'Sử dụng hộp tìm kiếm bên dưới hoặc bản đồ để ghim vị trí chính xác';
 
   @override
   String get searchLocation => 'Tìm kiếm vị trí';
@@ -512,7 +520,8 @@ class SVi extends S {
   String get redeemGiftCard => 'Đổi thẻ quà tặng';
 
   @override
-  String get redeemGiftCardDescription => 'Nhập mã thẻ quà tặng của bạn để đổi quà.';
+  String get redeemGiftCardDescription =>
+      'Nhập mã thẻ quà tặng của bạn để đổi quà.';
 
   @override
   String get redeemSuccessTitle => 'Đã đổi thẻ quà tặng!';
@@ -562,7 +571,8 @@ class SVi extends S {
   String get selectCards => 'Chọn thẻ';
 
   @override
-  String get selectCardsDescription => 'Bạn có thể chọn số thẻ bạn muốn hiển thị trong danh sách phương thức thanh toán trên hóa đơn.';
+  String get selectCardsDescription =>
+      'Bạn có thể chọn số thẻ bạn muốn hiển thị trong danh sách phương thức thanh toán trên hóa đơn.';
 
   @override
   String get delete => 'Xóa bỏ';
@@ -580,7 +590,8 @@ class SVi extends S {
   String get addPaymentMethod => 'Thêm phương thức thanh toán';
 
   @override
-  String get addPaymentMethodDescription => 'Thêm phương thức thanh toán mới vào tài khoản của bạn';
+  String get addPaymentMethodDescription =>
+      'Thêm phương thức thanh toán mới vào tài khoản của bạn';
 
   @override
   String get saveCard => 'Thẻ tiết kiệm';
@@ -595,7 +606,8 @@ class SVi extends S {
   String get preferences => 'Sở thích:';
 
   @override
-  String get onboardingDescription => 'Chỉ còn vài phút nữa là bạn có thể đăng ký tài khoản và tận hưởng những chuyến đi thoải mái';
+  String get onboardingDescription =>
+      'Chỉ còn vài phút nữa là bạn có thể đăng ký tài khoản và tận hưởng những chuyến đi thoải mái';
 
   @override
   String get signInSignUp => 'Đăng nhập Đăng ký';
@@ -607,7 +619,8 @@ class SVi extends S {
   String get enterPassword => 'Nhập mật khẩu';
 
   @override
-  String get enterPasswordDescription => 'Vui lòng nhập mật khẩu của bạn để tiếp tục';
+  String get enterPasswordDescription =>
+      'Vui lòng nhập mật khẩu của bạn để tiếp tục';
 
   @override
   String get setPassword => 'Đặt mật khẩu';
@@ -616,7 +629,8 @@ class SVi extends S {
   String get password => 'Mật khẩu';
 
   @override
-  String get passwordRuleDescription => 'Bao gồm ít nhất hai trong số những điều sau đây:';
+  String get passwordRuleDescription =>
+      'Bao gồm ít nhất hai trong số những điều sau đây:';
 
   @override
   String get passwordRuleLength => 'Từ 9 đến 64 ký tự';
@@ -655,7 +669,8 @@ class SVi extends S {
   String get skipForNow => 'Bỏ qua bây giờ';
 
   @override
-  String get sendOtpDescription => 'Mã xác minh đã được gửi đến số điện thoại của bạn';
+  String get sendOtpDescription =>
+      'Mã xác minh đã được gửi đến số điện thoại của bạn';
 
   @override
   String get resendOtp => 'Mã gửi lại';
@@ -724,7 +739,8 @@ class SVi extends S {
   String get rideCancellation => 'Hủy chuyến đi';
 
   @override
-  String get cancelRideMessage => 'Bạn có chắc chắn muốn hủy chuyến đi của mình không?';
+  String get cancelRideMessage =>
+      'Bạn có chắc chắn muốn hủy chuyến đi của mình không?';
 
   @override
   String get cancelRideSuccess => 'Chuyến đi đã được hủy thành công';
@@ -801,7 +817,8 @@ class SVi extends S {
   String get selectProfileImage => 'Chọn hình ảnh hồ sơ';
 
   @override
-  String get chooseAvatarDescription => 'Hoặc chọn một hình đại diện từ danh sách dưới đây:';
+  String get chooseAvatarDescription =>
+      'Hoặc chọn một hình đại diện từ danh sách dưới đây:';
 
   @override
   String get fullName => 'Họ và tên';
@@ -831,13 +848,15 @@ class SVi extends S {
   String get monthly => 'hàng tháng';
 
   @override
-  String get noRecordsFoundEarnings => 'Không tìm thấy bản ghi chuyến đi cho các bộ lọc này';
+  String get noRecordsFoundEarnings =>
+      'Không tìm thấy bản ghi chuyến đi cho các bộ lọc này';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Chưa có phản hồi nào';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Bạn chưa có đủ phản hồi để hiển thị.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Bạn chưa có đủ phản hồi để hiển thị.';
 
   @override
   String get feedbacksSummary => 'Tóm tắt phản hồi';
@@ -870,7 +889,8 @@ class SVi extends S {
   String get notice => 'Để ý:';
 
   @override
-  String get payoutNoticeTitle => 'Bạn sẽ tự động được quản trị viên thanh toán hai lần một tuần.';
+  String get payoutNoticeTitle =>
+      'Bạn sẽ tự động được quản trị viên thanh toán hai lần một tuần.';
 
   @override
   String get addPayoutMethod => 'Thêm phương thức thanh toán';
@@ -972,7 +992,8 @@ class SVi extends S {
   String get deleteAccount => 'Xóa tài khoản';
 
   @override
-  String get deleteAccountNotice => 'Bạn có chắc rằng bạn muốn xóa tài khoản của bạn? Sau 30 ngày, tài khoản của bạn sẽ bị xóa vĩnh viễn. Trong thời gian này, bạn có thể khôi phục tài khoản của mình bằng cách đăng nhập lại.';
+  String get deleteAccountNotice =>
+      'Bạn có chắc rằng bạn muốn xóa tài khoản của bạn? Sau 30 ngày, tài khoản của bạn sẽ bị xóa vĩnh viễn. Trong thời gian này, bạn có thể khôi phục tài khoản của mình bằng cách đăng nhập lại.';
 
   @override
   String get confirmAndDeleteAccount => 'Xác nhận ';
@@ -986,12 +1007,14 @@ class SVi extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Tên tài xế của tôi là $firstName $lastName, số di động là $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Người lái xe tên mình là $firstName $lastName, số di động là $mobileNumber.';
   }
 
@@ -1006,7 +1029,8 @@ class SVi extends S {
   }
 
   @override
-  String get sendSOSMessage => 'QUAN TRỌNG: Vui lòng chỉ sử dụng tính năng này trong trường hợp khẩn cấp. Chúng tôi sẽ liên hệ với cơ quan chức năng thay mặt bạn.';
+  String get sendSOSMessage =>
+      'QUAN TRỌNG: Vui lòng chỉ sử dụng tính năng này trong trường hợp khẩn cấp. Chúng tôi sẽ liên hệ với cơ quan chức năng thay mặt bạn.';
 
   @override
   String get confirmAndSendSOS => 'Xác nhận';
@@ -1039,7 +1063,8 @@ class SVi extends S {
   String get reportSubmitted => 'Báo cáo đã gửi';
 
   @override
-  String get reportSubmittedDescription => 'Báo cáo của bạn đã được gửi thành công, chúng tôi sẽ xem xét báo cáo và thực hiện các hành động cần thiết.';
+  String get reportSubmittedDescription =>
+      'Báo cáo của bạn đã được gửi thành công, chúng tôi sẽ xem xét báo cáo và thực hiện các hành động cần thiết.';
 
   @override
   String get cardNumber => 'Số thẻ';
@@ -1057,10 +1082,12 @@ class SVi extends S {
   String get noFavoriteDrivers => 'Không có trình điều khiển yêu thích';
 
   @override
-  String get noFavoriteDriversDescription => 'Bạn có thể đánh dấu các tài xế ưa thích của mình là người yêu thích khi xếp hạng họ sau chuyến đi.';
+  String get noFavoriteDriversDescription =>
+      'Bạn có thể đánh dấu các tài xế ưa thích của mình là người yêu thích khi xếp hạng họ sau chuyến đi.';
 
   @override
-  String get pickupLocationNotFound => 'Chúng tôi không thể xác định vị trí hiện tại của bạn bằng GPS làm điểm đón. Vui lòng nhập điểm đón của bạn theo cách thủ công.';
+  String get pickupLocationNotFound =>
+      'Chúng tôi không thể xác định vị trí hiện tại của bạn bằng GPS làm điểm đón. Vui lòng nhập điểm đón của bạn theo cách thủ công.';
 
   @override
   String get dragToSelect => 'Kéo để chọn';
@@ -1075,7 +1102,8 @@ class SVi extends S {
   String get locationPermission => 'Quyền vị trí';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Quyền vị trí là một yêu cầu để nhận đơn đặt hàng xung quanh bạn và cũng để người lái theo dõi vị trí của bạn. Bạn không thể nhận đơn đặt hàng mà không có sự cho phép này và chúng tôi hãy cẩn thận với vị trí hiện tại của bạn. Bạn có thể thay đổi quyền này trong cài đặt điện thoại của mình.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Quyền vị trí là một yêu cầu để nhận đơn đặt hàng xung quanh bạn và cũng để người lái theo dõi vị trí của bạn. Bạn không thể nhận đơn đặt hàng mà không có sự cho phép này và chúng tôi hãy cẩn thận với vị trí hiện tại của bạn. Bạn có thể thay đổi quyền này trong cài đặt điện thoại của mình.';
 
   @override
   String get allow => 'Cho phép';
@@ -1090,7 +1118,8 @@ class SVi extends S {
   String get payInCash => 'Thanh toán bằng tiền mặt';
 
   @override
-  String get payInCashDescription => 'Vui lòng tiếp tục thanh toán tiền mặt cho tài xế. Tài xế sẽ xác nhận thanh toán sau khi nhận được.';
+  String get payInCashDescription =>
+      'Vui lòng tiếp tục thanh toán tiền mặt cho tài xế. Tài xế sẽ xác nhận thanh toán sau khi nhận được.';
 
   @override
   String get addToFavoriteDrivers => 'Thêm vào trình điều khiển yêu thích';
@@ -1108,19 +1137,22 @@ class SVi extends S {
   String get noticePickingUpRiderIn => 'Đón người lái vào:';
 
   @override
-  String get noticeRiderNotified => 'Rider đã được thông báo, Đón người lái và bắt đầu chuyến đi';
+  String get noticeRiderNotified =>
+      'Rider đã được thông báo, Đón người lái và bắt đầu chuyến đi';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

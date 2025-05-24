@@ -95,7 +95,6 @@ class SNl extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SNl extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SNl extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SNl extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SNl extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SNl extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SNl extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Taxiservice ontworpen voor uw comfort, reis met uw favoriete chauffeurs en selecteer uw ritvoorkeuren';
+  String get welcomeSubtitle =>
+      'Taxiservice ontworpen voor uw comfort, reis met uw favoriete chauffeurs en selecteer uw ritvoorkeuren';
 
   @override
   String get onboardingRewardTitle => 'Word beloond!';
 
   @override
-  String get onboardingRewardSubtitle => 'Ontvang extra bonussen voor het doorverwijzen van een vriend, het voltooien van reizen en nog veel meer...';
+  String get onboardingRewardSubtitle =>
+      'Ontvang extra bonussen voor het doorverwijzen van een vriend, het voltooien van reizen en nog veel meer...';
 
   @override
   String get selectLanguage => 'Selecteer taal';
@@ -271,10 +267,12 @@ class SNl extends S {
   String get reserveRide => 'Rit reserveren';
 
   @override
-  String get reserveRideMessage => 'Selecteer de exacte datum en tijd waarop u uw rit wilt reserveren';
+  String get reserveRideMessage =>
+      'Selecteer de exacte datum en tijd waarop u uw rit wilt reserveren';
 
   @override
-  String get reserveRideMessageSuccess => 'Uw rit is succesvol gereserveerd. Onder het kopje \'Geplande ritten\' kunt u uw gereserveerde ritten bekijken.';
+  String get reserveRideMessageSuccess =>
+      'Uw rit is succesvol gereserveerd. Onder het kopje \'Geplande ritten\' kunt u uw gereserveerde ritten bekijken.';
 
   @override
   String get cancelReservation => 'Reservering annuleren';
@@ -283,7 +281,8 @@ class SNl extends S {
   String get confirmResrve => 'Bevestigen ';
 
   @override
-  String get enterCouponDescription => 'Voer uw couponcode in die op de prijzen moet worden toegepast';
+  String get enterCouponDescription =>
+      'Voer uw couponcode in die op de prijzen moet worden toegepast';
 
   @override
   String get enterCoupon => 'Voer coupon in';
@@ -292,7 +291,8 @@ class SNl extends S {
   String get couponApplied => 'Coupon toegepast';
 
   @override
-  String get couponAppliedDescription => 'De coupon is toegepast op het tarief van uw rit';
+  String get couponAppliedDescription =>
+      'De coupon is toegepast op het tarief van uw rit';
 
   @override
   String get done => 'Klaar!';
@@ -317,7 +317,8 @@ class SNl extends S {
   String get rideRequested => 'Rit aangevraagd';
 
   @override
-  String get searchingForAnOnlineDriver => 'Op zoek naar een online chauffeur...';
+  String get searchingForAnOnlineDriver =>
+      'Op zoek naar een online chauffeur...';
 
   @override
   String get cancelRide => 'Rit annuleren';
@@ -329,19 +330,22 @@ class SNl extends S {
   String get shareTripInformation => 'Deel reisinformatie';
 
   @override
-  String get shareTripInformationDescription => 'U kunt uw reisinformatie delen met een vriend';
+  String get shareTripInformationDescription =>
+      'U kunt uw reisinformatie delen met een vriend';
 
   @override
   String get sos => 'Sos';
 
   @override
-  String get sosDescription => 'Informeer de autoriteiten over een noodsituatie';
+  String get sosDescription =>
+      'Informeer de autoriteiten over een noodsituatie';
 
   @override
   String get reportAnIssue => 'Een probleem melden';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Deel een veiligheidsprobleem onderweg';
+  String get reportAnIssueMidTripDescription =>
+      'Deel een veiligheidsprobleem onderweg';
 
   @override
   String get rideOptions => 'Rit opties';
@@ -458,7 +462,8 @@ class SNl extends S {
   String get favoriteLocations => 'Favoriete locaties';
 
   @override
-  String get favoriteLocationsSubtitle => 'Sla uw favoriete locaties op voor eenvoudigere toegang';
+  String get favoriteLocationsSubtitle =>
+      'Sla uw favoriete locaties op voor eenvoudigere toegang';
 
   @override
   String get createAFavoriteLocation => 'Creëer een favoriete locatie';
@@ -470,10 +475,12 @@ class SNl extends S {
   String get clickToSetLocation => 'Klik om de locatie in te stellen';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Wat is jouw nieuwe favoriete locatie?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Wat is jouw nieuwe favoriete locatie?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Gebruik het onderstaande zoekvak of de kaart om de exacte locatie vast te stellen';
+  String get locateFavoriteLocationDescription =>
+      'Gebruik het onderstaande zoekvak of de kaart om de exacte locatie vast te stellen';
 
   @override
   String get searchLocation => 'Zoek locatie';
@@ -512,7 +519,8 @@ class SNl extends S {
   String get redeemGiftCard => 'Cadeaukaart inwisselen';
 
   @override
-  String get redeemGiftCardDescription => 'Voer uw cadeaukaartcode in om deze in te wisselen.';
+  String get redeemGiftCardDescription =>
+      'Voer uw cadeaukaartcode in om deze in te wisselen.';
 
   @override
   String get redeemSuccessTitle => 'Cadeaukaart ingewisseld!';
@@ -562,7 +570,8 @@ class SNl extends S {
   String get selectCards => 'Selecteer kaarten';
 
   @override
-  String get selectCardsDescription => 'U kunt de kaartnummers selecteren die u wilt weergeven in de lijst met betaalmethoden op facturen.';
+  String get selectCardsDescription =>
+      'U kunt de kaartnummers selecteren die u wilt weergeven in de lijst met betaalmethoden op facturen.';
 
   @override
   String get delete => 'Verwijderen';
@@ -580,7 +589,8 @@ class SNl extends S {
   String get addPaymentMethod => 'Betaalmethode toevoegen';
 
   @override
-  String get addPaymentMethodDescription => 'Voeg een nieuwe betaalmethode toe aan uw account';
+  String get addPaymentMethodDescription =>
+      'Voeg een nieuwe betaalmethode toe aan uw account';
 
   @override
   String get saveCard => 'Kaart opslaan';
@@ -595,7 +605,8 @@ class SNl extends S {
   String get preferences => 'Voorkeuren:';
 
   @override
-  String get onboardingDescription => 'Momenten verwijderd van het registreren van uw account en genieten van comfortabele ritten';
+  String get onboardingDescription =>
+      'Momenten verwijderd van het registreren van uw account en genieten van comfortabele ritten';
 
   @override
   String get signInSignUp => 'Aanmelden/ Aanmelden';
@@ -607,7 +618,8 @@ class SNl extends S {
   String get enterPassword => 'Voer wachtwoord in';
 
   @override
-  String get enterPasswordDescription => 'Voer uw wachtwoord in om door te gaan';
+  String get enterPasswordDescription =>
+      'Voer uw wachtwoord in om door te gaan';
 
   @override
   String get setPassword => 'Stel een wachtwoord in';
@@ -616,7 +628,8 @@ class SNl extends S {
   String get password => 'Wachtwoord';
 
   @override
-  String get passwordRuleDescription => 'Voeg ten minste twee van de volgende toe:';
+  String get passwordRuleDescription =>
+      'Voeg ten minste twee van de volgende toe:';
 
   @override
   String get passwordRuleLength => 'Tussen 9 en 64 tekens';
@@ -655,7 +668,8 @@ class SNl extends S {
   String get skipForNow => 'Overslaan voor nu';
 
   @override
-  String get sendOtpDescription => 'Er is een verificatiecode naar uw telefoonnummer verzonden';
+  String get sendOtpDescription =>
+      'Er is een verificatiecode naar uw telefoonnummer verzonden';
 
   @override
   String get resendOtp => 'Code nogmaals versturen';
@@ -801,7 +815,8 @@ class SNl extends S {
   String get selectProfileImage => 'Selecteer Profielafbeelding';
 
   @override
-  String get chooseAvatarDescription => 'Of selecteer een avatar uit de onderstaande lijst:';
+  String get chooseAvatarDescription =>
+      'Of selecteer een avatar uit de onderstaande lijst:';
 
   @override
   String get fullName => 'Voor-en achternaam';
@@ -831,13 +846,15 @@ class SNl extends S {
   String get monthly => 'Maandelijks';
 
   @override
-  String get noRecordsFoundEarnings => 'Er is geen ritrecord gevonden voor deze filters';
+  String get noRecordsFoundEarnings =>
+      'Er is geen ritrecord gevonden voor deze filters';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Nog geen reacties';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Je hebt nog niet genoeg feedback om te laten zien.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Je hebt nog niet genoeg feedback om te laten zien.';
 
   @override
   String get feedbacksSummary => 'Feedback Samenvatting';
@@ -846,7 +863,8 @@ class SNl extends S {
   String get feedbacksGoodTitle => 'Uitstekend werk!';
 
   @override
-  String get feedbacksGoodSubtitle => 'Je beoordelingen zien er tot nu toe goed uit';
+  String get feedbacksGoodSubtitle =>
+      'Je beoordelingen zien er tot nu toe goed uit';
 
   @override
   String get feedbacksBadTitle => 'Gemiddeld';
@@ -870,7 +888,8 @@ class SNl extends S {
   String get notice => 'Kennisgeving:';
 
   @override
-  String get payoutNoticeTitle => 'Je wordt automatisch twee keer per week betaald door de beheerder.';
+  String get payoutNoticeTitle =>
+      'Je wordt automatisch twee keer per week betaald door de beheerder.';
 
   @override
   String get addPayoutMethod => 'Uitbetalingsmethode toevoegen';
@@ -963,16 +982,19 @@ class SNl extends S {
   String get driverArrivedNotice => 'De chauffeur wacht op u';
 
   @override
-  String get driverShouldAriveInNotice => 'Er wordt verwacht dat de chauffeur arriveert';
+  String get driverShouldAriveInNotice =>
+      'Er wordt verwacht dat de chauffeur arriveert';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'De chauffeur zou elk moment kunnen arriveren';
+  String get driverShouldHaveArrivedNotice =>
+      'De chauffeur zou elk moment kunnen arriveren';
 
   @override
   String get deleteAccount => 'Account verwijderen';
 
   @override
-  String get deleteAccountNotice => 'Weet u zeker dat u uw account wilt verwijderen? Na 30 dagen wordt uw account definitief verwijderd. Gedurende deze tijd kunt u uw account herstellen door u opnieuw aan te melden.';
+  String get deleteAccountNotice =>
+      'Weet u zeker dat u uw account wilt verwijderen? Na 30 dagen wordt uw account definitief verwijderd. Gedurende deze tijd kunt u uw account herstellen door u opnieuw aan te melden.';
 
   @override
   String get confirmAndDeleteAccount => 'Bevestigen ';
@@ -986,12 +1008,14 @@ class SNl extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Mijn chauffeursnaam is $firstName $lastName, het mobiele nummer is $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' De naam van de rijder bij mij is $firstName $lastName, het mobiele nummer is $mobileNumber.';
   }
 
@@ -1006,7 +1030,8 @@ class SNl extends S {
   }
 
   @override
-  String get sendSOSMessage => 'BELANGRIJK: Gebruik deze functie alleen in geval van nood. Wij zullen namens u contact opnemen met de autoriteiten.';
+  String get sendSOSMessage =>
+      'BELANGRIJK: Gebruik deze functie alleen in geval van nood. Wij zullen namens u contact opnemen met de autoriteiten.';
 
   @override
   String get confirmAndSendSOS => 'Bevestigen ';
@@ -1018,7 +1043,8 @@ class SNl extends S {
   String get topUpSuccess => 'Wallet is succesvol opgewaardeerd';
 
   @override
-  String get cancelNotAllowed => 'Annulering van een reeds begonnen rit is niet mogelijk.';
+  String get cancelNotAllowed =>
+      'Annulering van een reeds begonnen rit is niet mogelijk.';
 
   @override
   String get error => 'Fout';
@@ -1039,7 +1065,8 @@ class SNl extends S {
   String get reportSubmitted => 'Rapport ingediend';
 
   @override
-  String get reportSubmittedDescription => 'Uw melding is succesvol ingediend, wij zullen deze beoordelen en de nodige acties ondernemen.';
+  String get reportSubmittedDescription =>
+      'Uw melding is succesvol ingediend, wij zullen deze beoordelen en de nodige acties ondernemen.';
 
   @override
   String get cardNumber => 'Kaartnummer';
@@ -1057,10 +1084,12 @@ class SNl extends S {
   String get noFavoriteDrivers => 'Geen favoriete coureurs';
 
   @override
-  String get noFavoriteDriversDescription => 'U kunt uw favoriete chauffeurs als favoriet markeren wanneer u ze na de rit beoordeelt.';
+  String get noFavoriteDriversDescription =>
+      'U kunt uw favoriete chauffeurs als favoriet markeren wanneer u ze na de rit beoordeelt.';
 
   @override
-  String get pickupLocationNotFound => 'We konden uw huidige locatie niet bepalen met behulp van GPS als ophaalpunt. Voer uw ophaalpunt handmatig in.';
+  String get pickupLocationNotFound =>
+      'We konden uw huidige locatie niet bepalen met behulp van GPS als ophaalpunt. Voer uw ophaalpunt handmatig in.';
 
   @override
   String get dragToSelect => 'Sleep om te selecteren';
@@ -1075,7 +1104,8 @@ class SNl extends S {
   String get locationPermission => 'Locatie toestemming';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Locatietoestemming is een vereiste voor het ontvangen van bestellingen om u heen en ook voor de passagier om uw locatie te volgen. Zonder deze toestemming kunt u geen bestellingen ontvangen en houden wij rekening met uw huidige locatie. U kunt deze toestemming wijzigen in uw telefooninstellingen.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Locatietoestemming is een vereiste voor het ontvangen van bestellingen om u heen en ook voor de passagier om uw locatie te volgen. Zonder deze toestemming kunt u geen bestellingen ontvangen en houden wij rekening met uw huidige locatie. U kunt deze toestemming wijzigen in uw telefooninstellingen.';
 
   @override
   String get allow => 'Toestaan';
@@ -1090,10 +1120,12 @@ class SNl extends S {
   String get payInCash => 'Contante betaling';
 
   @override
-  String get payInCashDescription => 'Ga verder met de contante betaling aan de chauffeur. De chauffeur bevestigt de betaling zodra deze is ontvangen.';
+  String get payInCashDescription =>
+      'Ga verder met de contante betaling aan de chauffeur. De chauffeur bevestigt de betaling zodra deze is ontvangen.';
 
   @override
-  String get addToFavoriteDrivers => 'Toevoegen aan favoriete stuurprogramma\'s';
+  String get addToFavoriteDrivers =>
+      'Toevoegen aan favoriete stuurprogramma\'s';
 
   @override
   String get slideToConfirmArrival => 'Schuif om aankomst te bevestigen';
@@ -1108,19 +1140,22 @@ class SNl extends S {
   String get noticePickingUpRiderIn => 'De berijder ophalen in:';
 
   @override
-  String get noticeRiderNotified => 'De rijder is op de hoogte gebracht. Haal de rijder op en start de rit';
+  String get noticeRiderNotified =>
+      'De rijder is op de hoogte gebracht. Haal de rijder op en start de rit';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

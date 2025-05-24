@@ -95,7 +95,6 @@ class SUr extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SUr extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SUr extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SUr extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SUr extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SUr extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SUr extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'آپ کے آرام کے لیے بنائی گئی ٹیکسی سروس آپ کے پسندیدہ ڈرائیوروں کے ساتھ ٹرپ رکھتی ہے اور اپنی سواری کی ترجیحات کا انتخاب کرتی ہے۔';
+  String get welcomeSubtitle =>
+      'آپ کے آرام کے لیے بنائی گئی ٹیکسی سروس آپ کے پسندیدہ ڈرائیوروں کے ساتھ ٹرپ رکھتی ہے اور اپنی سواری کی ترجیحات کا انتخاب کرتی ہے۔';
 
   @override
   String get onboardingRewardTitle => 'انعام حاصل کریں!';
 
   @override
-  String get onboardingRewardSubtitle => 'دوست کا حوالہ دینے، ٹرپس مکمل کرنے اور بہت کچھ کرنے کے لیے اضافی بونس حاصل کریں...';
+  String get onboardingRewardSubtitle =>
+      'دوست کا حوالہ دینے، ٹرپس مکمل کرنے اور بہت کچھ کرنے کے لیے اضافی بونس حاصل کریں...';
 
   @override
   String get selectLanguage => 'زبان منتخب کریں۔';
@@ -271,10 +267,12 @@ class SUr extends S {
   String get reserveRide => 'ریزرو سواری';
 
   @override
-  String get reserveRideMessage => 'صحیح تاریخ اور وقت منتخب کریں جو آپ چاہتے ہیں کہ آپ کی سواری محفوظ ہو۔';
+  String get reserveRideMessage =>
+      'صحیح تاریخ اور وقت منتخب کریں جو آپ چاہتے ہیں کہ آپ کی سواری محفوظ ہو۔';
 
   @override
-  String get reserveRideMessageSuccess => 'آپ کی سواری کو کامیابی کے ساتھ محفوظ کر لیا گیا ہے۔ آپ اپنی محفوظ سواریوں کو \'شیڈولڈ سواری\' سیکشن میں دیکھ سکتے ہیں۔';
+  String get reserveRideMessageSuccess =>
+      'آپ کی سواری کو کامیابی کے ساتھ محفوظ کر لیا گیا ہے۔ آپ اپنی محفوظ سواریوں کو \'شیڈولڈ سواری\' سیکشن میں دیکھ سکتے ہیں۔';
 
   @override
   String get cancelReservation => 'ریزرویشن منسوخ کریں۔';
@@ -283,7 +281,8 @@ class SUr extends S {
   String get confirmResrve => 'تصدیق کریں۔';
 
   @override
-  String get enterCouponDescription => 'قیمتوں پر لاگو ہونے کے لیے اپنا کوپن کوڈ داخل کریں۔';
+  String get enterCouponDescription =>
+      'قیمتوں پر لاگو ہونے کے لیے اپنا کوپن کوڈ داخل کریں۔';
 
   @override
   String get enterCoupon => 'کوپن درج کریں۔';
@@ -292,7 +291,8 @@ class SUr extends S {
   String get couponApplied => 'کوپن لاگو کر دیا گیا۔';
 
   @override
-  String get couponAppliedDescription => 'آپ کی سواری کے کرایے پر کوپن لاگو کر دیا گیا ہے۔';
+  String get couponAppliedDescription =>
+      'آپ کی سواری کے کرایے پر کوپن لاگو کر دیا گیا ہے۔';
 
   @override
   String get done => 'ہو گیا!';
@@ -329,7 +329,8 @@ class SUr extends S {
   String get shareTripInformation => 'سفر کی معلومات کا اشتراک کریں۔';
 
   @override
-  String get shareTripInformationDescription => 'آپ اپنے سفر کی معلومات کسی دوست کے ساتھ شیئر کر سکتے ہیں۔';
+  String get shareTripInformationDescription =>
+      'آپ اپنے سفر کی معلومات کسی دوست کے ساتھ شیئر کر سکتے ہیں۔';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SUr extends S {
   String get reportAnIssue => 'ایک مسئلہ کی اطلاع دیں';
 
   @override
-  String get reportAnIssueMidTripDescription => 'سفر کے دوران حفاظتی مسئلہ کا اشتراک کریں۔';
+  String get reportAnIssueMidTripDescription =>
+      'سفر کے دوران حفاظتی مسئلہ کا اشتراک کریں۔';
 
   @override
   String get rideOptions => 'سواری کے اختیارات';
@@ -458,7 +460,8 @@ class SUr extends S {
   String get favoriteLocations => 'پسندیدہ مقامات';
 
   @override
-  String get favoriteLocationsSubtitle => 'آسان رسائی کے لیے اپنے پسندیدہ مقامات کو محفوظ کریں۔';
+  String get favoriteLocationsSubtitle =>
+      'آسان رسائی کے لیے اپنے پسندیدہ مقامات کو محفوظ کریں۔';
 
   @override
   String get createAFavoriteLocation => 'ایک پسندیدہ مقام بنائیں';
@@ -470,10 +473,12 @@ class SUr extends S {
   String get clickToSetLocation => 'مقام سیٹ کرنے کے لیے کلک کریں۔';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'آپ کا نیا پسندیدہ مقام کہاں ہے؟';
+  String get whereIsYourNewFavoriteLocation =>
+      'آپ کا نیا پسندیدہ مقام کہاں ہے؟';
 
   @override
-  String get locateFavoriteLocationDescription => 'صحیح مقام کو پن کرنے کے لیے یا تو نیچے سرچ باکس یا نقشہ استعمال کریں۔';
+  String get locateFavoriteLocationDescription =>
+      'صحیح مقام کو پن کرنے کے لیے یا تو نیچے سرچ باکس یا نقشہ استعمال کریں۔';
 
   @override
   String get searchLocation => 'مقام تلاش کریں۔';
@@ -512,7 +517,8 @@ class SUr extends S {
   String get redeemGiftCard => 'گفٹ کارڈ چھڑائیں۔';
 
   @override
-  String get redeemGiftCardDescription => 'اسے چھڑانے کے لیے اپنے گفٹ کارڈ کا کوڈ درج کریں۔';
+  String get redeemGiftCardDescription =>
+      'اسے چھڑانے کے لیے اپنے گفٹ کارڈ کا کوڈ درج کریں۔';
 
   @override
   String get redeemSuccessTitle => 'گفٹ کارڈ بھنایا گیا!';
@@ -562,7 +568,8 @@ class SUr extends S {
   String get selectCards => 'کارڈز منتخب کریں۔';
 
   @override
-  String get selectCardsDescription => 'آپ وہ کارڈ نمبر منتخب کر سکتے ہیں جنہیں آپ انوائسز پر ادائیگی کے طریقوں کی فہرست میں دکھانا چاہتے ہیں۔';
+  String get selectCardsDescription =>
+      'آپ وہ کارڈ نمبر منتخب کر سکتے ہیں جنہیں آپ انوائسز پر ادائیگی کے طریقوں کی فہرست میں دکھانا چاہتے ہیں۔';
 
   @override
   String get delete => 'حذف کریں۔';
@@ -580,7 +587,8 @@ class SUr extends S {
   String get addPaymentMethod => 'ادائیگی کا طریقہ شامل کریں۔';
 
   @override
-  String get addPaymentMethodDescription => 'اپنے اکاؤنٹ میں ادائیگی کا نیا طریقہ شامل کریں۔';
+  String get addPaymentMethodDescription =>
+      'اپنے اکاؤنٹ میں ادائیگی کا نیا طریقہ شامل کریں۔';
 
   @override
   String get saveCard => 'کارڈ محفوظ کریں۔';
@@ -595,7 +603,8 @@ class SUr extends S {
   String get preferences => 'ترجیحات:';
 
   @override
-  String get onboardingDescription => 'اپنے اکاؤنٹ کو رجسٹر کرنے اور آرام دہ سواریوں سے لطف اندوز ہونے سے لمحوں کی دوری پر';
+  String get onboardingDescription =>
+      'اپنے اکاؤنٹ کو رجسٹر کرنے اور آرام دہ سواریوں سے لطف اندوز ہونے سے لمحوں کی دوری پر';
 
   @override
   String get signInSignUp => 'سائن ان/سائن اپ کریں۔';
@@ -607,7 +616,8 @@ class SUr extends S {
   String get enterPassword => 'پاس ورڈ درج کریں';
 
   @override
-  String get enterPasswordDescription => 'جاری رکھنے کے لیے براہ کرم اپنا پاس ورڈ درج کریں۔';
+  String get enterPasswordDescription =>
+      'جاری رکھنے کے لیے براہ کرم اپنا پاس ورڈ درج کریں۔';
 
   @override
   String get setPassword => 'پاس ورڈ رکھیں';
@@ -616,7 +626,8 @@ class SUr extends S {
   String get password => 'پاس ورڈ';
 
   @override
-  String get passwordRuleDescription => 'درج ذیل میں سے کم از کم دو کو شامل کریں:';
+  String get passwordRuleDescription =>
+      'درج ذیل میں سے کم از کم دو کو شامل کریں:';
 
   @override
   String get passwordRuleLength => '9 اور 64 حروف کے درمیان';
@@ -655,7 +666,8 @@ class SUr extends S {
   String get skipForNow => 'اب کے لئے چھوڑ دیں';
 
   @override
-  String get sendOtpDescription => 'آپ کے فون نمبر پر ایک تصدیقی کوڈ بھیجا گیا ہے۔';
+  String get sendOtpDescription =>
+      'آپ کے فون نمبر پر ایک تصدیقی کوڈ بھیجا گیا ہے۔';
 
   @override
   String get resendOtp => 'کوڈ پھر سے بھیجو';
@@ -724,7 +736,8 @@ class SUr extends S {
   String get rideCancellation => 'سواری کی منسوخی';
 
   @override
-  String get cancelRideMessage => 'کیا آپ واقعی اپنی سواری منسوخ کرنا چاہتے ہیں؟';
+  String get cancelRideMessage =>
+      'کیا آپ واقعی اپنی سواری منسوخ کرنا چاہتے ہیں؟';
 
   @override
   String get cancelRideSuccess => 'سواری کامیابی کے ساتھ منسوخ کر دی گئی ہے۔';
@@ -801,7 +814,8 @@ class SUr extends S {
   String get selectProfileImage => 'پروفائل امیج کو منتخب کریں۔';
 
   @override
-  String get chooseAvatarDescription => 'یا نیچے دی گئی فہرست سے ایک اوتار منتخب کریں:';
+  String get chooseAvatarDescription =>
+      'یا نیچے دی گئی فہرست سے ایک اوتار منتخب کریں:';
 
   @override
   String get fullName => 'پورا نام';
@@ -831,13 +845,16 @@ class SUr extends S {
   String get monthly => 'ماہانہ';
 
   @override
-  String get noRecordsFoundEarnings => 'ان فلٹرز کے لیے کوئی ٹرپ ریکارڈ نہیں ملا';
+  String get noRecordsFoundEarnings =>
+      'ان فلٹرز کے لیے کوئی ٹرپ ریکارڈ نہیں ملا';
 
   @override
-  String get feedbacksSummaryEmptyStateHeading => 'ابھی تک کوئی فیڈ بیک نہیں ہے۔';
+  String get feedbacksSummaryEmptyStateHeading =>
+      'ابھی تک کوئی فیڈ بیک نہیں ہے۔';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'آپ کے پاس ابھی تک دکھانے کے لیے کافی فیڈ بیک نہیں ہیں۔';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'آپ کے پاس ابھی تک دکھانے کے لیے کافی فیڈ بیک نہیں ہیں۔';
 
   @override
   String get feedbacksSummary => 'تاثرات کا خلاصہ';
@@ -870,7 +887,8 @@ class SUr extends S {
   String get notice => 'نوٹس:';
 
   @override
-  String get payoutNoticeTitle => 'آپ کو ہفتے میں دو بار ایڈمن کی طرف سے خود بخود ادائیگی کی جائے گی۔';
+  String get payoutNoticeTitle =>
+      'آپ کو ہفتے میں دو بار ایڈمن کی طرف سے خود بخود ادائیگی کی جائے گی۔';
 
   @override
   String get addPayoutMethod => 'ادائیگی کا طریقہ شامل کریں۔';
@@ -966,13 +984,15 @@ class SUr extends S {
   String get driverShouldAriveInNotice => 'ڈرائیور کے آنے کا اندازہ ہے۔';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'ڈرائیور اب کسی بھی لمحے پہنچ جائے گا۔';
+  String get driverShouldHaveArrivedNotice =>
+      'ڈرائیور اب کسی بھی لمحے پہنچ جائے گا۔';
 
   @override
   String get deleteAccount => 'کھاتہ مٹا دو';
 
   @override
-  String get deleteAccountNotice => 'کیا آپ واقعی اپنا اکاؤنٹ حذف کرنا چاہتے ہیں؟ 30 دن کے بعد، آپ کا اکاؤنٹ مستقل طور پر حذف ہو جائے گا۔ اس وقت کے دوران، آپ دوبارہ سائن ان کر کے اپنا اکاؤنٹ بحال کر سکتے ہیں۔';
+  String get deleteAccountNotice =>
+      'کیا آپ واقعی اپنا اکاؤنٹ حذف کرنا چاہتے ہیں؟ 30 دن کے بعد، آپ کا اکاؤنٹ مستقل طور پر حذف ہو جائے گا۔ اس وقت کے دوران، آپ دوبارہ سائن ان کر کے اپنا اکاؤنٹ بحال کر سکتے ہیں۔';
 
   @override
   String get confirmAndDeleteAccount => 'تصدیق کریں۔';
@@ -986,12 +1006,14 @@ class SUr extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'میرے ڈرائیور کا نام $firstName $lastName ہے، موبائل نمبر $mobileNumber ہے۔';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'میرے ساتھ سوار کا نام $firstName $lastName ہے، موبائل نمبر $mobileNumber ہے۔';
   }
 
@@ -1006,7 +1028,8 @@ class SUr extends S {
   }
 
   @override
-  String get sendSOSMessage => 'اہم: براہ کرم اس خصوصیت کو صرف ہنگامی صورت حال میں استعمال کریں۔ ہم آپ کی طرف سے حکام سے رابطہ کریں گے۔';
+  String get sendSOSMessage =>
+      'اہم: براہ کرم اس خصوصیت کو صرف ہنگامی صورت حال میں استعمال کریں۔ ہم آپ کی طرف سے حکام سے رابطہ کریں گے۔';
 
   @override
   String get confirmAndSendSOS => 'تصدیق کریں۔';
@@ -1018,7 +1041,8 @@ class SUr extends S {
   String get topUpSuccess => 'والیٹ کو کامیابی کے ساتھ ٹاپ اپ کر دیا گیا ہے۔';
 
   @override
-  String get cancelNotAllowed => 'پہلے سے شروع کی گئی سواری کی منسوخی ممکن نہیں ہے۔';
+  String get cancelNotAllowed =>
+      'پہلے سے شروع کی گئی سواری کی منسوخی ممکن نہیں ہے۔';
 
   @override
   String get error => 'خرابی';
@@ -1039,7 +1063,8 @@ class SUr extends S {
   String get reportSubmitted => 'رپورٹ جمع کرائی';
 
   @override
-  String get reportSubmittedDescription => 'آپ کی رپورٹ کامیابی کے ساتھ جمع کر دی گئی ہے، ہم اس کا جائزہ لیں گے اور ضروری اقدامات کریں گے۔';
+  String get reportSubmittedDescription =>
+      'آپ کی رپورٹ کامیابی کے ساتھ جمع کر دی گئی ہے، ہم اس کا جائزہ لیں گے اور ضروری اقدامات کریں گے۔';
 
   @override
   String get cardNumber => 'کارڈ نمبر';
@@ -1057,10 +1082,12 @@ class SUr extends S {
   String get noFavoriteDrivers => 'کوئی پسندیدہ ڈرائیور نہیں۔';
 
   @override
-  String get noFavoriteDriversDescription => 'سفر کے بعد درجہ بندی کرتے وقت آپ اپنے پسندیدہ ڈرائیوروں کو پسندیدہ کے طور پر نشان زد کر سکتے ہیں۔';
+  String get noFavoriteDriversDescription =>
+      'سفر کے بعد درجہ بندی کرتے وقت آپ اپنے پسندیدہ ڈرائیوروں کو پسندیدہ کے طور پر نشان زد کر سکتے ہیں۔';
 
   @override
-  String get pickupLocationNotFound => 'ہم GPS کو پک اپ پوائنٹ کے طور پر استعمال کرتے ہوئے آپ کے موجودہ مقام کا تعین کرنے سے قاصر تھے۔ براہ کرم اپنا پک اپ پوائنٹ دستی طور پر درج کریں۔';
+  String get pickupLocationNotFound =>
+      'ہم GPS کو پک اپ پوائنٹ کے طور پر استعمال کرتے ہوئے آپ کے موجودہ مقام کا تعین کرنے سے قاصر تھے۔ براہ کرم اپنا پک اپ پوائنٹ دستی طور پر درج کریں۔';
 
   @override
   String get dragToSelect => 'منتخب کرنے کے لیے گھسیٹیں۔';
@@ -1075,7 +1102,8 @@ class SUr extends S {
   String get locationPermission => 'مقام کی اجازت';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'آپ کے ارد گرد آرڈرز وصول کرنے اور سوار کے لیے آپ کے مقام کا پتہ لگانے کے لیے مقام کی اجازت ایک شرط ہے۔ آپ اس اجازت کے بغیر آرڈر وصول نہیں کر سکتے اور ہم آپ کے موجودہ مقام سے ہوشیار رہیں۔ آپ اپنے فون کی ترتیبات میں اس اجازت کو تبدیل کر سکتے ہیں۔';
+  String get locationPermissionDeniedForeverMessage =>
+      'آپ کے ارد گرد آرڈرز وصول کرنے اور سوار کے لیے آپ کے مقام کا پتہ لگانے کے لیے مقام کی اجازت ایک شرط ہے۔ آپ اس اجازت کے بغیر آرڈر وصول نہیں کر سکتے اور ہم آپ کے موجودہ مقام سے ہوشیار رہیں۔ آپ اپنے فون کی ترتیبات میں اس اجازت کو تبدیل کر سکتے ہیں۔';
 
   @override
   String get allow => 'اجازت دیں۔';
@@ -1084,13 +1112,15 @@ class SUr extends S {
   String get driverOnlineTitle => 'سواری کی تلاش ہے۔';
 
   @override
-  String get driverOfflineTitle => 'درخواستیں وصول کرنا شروع کرنے کے لیے آن لائن ہوں۔';
+  String get driverOfflineTitle =>
+      'درخواستیں وصول کرنا شروع کرنے کے لیے آن لائن ہوں۔';
 
   @override
   String get payInCash => 'نقد ادائیگی';
 
   @override
-  String get payInCashDescription => 'براہ کرم ڈرائیور کو نقد ادائیگی کے ساتھ آگے بڑھیں۔ ایک بار موصول ہونے پر ڈرائیور ادائیگی کی تصدیق کرے گا۔';
+  String get payInCashDescription =>
+      'براہ کرم ڈرائیور کو نقد ادائیگی کے ساتھ آگے بڑھیں۔ ایک بار موصول ہونے پر ڈرائیور ادائیگی کی تصدیق کرے گا۔';
 
   @override
   String get addToFavoriteDrivers => 'پسندیدہ ڈرائیوروں میں شامل کریں۔';
@@ -1108,19 +1138,22 @@ class SUr extends S {
   String get noticePickingUpRiderIn => 'اس میں سوار کو اٹھانا:';
 
   @override
-  String get noticeRiderNotified => 'سوار کو مطلع کر دیا گیا ہے، سوار کو اٹھاؤ اور سواری شروع کرو';
+  String get noticeRiderNotified =>
+      'سوار کو مطلع کر دیا گیا ہے، سوار کو اٹھاؤ اور سواری شروع کرو';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

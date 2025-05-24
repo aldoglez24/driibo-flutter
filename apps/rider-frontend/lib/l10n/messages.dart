@@ -89,7 +89,8 @@ import 'messages_zh.dart';
 /// be consistent with the languages listed in the S.supportedLocales
 /// property.
 abstract class S {
-  S(String locale) : localeName = intl.Intl.canonicalizedLocale(locale.toString());
+  S(String locale)
+      : localeName = intl.Intl.canonicalizedLocale(locale.toString());
 
   final String localeName;
 
@@ -109,7 +110,8 @@ abstract class S {
   /// Additional delegates can be added by appending to this list in
   /// MaterialApp. This list does not have to be used at all if a custom list
   /// of delegates is preferred or required.
-  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates = <LocalizationsDelegate<dynamic>>[
+  static const List<LocalizationsDelegate<dynamic>> localizationsDelegates =
+      <LocalizationsDelegate<dynamic>>[
     delegate,
     GlobalMaterialLocalizations.delegate,
     GlobalCupertinoLocalizations.delegate,
@@ -1937,13 +1939,15 @@ abstract class S {
   ///
   /// In en, this message translates to:
   /// **' My driver name is {firstName} {lastName}, the mobile number is +{mobileNumber}.'**
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber);
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber);
 
   /// No description provided for @share_trip_text_rider.
   ///
   /// In en, this message translates to:
   /// **' The rider with me name is {firstName} {lastName}, the mobile number is +{mobileNumber}.'**
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber);
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber);
 
   /// No description provided for @share_trip_started_time.
   ///
@@ -2267,62 +2271,122 @@ class _SDelegate extends LocalizationsDelegate<S> {
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['ar', 'bn', 'de', 'en', 'es', 'et', 'fa', 'fi', 'fr', 'hi', 'hy', 'id', 'it', 'ja', 'ko', 'ms', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sv', 'th', 'tr', 'uk', 'ur', 'vi', 'zh'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>[
+        'ar',
+        'bn',
+        'de',
+        'en',
+        'es',
+        'et',
+        'fa',
+        'fi',
+        'fr',
+        'hi',
+        'hy',
+        'id',
+        'it',
+        'ja',
+        'ko',
+        'ms',
+        'nl',
+        'no',
+        'pl',
+        'pt',
+        'ro',
+        'ru',
+        'sv',
+        'th',
+        'tr',
+        'uk',
+        'ur',
+        'vi',
+        'zh'
+      ].contains(locale.languageCode);
 
   @override
   bool shouldReload(_SDelegate old) => false;
 }
 
 S lookupS(Locale locale) {
-
   // Lookup logic when language+country codes are specified.
   switch (locale.languageCode) {
-    case 'zh': {
-  switch (locale.countryCode) {
-    case 'CN': return SZhCn();
-case 'TW': return SZhTw();
-   }
-  break;
-   }
+    case 'zh':
+      {
+        switch (locale.countryCode) {
+          case 'CN':
+            return SZhCn();
+          case 'TW':
+            return SZhTw();
+        }
+        break;
+      }
   }
 
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
-    case 'ar': return SAr();
-    case 'bn': return SBn();
-    case 'de': return SDe();
-    case 'en': return SEn();
-    case 'es': return SEs();
-    case 'et': return SEt();
-    case 'fa': return SFa();
-    case 'fi': return SFi();
-    case 'fr': return SFr();
-    case 'hi': return SHi();
-    case 'hy': return SHy();
-    case 'id': return SId();
-    case 'it': return SIt();
-    case 'ja': return SJa();
-    case 'ko': return SKo();
-    case 'ms': return SMs();
-    case 'nl': return SNl();
-    case 'no': return SNo();
-    case 'pl': return SPl();
-    case 'pt': return SPt();
-    case 'ro': return SRo();
-    case 'ru': return SRu();
-    case 'sv': return SSv();
-    case 'th': return STh();
-    case 'tr': return STr();
-    case 'uk': return SUk();
-    case 'ur': return SUr();
-    case 'vi': return SVi();
-    case 'zh': return SZh();
+    case 'ar':
+      return SAr();
+    case 'bn':
+      return SBn();
+    case 'de':
+      return SDe();
+    case 'en':
+      return SEn();
+    case 'es':
+      return SEs();
+    case 'et':
+      return SEt();
+    case 'fa':
+      return SFa();
+    case 'fi':
+      return SFi();
+    case 'fr':
+      return SFr();
+    case 'hi':
+      return SHi();
+    case 'hy':
+      return SHy();
+    case 'id':
+      return SId();
+    case 'it':
+      return SIt();
+    case 'ja':
+      return SJa();
+    case 'ko':
+      return SKo();
+    case 'ms':
+      return SMs();
+    case 'nl':
+      return SNl();
+    case 'no':
+      return SNo();
+    case 'pl':
+      return SPl();
+    case 'pt':
+      return SPt();
+    case 'ro':
+      return SRo();
+    case 'ru':
+      return SRu();
+    case 'sv':
+      return SSv();
+    case 'th':
+      return STh();
+    case 'tr':
+      return STr();
+    case 'uk':
+      return SUk();
+    case 'ur':
+      return SUr();
+    case 'vi':
+      return SVi();
+    case 'zh':
+      return SZh();
   }
 
   throw FlutterError(
-    'S.delegate failed to load unsupported locale "$locale". This is likely '
-    'an issue with the localizations generation tool. Please file an issue '
-    'on GitHub with a reproducible sample app and the gen-l10n configuration '
-    'that was used.'
-  );
+      'S.delegate failed to load unsupported locale "$locale". This is likely '
+      'an issue with the localizations generation tool. Please file an issue '
+      'on GitHub with a reproducible sample app and the gen-l10n configuration '
+      'that was used.');
 }

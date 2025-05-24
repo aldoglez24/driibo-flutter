@@ -95,7 +95,6 @@ class SSv extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SSv extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SSv extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SSv extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SSv extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SSv extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SSv extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Taxiservice designad för din komfort har resor med dina favoritförare och välj dina åkpreferenser';
+  String get welcomeSubtitle =>
+      'Taxiservice designad för din komfort har resor med dina favoritförare och välj dina åkpreferenser';
 
   @override
   String get onboardingRewardTitle => 'Bli belönad!';
 
   @override
-  String get onboardingRewardSubtitle => 'Få extra bonusar för att värva en vän, genomföra resor och många fler...';
+  String get onboardingRewardSubtitle =>
+      'Få extra bonusar för att värva en vän, genomföra resor och många fler...';
 
   @override
   String get selectLanguage => 'Välj språk';
@@ -271,10 +267,12 @@ class SSv extends S {
   String get reserveRide => 'Reservera tur';
 
   @override
-  String get reserveRideMessage => 'Välj det exakta datum och tid du vill att din resa ska reserveras';
+  String get reserveRideMessage =>
+      'Välj det exakta datum och tid du vill att din resa ska reserveras';
 
   @override
-  String get reserveRideMessageSuccess => 'Din resa har reserverats. Du kan se dina reserverade turer i avsnittet \"Schemalagda turer\".';
+  String get reserveRideMessageSuccess =>
+      'Din resa har reserverats. Du kan se dina reserverade turer i avsnittet \"Schemalagda turer\".';
 
   @override
   String get cancelReservation => 'Avboka bokning';
@@ -283,7 +281,8 @@ class SSv extends S {
   String get confirmResrve => 'Bekräfta ';
 
   @override
-  String get enterCouponDescription => 'Ange din kupongkod som ska tillämpas på priser';
+  String get enterCouponDescription =>
+      'Ange din kupongkod som ska tillämpas på priser';
 
   @override
   String get enterCoupon => 'Ange kupong';
@@ -292,7 +291,8 @@ class SSv extends S {
   String get couponApplied => 'Kupongen tillämpas';
 
   @override
-  String get couponAppliedDescription => 'Kupongen har tillämpats på din resas biljettpris';
+  String get couponAppliedDescription =>
+      'Kupongen har tillämpats på din resas biljettpris';
 
   @override
   String get done => 'Gjort!';
@@ -329,7 +329,8 @@ class SSv extends S {
   String get shareTripInformation => 'Dela reseinformation';
 
   @override
-  String get shareTripInformationDescription => 'Du kan dela din reseinformation med en vän';
+  String get shareTripInformationDescription =>
+      'Du kan dela din reseinformation med en vän';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +342,8 @@ class SSv extends S {
   String get reportAnIssue => 'Rapportera ett problem';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Dela ett säkerhetsproblem på resan';
+  String get reportAnIssueMidTripDescription =>
+      'Dela ett säkerhetsproblem på resan';
 
   @override
   String get rideOptions => 'Åkalternativ';
@@ -458,7 +460,8 @@ class SSv extends S {
   String get favoriteLocations => 'Favoritplatser';
 
   @override
-  String get favoriteLocationsSubtitle => 'Spara dina favoritplatser för enklare åtkomst';
+  String get favoriteLocationsSubtitle =>
+      'Spara dina favoritplatser för enklare åtkomst';
 
   @override
   String get createAFavoriteLocation => 'Skapa en favoritplats';
@@ -473,7 +476,8 @@ class SSv extends S {
   String get whereIsYourNewFavoriteLocation => 'Var är din nya favoritplats?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Använd antingen sökrutan nedan eller kartan för att fästa den exakta platsen';
+  String get locateFavoriteLocationDescription =>
+      'Använd antingen sökrutan nedan eller kartan för att fästa den exakta platsen';
 
   @override
   String get searchLocation => 'Sök plats';
@@ -512,7 +516,8 @@ class SSv extends S {
   String get redeemGiftCard => 'lösa in presentkort';
 
   @override
-  String get redeemGiftCardDescription => 'Ange presentkortskoden för att lösa in den.';
+  String get redeemGiftCardDescription =>
+      'Ange presentkortskoden för att lösa in den.';
 
   @override
   String get redeemSuccessTitle => 'Presentkort inlöst!';
@@ -562,7 +567,8 @@ class SSv extends S {
   String get selectCards => 'Välj kort';
 
   @override
-  String get selectCardsDescription => 'Du kan välja vilka kortnummer du vill ska visas i listan över betalningsmetoder på fakturor.';
+  String get selectCardsDescription =>
+      'Du kan välja vilka kortnummer du vill ska visas i listan över betalningsmetoder på fakturor.';
 
   @override
   String get delete => 'Radera';
@@ -580,7 +586,8 @@ class SSv extends S {
   String get addPaymentMethod => 'Lägg till betalningsmetod';
 
   @override
-  String get addPaymentMethodDescription => 'Lägg till en ny betalningsmetod på ditt konto';
+  String get addPaymentMethodDescription =>
+      'Lägg till en ny betalningsmetod på ditt konto';
 
   @override
   String get saveCard => 'Spara kort';
@@ -595,7 +602,8 @@ class SSv extends S {
   String get preferences => 'Inställningar:';
 
   @override
-  String get onboardingDescription => 'Ett ögonblick från att registrera ditt konto och njuta av bekväma åkturer';
+  String get onboardingDescription =>
+      'Ett ögonblick från att registrera ditt konto och njuta av bekväma åkturer';
 
   @override
   String get signInSignUp => 'Logga in regristrera';
@@ -607,7 +615,8 @@ class SSv extends S {
   String get enterPassword => 'Skriv in lösenord';
 
   @override
-  String get enterPasswordDescription => 'Vänligen ange ditt lösenord för att fortsätta';
+  String get enterPasswordDescription =>
+      'Vänligen ange ditt lösenord för att fortsätta';
 
   @override
   String get setPassword => 'Välj lösenord';
@@ -655,7 +664,8 @@ class SSv extends S {
   String get skipForNow => 'Hoppa över nu';
 
   @override
-  String get sendOtpDescription => 'En verifieringskod har skickats till ditt telefonnummer';
+  String get sendOtpDescription =>
+      'En verifieringskod har skickats till ditt telefonnummer';
 
   @override
   String get resendOtp => 'Återsänd koden';
@@ -724,7 +734,8 @@ class SSv extends S {
   String get rideCancellation => 'Avbokning av färd';
 
   @override
-  String get cancelRideMessage => 'Är du säker på att du vill avbryta din resa?';
+  String get cancelRideMessage =>
+      'Är du säker på att du vill avbryta din resa?';
 
   @override
   String get cancelRideSuccess => 'Turen har avbrutits';
@@ -801,7 +812,8 @@ class SSv extends S {
   String get selectProfileImage => 'Välj Profilbild';
 
   @override
-  String get chooseAvatarDescription => 'Eller välj en avatar från listan nedan:';
+  String get chooseAvatarDescription =>
+      'Eller välj en avatar från listan nedan:';
 
   @override
   String get fullName => 'Fullständiga namn';
@@ -831,13 +843,15 @@ class SSv extends S {
   String get monthly => 'En gång i månaden';
 
   @override
-  String get noRecordsFoundEarnings => 'Ingen resepost hittades för dessa filter';
+  String get noRecordsFoundEarnings =>
+      'Ingen resepost hittades för dessa filter';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Inga kommentarer än';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Du har inte tillräckligt med feedback att visa än.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Du har inte tillräckligt med feedback att visa än.';
 
   @override
   String get feedbacksSummary => 'Sammanfattning av feedback';
@@ -870,7 +884,8 @@ class SSv extends S {
   String get notice => 'Lägga märke till:';
 
   @override
-  String get payoutNoticeTitle => 'Du kommer automatiskt att få betalt av administratören två gånger i veckan.';
+  String get payoutNoticeTitle =>
+      'Du kommer automatiskt att få betalt av administratören två gånger i veckan.';
 
   @override
   String get addPayoutMethod => 'Lägg till utbetalningsmetod';
@@ -966,13 +981,15 @@ class SSv extends S {
   String get driverShouldAriveInNotice => 'Föraren beräknas komma in';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Föraren borde anlända när som helst nu';
+  String get driverShouldHaveArrivedNotice =>
+      'Föraren borde anlända när som helst nu';
 
   @override
   String get deleteAccount => 'Radera konto';
 
   @override
-  String get deleteAccountNotice => 'Är du säker på att du vill ta bort ditt konto? Efter 30 dagar kommer ditt konto att raderas permanent. Under denna tid kan du återställa ditt konto genom att logga in igen.';
+  String get deleteAccountNotice =>
+      'Är du säker på att du vill ta bort ditt konto? Efter 30 dagar kommer ditt konto att raderas permanent. Under denna tid kan du återställa ditt konto genom att logga in igen.';
 
   @override
   String get confirmAndDeleteAccount => 'Bekräfta ';
@@ -986,12 +1003,14 @@ class SSv extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Mitt förarnamn är $firstName $lastName, mobilnumret är $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Ryttaren med mig heter $firstName $lastName, mobilnumret är $mobileNumber.';
   }
 
@@ -1006,7 +1025,8 @@ class SSv extends S {
   }
 
   @override
-  String get sendSOSMessage => 'VIKTIGT: Använd denna funktion endast i nödfall. Vi kommer att kontakta myndigheter för dig.';
+  String get sendSOSMessage =>
+      'VIKTIGT: Använd denna funktion endast i nödfall. Vi kommer att kontakta myndigheter för dig.';
 
   @override
   String get confirmAndSendSOS => 'Bekräfta ';
@@ -1018,7 +1038,8 @@ class SSv extends S {
   String get topUpSuccess => 'Plånboken har fyllts på';
 
   @override
-  String get cancelNotAllowed => 'Avbokning av en redan påbörjad resa är inte möjlig.';
+  String get cancelNotAllowed =>
+      'Avbokning av en redan påbörjad resa är inte möjlig.';
 
   @override
   String get error => 'Fel';
@@ -1039,7 +1060,8 @@ class SSv extends S {
   String get reportSubmitted => 'Rapport inlämnad';
 
   @override
-  String get reportSubmittedDescription => 'Din rapport har skickats, vi kommer att granska den och vidta nödvändiga åtgärder.';
+  String get reportSubmittedDescription =>
+      'Din rapport har skickats, vi kommer att granska den och vidta nödvändiga åtgärder.';
 
   @override
   String get cardNumber => 'Kortnummer';
@@ -1057,10 +1079,12 @@ class SSv extends S {
   String get noFavoriteDrivers => 'Inga favoritförare';
 
   @override
-  String get noFavoriteDriversDescription => 'Du kan markera dina favoritförare som favoriter när du betygsätter dem efter resan.';
+  String get noFavoriteDriversDescription =>
+      'Du kan markera dina favoritförare som favoriter när du betygsätter dem efter resan.';
 
   @override
-  String get pickupLocationNotFound => 'Vi kunde inte fastställa din nuvarande plats med GPS som upphämtningspunkt. Ange din upphämtningsplats manuellt.';
+  String get pickupLocationNotFound =>
+      'Vi kunde inte fastställa din nuvarande plats med GPS som upphämtningspunkt. Ange din upphämtningsplats manuellt.';
 
   @override
   String get dragToSelect => 'Dra för att välja';
@@ -1075,7 +1099,8 @@ class SSv extends S {
   String get locationPermission => 'Platsbehörighet';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Platstillstånd är ett krav för att ta emot beställningar omkring dig och även för att föraren ska kunna spåra din plats. Du kan inte ta emot beställningar utan detta tillstånd och att vi aktar oss för din nuvarande plats. Du kan ändra denna behörighet i dina telefoninställningar.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Platstillstånd är ett krav för att ta emot beställningar omkring dig och även för att föraren ska kunna spåra din plats. Du kan inte ta emot beställningar utan detta tillstånd och att vi aktar oss för din nuvarande plats. Du kan ändra denna behörighet i dina telefoninställningar.';
 
   @override
   String get allow => 'Tillåta';
@@ -1084,13 +1109,15 @@ class SSv extends S {
   String get driverOnlineTitle => 'Söker skjuts';
 
   @override
-  String get driverOfflineTitle => 'Gå online för att börja ta emot förfrågningar';
+  String get driverOfflineTitle =>
+      'Gå online för att börja ta emot förfrågningar';
 
   @override
   String get payInCash => 'Kontant betalning';
 
   @override
-  String get payInCashDescription => 'Fortsätt med kontantbetalningen till föraren. Föraren kommer att bekräfta betalningen när den har mottagits.';
+  String get payInCashDescription =>
+      'Fortsätt med kontantbetalningen till föraren. Föraren kommer att bekräfta betalningen när den har mottagits.';
 
   @override
   String get addToFavoriteDrivers => 'Lägg till favoritdrivrutiner';
@@ -1108,19 +1135,22 @@ class SSv extends S {
   String get noticePickingUpRiderIn => 'Hämta ryttaren i:';
 
   @override
-  String get noticeRiderNotified => 'Ryttaren har meddelats, Hämta ryttaren och påbörja färden';
+  String get noticeRiderNotified =>
+      'Ryttaren har meddelats, Hämta ryttaren och påbörja färden';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

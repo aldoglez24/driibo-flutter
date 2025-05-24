@@ -32,7 +32,7 @@ class AppTheme {
         backgroundColor: Colors.transparent,
         elevation: 0,
       ),
-      dialogTheme: DialogTheme(
+      dialogTheme: DialogThemeData(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(20),
         ),

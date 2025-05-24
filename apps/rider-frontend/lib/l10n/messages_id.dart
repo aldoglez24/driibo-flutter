@@ -95,7 +95,6 @@ class SId extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SId extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SId extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SId extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SId extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SId extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SId extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Layanan taksi yang dirancang untuk kenyamanan Anda, lakukan Perjalanan dengan pengemudi favorit Anda dan pilih preferensi perjalanan Anda';
+  String get welcomeSubtitle =>
+      'Layanan taksi yang dirancang untuk kenyamanan Anda, lakukan Perjalanan dengan pengemudi favorit Anda dan pilih preferensi perjalanan Anda';
 
   @override
   String get onboardingRewardTitle => 'Dapatkan imbalan!';
 
   @override
-  String get onboardingRewardSubtitle => 'Dapatkan bonus tambahan dengan merujuk teman, menyelesaikan perjalanan, dan banyak lagi...';
+  String get onboardingRewardSubtitle =>
+      'Dapatkan bonus tambahan dengan merujuk teman, menyelesaikan perjalanan, dan banyak lagi...';
 
   @override
   String get selectLanguage => 'Pilih bahasa';
@@ -271,10 +267,12 @@ class SId extends S {
   String get reserveRide => 'Pesan perjalanan';
 
   @override
-  String get reserveRideMessage => 'Pilih tanggal dan waktu yang Anda inginkan untuk memesan perjalanan Anda';
+  String get reserveRideMessage =>
+      'Pilih tanggal dan waktu yang Anda inginkan untuk memesan perjalanan Anda';
 
   @override
-  String get reserveRideMessageSuccess => 'Perjalanan Anda telah berhasil dipesan. Anda dapat melihat perjalanan yang Anda pesan di bagian \'Perjalanan terjadwal\'.';
+  String get reserveRideMessageSuccess =>
+      'Perjalanan Anda telah berhasil dipesan. Anda dapat melihat perjalanan yang Anda pesan di bagian \'Perjalanan terjadwal\'.';
 
   @override
   String get cancelReservation => 'Batalkan reservasi';
@@ -283,7 +281,8 @@ class SId extends S {
   String get confirmResrve => 'Mengonfirmasi';
 
   @override
-  String get enterCouponDescription => 'Masukkan kode kupon Anda untuk diterapkan pada harga';
+  String get enterCouponDescription =>
+      'Masukkan kode kupon Anda untuk diterapkan pada harga';
 
   @override
   String get enterCoupon => 'Masukkan kupon';
@@ -292,7 +291,8 @@ class SId extends S {
   String get couponApplied => 'Kupon diterapkan';
 
   @override
-  String get couponAppliedDescription => 'Kupon telah diterapkan pada tarif perjalanan Anda';
+  String get couponAppliedDescription =>
+      'Kupon telah diterapkan pada tarif perjalanan Anda';
 
   @override
   String get done => 'Selesai!';
@@ -329,19 +329,22 @@ class SId extends S {
   String get shareTripInformation => 'Bagikan informasi perjalanan';
 
   @override
-  String get shareTripInformationDescription => 'Anda dapat berbagi info perjalanan Anda dengan teman';
+  String get shareTripInformationDescription =>
+      'Anda dapat berbagi info perjalanan Anda dengan teman';
 
   @override
   String get sos => 'SOS';
 
   @override
-  String get sosDescription => 'Beritahu pihak berwenang jika ada keadaan darurat';
+  String get sosDescription =>
+      'Beritahu pihak berwenang jika ada keadaan darurat';
 
   @override
   String get reportAnIssue => 'Laporkan masalah';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Bagikan masalah keselamatan dalam perjalanan';
+  String get reportAnIssueMidTripDescription =>
+      'Bagikan masalah keselamatan dalam perjalanan';
 
   @override
   String get rideOptions => 'Opsi berkendara';
@@ -414,7 +417,8 @@ class SId extends S {
   String get searchForPickupLocation => 'Cari lokasi penjemputan';
 
   @override
-  String get placeConfirmDialogPlaceholder => 'Di mana lokasi pengantaran Anda?';
+  String get placeConfirmDialogPlaceholder =>
+      'Di mana lokasi pengantaran Anda?';
 
   @override
   String get noAnnouncements => 'Tidak ada pengumuman';
@@ -458,7 +462,8 @@ class SId extends S {
   String get favoriteLocations => 'Lokasi favorit';
 
   @override
-  String get favoriteLocationsSubtitle => 'Simpan lokasi favorit Anda untuk akses lebih mudah';
+  String get favoriteLocationsSubtitle =>
+      'Simpan lokasi favorit Anda untuk akses lebih mudah';
 
   @override
   String get createAFavoriteLocation => 'Buat lokasi favorit';
@@ -470,10 +475,12 @@ class SId extends S {
   String get clickToSetLocation => 'Klik untuk mengatur lokasi';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Di mana lokasi favorit baru Anda?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Di mana lokasi favorit baru Anda?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Gunakan kotak telusur di bawah atau peta untuk menyematkan lokasi persisnya';
+  String get locateFavoriteLocationDescription =>
+      'Gunakan kotak telusur di bawah atau peta untuk menyematkan lokasi persisnya';
 
   @override
   String get searchLocation => 'Lokasi pencarian';
@@ -512,7 +519,8 @@ class SId extends S {
   String get redeemGiftCard => 'Tukarkan Kartu Hadiah';
 
   @override
-  String get redeemGiftCardDescription => 'Masukkan kode kartu hadiah Anda untuk menukarkannya.';
+  String get redeemGiftCardDescription =>
+      'Masukkan kode kartu hadiah Anda untuk menukarkannya.';
 
   @override
   String get redeemSuccessTitle => 'Kartu Hadiah Ditebus!';
@@ -562,7 +570,8 @@ class SId extends S {
   String get selectCards => 'Pilih kartu';
 
   @override
-  String get selectCardsDescription => 'Anda dapat memilih nomor kartu yang ingin Anda tampilkan dalam daftar metode pembayaran pada faktur.';
+  String get selectCardsDescription =>
+      'Anda dapat memilih nomor kartu yang ingin Anda tampilkan dalam daftar metode pembayaran pada faktur.';
 
   @override
   String get delete => 'Menghapus';
@@ -580,7 +589,8 @@ class SId extends S {
   String get addPaymentMethod => 'Tambahkan Metode Pembayaran';
 
   @override
-  String get addPaymentMethodDescription => 'Tambahkan metode pembayaran baru ke akun Anda';
+  String get addPaymentMethodDescription =>
+      'Tambahkan metode pembayaran baru ke akun Anda';
 
   @override
   String get saveCard => 'Simpan kartu';
@@ -595,7 +605,8 @@ class SId extends S {
   String get preferences => 'Preferensi:';
 
   @override
-  String get onboardingDescription => 'Beberapa saat lagi setelah mendaftarkan akun Anda dan menikmati perjalanan yang nyaman';
+  String get onboardingDescription =>
+      'Beberapa saat lagi setelah mendaftarkan akun Anda dan menikmati perjalanan yang nyaman';
 
   @override
   String get signInSignUp => 'Masuk mendaftar';
@@ -607,7 +618,8 @@ class SId extends S {
   String get enterPassword => 'Masukkan kata kunci';
 
   @override
-  String get enterPasswordDescription => 'Silakan masukkan kata sandi Anda untuk melanjutkan';
+  String get enterPasswordDescription =>
+      'Silakan masukkan kata sandi Anda untuk melanjutkan';
 
   @override
   String get setPassword => 'Tetapkan Kata Sandi';
@@ -655,7 +667,8 @@ class SId extends S {
   String get skipForNow => 'Lewati untuk saat ini';
 
   @override
-  String get sendOtpDescription => 'Kode verifikasi telah dikirimkan ke nomor telepon Anda';
+  String get sendOtpDescription =>
+      'Kode verifikasi telah dikirimkan ke nomor telepon Anda';
 
   @override
   String get resendOtp => 'Kirim ulang kode';
@@ -724,7 +737,8 @@ class SId extends S {
   String get rideCancellation => 'Pembatalan Perjalanan';
 
   @override
-  String get cancelRideMessage => 'Apakah Anda yakin ingin membatalkan perjalanan Anda?';
+  String get cancelRideMessage =>
+      'Apakah Anda yakin ingin membatalkan perjalanan Anda?';
 
   @override
   String get cancelRideSuccess => 'Perjalanan berhasil dibatalkan';
@@ -801,7 +815,8 @@ class SId extends S {
   String get selectProfileImage => 'Pilih Gambar Profil';
 
   @override
-  String get chooseAvatarDescription => 'Atau pilih avatar dari daftar di bawah:';
+  String get chooseAvatarDescription =>
+      'Atau pilih avatar dari daftar di bawah:';
 
   @override
   String get fullName => 'Nama lengkap';
@@ -831,13 +846,15 @@ class SId extends S {
   String get monthly => 'Bulanan';
 
   @override
-  String get noRecordsFoundEarnings => 'Tidak ditemukan catatan perjalanan untuk filter ini';
+  String get noRecordsFoundEarnings =>
+      'Tidak ditemukan catatan perjalanan untuk filter ini';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Belum ada masukan';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Anda belum memiliki cukup masukan untuk ditampilkan.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Anda belum memiliki cukup masukan untuk ditampilkan.';
 
   @override
   String get feedbacksSummary => 'Ringkasan Masukan';
@@ -846,19 +863,22 @@ class SId extends S {
   String get feedbacksGoodTitle => 'Pekerjaan Luar Biasa!';
 
   @override
-  String get feedbacksGoodSubtitle => 'Peringkat Anda terlihat bagus sejauh ini';
+  String get feedbacksGoodSubtitle =>
+      'Peringkat Anda terlihat bagus sejauh ini';
 
   @override
   String get feedbacksBadTitle => 'Rata-rata';
 
   @override
-  String get feedbacksBadSubtitle => 'Anda dapat menggunakan beberapa perbaikan';
+  String get feedbacksBadSubtitle =>
+      'Anda dapat menggunakan beberapa perbaikan';
 
   @override
   String get feedbacksGoodPointsTitle => 'Beberapa hal baik tentang Anda:';
 
   @override
-  String get feedbacksbadPointsTitle => 'Beberapa poin yang dapat Anda tingkatkan:';
+  String get feedbacksbadPointsTitle =>
+      'Beberapa poin yang dapat Anda tingkatkan:';
 
   @override
   String get feedbacksReviewsTitle => 'Beberapa ulasan sebelumnya';
@@ -870,7 +890,8 @@ class SId extends S {
   String get notice => 'Melihat:';
 
   @override
-  String get payoutNoticeTitle => 'Anda secara otomatis akan dibayar oleh admin dua kali seminggu.';
+  String get payoutNoticeTitle =>
+      'Anda secara otomatis akan dibayar oleh admin dua kali seminggu.';
 
   @override
   String get addPayoutMethod => 'Tambahkan Metode pembayaran';
@@ -966,13 +987,15 @@ class SId extends S {
   String get driverShouldAriveInNotice => 'Pengemudi diperkirakan tiba';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Pengemudi akan tiba kapan saja sekarang';
+  String get driverShouldHaveArrivedNotice =>
+      'Pengemudi akan tiba kapan saja sekarang';
 
   @override
   String get deleteAccount => 'Hapus akun';
 
   @override
-  String get deleteAccountNotice => 'Apakah Anda yakin ingin menghapus akun Anda? Setelah 30 hari, akun Anda akan dihapus secara permanen. Selama waktu ini, Anda dapat memulihkan akun Anda dengan masuk kembali.';
+  String get deleteAccountNotice =>
+      'Apakah Anda yakin ingin menghapus akun Anda? Setelah 30 hari, akun Anda akan dihapus secara permanen. Selama waktu ini, Anda dapat memulihkan akun Anda dengan masuk kembali.';
 
   @override
   String get confirmAndDeleteAccount => 'Mengonfirmasi ';
@@ -986,12 +1009,14 @@ class SId extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Nama driver saya $firstName $lastName, nomor ponsel $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' Pengendara dengan nama saya adalah $firstName $lastName, nomor ponselnya adalah $mobileNumber.';
   }
 
@@ -1006,7 +1031,8 @@ class SId extends S {
   }
 
   @override
-  String get sendSOSMessage => 'PENTING: Harap gunakan fitur ini hanya dalam keadaan darurat. Kami akan menghubungi pihak berwenang atas nama Anda.';
+  String get sendSOSMessage =>
+      'PENTING: Harap gunakan fitur ini hanya dalam keadaan darurat. Kami akan menghubungi pihak berwenang atas nama Anda.';
 
   @override
   String get confirmAndSendSOS => 'Mengonfirmasi ';
@@ -1018,7 +1044,8 @@ class SId extends S {
   String get topUpSuccess => 'Dompet telah berhasil diisi ulang';
 
   @override
-  String get cancelNotAllowed => 'Pembatalan perjalanan yang sudah dimulai tidak dapat dilakukan.';
+  String get cancelNotAllowed =>
+      'Pembatalan perjalanan yang sudah dimulai tidak dapat dilakukan.';
 
   @override
   String get error => 'Kesalahan';
@@ -1039,7 +1066,8 @@ class SId extends S {
   String get reportSubmitted => 'Laporan Dikirim';
 
   @override
-  String get reportSubmittedDescription => 'Laporan Anda telah berhasil dikirimkan, kami akan meninjaunya dan mengambil tindakan yang diperlukan.';
+  String get reportSubmittedDescription =>
+      'Laporan Anda telah berhasil dikirimkan, kami akan meninjaunya dan mengambil tindakan yang diperlukan.';
 
   @override
   String get cardNumber => 'Nomor kartu';
@@ -1057,10 +1085,12 @@ class SId extends S {
   String get noFavoriteDrivers => 'Tidak ada driver favorit';
 
   @override
-  String get noFavoriteDriversDescription => 'Anda dapat menandai pengemudi pilihan Anda sebagai favorit saat memberi peringkat setelah perjalanan.';
+  String get noFavoriteDriversDescription =>
+      'Anda dapat menandai pengemudi pilihan Anda sebagai favorit saat memberi peringkat setelah perjalanan.';
 
   @override
-  String get pickupLocationNotFound => 'Kami tidak dapat menentukan lokasi Anda saat ini menggunakan GPS sebagai titik penjemputan. Silakan masukkan titik penjemputan Anda secara manual.';
+  String get pickupLocationNotFound =>
+      'Kami tidak dapat menentukan lokasi Anda saat ini menggunakan GPS sebagai titik penjemputan. Silakan masukkan titik penjemputan Anda secara manual.';
 
   @override
   String get dragToSelect => 'Seret untuk memilih';
@@ -1075,7 +1105,8 @@ class SId extends S {
   String get locationPermission => 'Izin lokasi';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Izin lokasi merupakan persyaratan untuk menerima pesanan di sekitar Anda dan juga agar pengendara dapat melacak lokasi Anda. Anda tidak dapat menerima pesanan tanpa izin ini dan kami berhati-hati terhadap lokasi Anda saat ini. Anda dapat mengubah izin ini di pengaturan telepon Anda.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Izin lokasi merupakan persyaratan untuk menerima pesanan di sekitar Anda dan juga agar pengendara dapat melacak lokasi Anda. Anda tidak dapat menerima pesanan tanpa izin ini dan kami berhati-hati terhadap lokasi Anda saat ini. Anda dapat mengubah izin ini di pengaturan telepon Anda.';
 
   @override
   String get allow => 'Mengizinkan';
@@ -1084,13 +1115,15 @@ class SId extends S {
   String get driverOnlineTitle => 'Mencari tumpangan';
 
   @override
-  String get driverOfflineTitle => 'Dapatkan online untuk mulai menerima permintaan';
+  String get driverOfflineTitle =>
+      'Dapatkan online untuk mulai menerima permintaan';
 
   @override
   String get payInCash => 'Pembayaran tunai';
 
   @override
-  String get payInCashDescription => 'Silakan lanjutkan dengan pembayaran tunai kepada pengemudi. Pengemudi akan mengkonfirmasi pembayaran setelah diterima.';
+  String get payInCashDescription =>
+      'Silakan lanjutkan dengan pembayaran tunai kepada pengemudi. Pengemudi akan mengkonfirmasi pembayaran setelah diterima.';
 
   @override
   String get addToFavoriteDrivers => 'Tambahkan ke driver favorit';
@@ -1108,19 +1141,22 @@ class SId extends S {
   String get noticePickingUpRiderIn => 'Menjemput pengendara di:';
 
   @override
-  String get noticeRiderNotified => 'Pengendara telah diberitahu, Ambil pengendara dan mulai perjalanan';
+  String get noticeRiderNotified =>
+      'Pengendara telah diberitahu, Ambil pengendara dan mulai perjalanan';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

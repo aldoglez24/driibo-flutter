@@ -95,7 +95,6 @@ class SIt extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SIt extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SIt extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SIt extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SIt extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SIt extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SIt extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Il servizio taxi progettato per il tuo comfort offre viaggi con i tuoi autisti preferiti e seleziona le tue preferenze di corsa';
+  String get welcomeSubtitle =>
+      'Il servizio taxi progettato per il tuo comfort offre viaggi con i tuoi autisti preferiti e seleziona le tue preferenze di corsa';
 
   @override
   String get onboardingRewardTitle => 'Ottieni una ricompensa!';
 
   @override
-  String get onboardingRewardSubtitle => 'Ottieni bonus extra invitando un amico, completando viaggi e molto altro...';
+  String get onboardingRewardSubtitle =>
+      'Ottieni bonus extra invitando un amico, completando viaggi e molto altro...';
 
   @override
   String get selectLanguage => 'Seleziona la lingua';
@@ -271,10 +267,12 @@ class SIt extends S {
   String get reserveRide => 'Prenota il giro';
 
   @override
-  String get reserveRideMessage => 'Seleziona la data e l\'ora esatte in cui desideri prenotare la tua corsa';
+  String get reserveRideMessage =>
+      'Seleziona la data e l\'ora esatte in cui desideri prenotare la tua corsa';
 
   @override
-  String get reserveRideMessageSuccess => 'La tua corsa è stata prenotata con successo. Puoi visualizzare le corse prenotate nella sezione \'Corse programmate\'.';
+  String get reserveRideMessageSuccess =>
+      'La tua corsa è stata prenotata con successo. Puoi visualizzare le corse prenotate nella sezione \'Corse programmate\'.';
 
   @override
   String get cancelReservation => 'Cancella la prenotazione';
@@ -283,7 +281,8 @@ class SIt extends S {
   String get confirmResrve => 'Confermare';
 
   @override
-  String get enterCouponDescription => 'Inserisci il tuo codice coupon da applicare sui prezzi';
+  String get enterCouponDescription =>
+      'Inserisci il tuo codice coupon da applicare sui prezzi';
 
   @override
   String get enterCoupon => 'Inserisci il buono';
@@ -292,7 +291,8 @@ class SIt extends S {
   String get couponApplied => 'Coupon applicato';
 
   @override
-  String get couponAppliedDescription => 'Il coupon è stato applicato alla tariffa della tua corsa';
+  String get couponAppliedDescription =>
+      'Il coupon è stato applicato alla tariffa della tua corsa';
 
   @override
   String get done => 'Fatto!';
@@ -329,7 +329,8 @@ class SIt extends S {
   String get shareTripInformation => 'Condividi le informazioni sul viaggio';
 
   @override
-  String get shareTripInformationDescription => 'Puoi condividere le informazioni del tuo viaggio con un amico';
+  String get shareTripInformationDescription =>
+      'Puoi condividere le informazioni del tuo viaggio con un amico';
 
   @override
   String get sos => 'sos';
@@ -341,7 +342,8 @@ class SIt extends S {
   String get reportAnIssue => 'Segnala un problema';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Condividi un problema di sicurezza durante il viaggio';
+  String get reportAnIssueMidTripDescription =>
+      'Condividi un problema di sicurezza durante il viaggio';
 
   @override
   String get rideOptions => 'Opzioni di corsa';
@@ -458,7 +460,8 @@ class SIt extends S {
   String get favoriteLocations => 'Luoghi preferiti';
 
   @override
-  String get favoriteLocationsSubtitle => 'Salva le tue posizioni preferite per un accesso più semplice';
+  String get favoriteLocationsSubtitle =>
+      'Salva le tue posizioni preferite per un accesso più semplice';
 
   @override
   String get createAFavoriteLocation => 'Crea una posizione preferita';
@@ -470,10 +473,12 @@ class SIt extends S {
   String get clickToSetLocation => 'Fare clic per impostare la posizione';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Dov\'è la tua nuova posizione preferita?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Dov\'è la tua nuova posizione preferita?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Utilizza la casella di ricerca qui sotto o la mappa per individuare la posizione esatta';
+  String get locateFavoriteLocationDescription =>
+      'Utilizza la casella di ricerca qui sotto o la mappa per individuare la posizione esatta';
 
   @override
   String get searchLocation => 'Cerca posizione';
@@ -500,7 +505,8 @@ class SIt extends S {
   String get activities => 'Attività';
 
   @override
-  String get pleaseEnterGiftCardCode => 'Inserisci il codice della carta regalo';
+  String get pleaseEnterGiftCardCode =>
+      'Inserisci il codice della carta regalo';
 
   @override
   String get redeem => 'Riscattare';
@@ -512,7 +518,8 @@ class SIt extends S {
   String get redeemGiftCard => 'Riscatta la carta regalo';
 
   @override
-  String get redeemGiftCardDescription => 'Inserisci il codice della tua carta regalo per riscattarla.';
+  String get redeemGiftCardDescription =>
+      'Inserisci il codice della tua carta regalo per riscattarla.';
 
   @override
   String get redeemSuccessTitle => 'Carta regalo riscattata!';
@@ -562,7 +569,8 @@ class SIt extends S {
   String get selectCards => 'Seleziona le carte';
 
   @override
-  String get selectCardsDescription => 'Puoi selezionare i numeri delle carte che desideri vengano visualizzati nell\'elenco dei metodi di pagamento sulle fatture.';
+  String get selectCardsDescription =>
+      'Puoi selezionare i numeri delle carte che desideri vengano visualizzati nell\'elenco dei metodi di pagamento sulle fatture.';
 
   @override
   String get delete => 'Eliminare';
@@ -580,7 +588,8 @@ class SIt extends S {
   String get addPaymentMethod => 'Aggiungi metodo di pagamento';
 
   @override
-  String get addPaymentMethodDescription => 'Aggiungi un nuovo metodo di pagamento al tuo account';
+  String get addPaymentMethodDescription =>
+      'Aggiungi un nuovo metodo di pagamento al tuo account';
 
   @override
   String get saveCard => 'Salva carta';
@@ -595,7 +604,8 @@ class SIt extends S {
   String get preferences => 'Preferenze:';
 
   @override
-  String get onboardingDescription => 'A pochi istanti dalla registrazione del tuo account e dal godimento di viaggi confortevoli';
+  String get onboardingDescription =>
+      'A pochi istanti dalla registrazione del tuo account e dal godimento di viaggi confortevoli';
 
   @override
   String get signInSignUp => 'Accedi/Registrati';
@@ -607,7 +617,8 @@ class SIt extends S {
   String get enterPassword => 'Inserire la password';
 
   @override
-  String get enterPasswordDescription => 'Si prega di inserire la password per continuare';
+  String get enterPasswordDescription =>
+      'Si prega di inserire la password per continuare';
 
   @override
   String get setPassword => 'Impostare la password';
@@ -616,7 +627,8 @@ class SIt extends S {
   String get password => 'Parola d\'ordine';
 
   @override
-  String get passwordRuleDescription => 'Includere almeno due dei seguenti elementi:';
+  String get passwordRuleDescription =>
+      'Includere almeno due dei seguenti elementi:';
 
   @override
   String get passwordRuleLength => 'Tra 9 e 64 caratteri';
@@ -655,7 +667,8 @@ class SIt extends S {
   String get skipForNow => 'Salta per ora';
 
   @override
-  String get sendOtpDescription => 'Un codice di verifica è stato inviato al tuo numero di telefono';
+  String get sendOtpDescription =>
+      'Un codice di verifica è stato inviato al tuo numero di telefono';
 
   @override
   String get resendOtp => 'Codice di rispedizione';
@@ -739,7 +752,8 @@ class SIt extends S {
   String get rideFeePaid => 'La tariffa della corsa è stata pagata';
 
   @override
-  String get rideFeeUnpaid => 'La tariffa della corsa non è stata ancora pagata';
+  String get rideFeeUnpaid =>
+      'La tariffa della corsa non è stata ancora pagata';
 
   @override
   String get total => 'Totale';
@@ -801,7 +815,8 @@ class SIt extends S {
   String get selectProfileImage => 'Seleziona Immagine del profilo';
 
   @override
-  String get chooseAvatarDescription => 'Oppure seleziona un avatar dall\'elenco seguente:';
+  String get chooseAvatarDescription =>
+      'Oppure seleziona un avatar dall\'elenco seguente:';
 
   @override
   String get fullName => 'Nome e cognome';
@@ -831,13 +846,15 @@ class SIt extends S {
   String get monthly => 'Mensile';
 
   @override
-  String get noRecordsFoundEarnings => 'Nessun record di viaggio trovato per questi filtri';
+  String get noRecordsFoundEarnings =>
+      'Nessun record di viaggio trovato per questi filtri';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Nessun feedback ancora';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Non hai ancora abbastanza feedback da mostrare.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Non hai ancora abbastanza feedback da mostrare.';
 
   @override
   String get feedbacksSummary => 'Riepilogo dei feedback';
@@ -846,7 +863,8 @@ class SIt extends S {
   String get feedbacksGoodTitle => 'Lavoro eccellente!';
 
   @override
-  String get feedbacksGoodSubtitle => 'Le tue valutazioni sembrano buone finora';
+  String get feedbacksGoodSubtitle =>
+      'Le tue valutazioni sembrano buone finora';
 
   @override
   String get feedbacksBadTitle => 'Media';
@@ -870,7 +888,8 @@ class SIt extends S {
   String get notice => 'Avviso:';
 
   @override
-  String get payoutNoticeTitle => 'Verrai pagato automaticamente dall\'amministratore due volte a settimana.';
+  String get payoutNoticeTitle =>
+      'Verrai pagato automaticamente dall\'amministratore due volte a settimana.';
 
   @override
   String get addPayoutMethod => 'Aggiungi metodo di pagamento';
@@ -966,13 +985,15 @@ class SIt extends S {
   String get driverShouldAriveInNotice => 'Si stima che l\'autista arrivi';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'L\'autista dovrebbe arrivare da un momento all\'altro';
+  String get driverShouldHaveArrivedNotice =>
+      'L\'autista dovrebbe arrivare da un momento all\'altro';
 
   @override
   String get deleteAccount => 'Eliminare l\'account';
 
   @override
-  String get deleteAccountNotice => 'Sei sicuro di voler eliminare il tuo account? Dopo 30 giorni il tuo account verrà eliminato definitivamente. Durante questo periodo, puoi ripristinare il tuo account effettuando nuovamente l\'accesso.';
+  String get deleteAccountNotice =>
+      'Sei sicuro di voler eliminare il tuo account? Dopo 30 giorni il tuo account verrà eliminato definitivamente. Durante questo periodo, puoi ripristinare il tuo account effettuando nuovamente l\'accesso.';
 
   @override
   String get confirmAndDeleteAccount => 'Confermare';
@@ -986,12 +1007,14 @@ class SIt extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Il nome del mio autista è $firstName $lastName, il numero di cellulare è $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Il ciclista con me si chiama $firstName $lastName, il numero di cellulare è $mobileNumber.';
   }
 
@@ -1006,7 +1029,8 @@ class SIt extends S {
   }
 
   @override
-  String get sendSOSMessage => 'IMPORTANTE: utilizzare questa funzione solo in caso di emergenza. Contatteremo le autorità per tuo conto.';
+  String get sendSOSMessage =>
+      'IMPORTANTE: utilizzare questa funzione solo in caso di emergenza. Contatteremo le autorità per tuo conto.';
 
   @override
   String get confirmAndSendSOS => 'Confermare';
@@ -1018,7 +1042,8 @@ class SIt extends S {
   String get topUpSuccess => 'Il portafoglio è stato ricaricato con successo';
 
   @override
-  String get cancelNotAllowed => 'Non è possibile annullare una corsa già iniziata.';
+  String get cancelNotAllowed =>
+      'Non è possibile annullare una corsa già iniziata.';
 
   @override
   String get error => 'Errore';
@@ -1039,7 +1064,8 @@ class SIt extends S {
   String get reportSubmitted => 'Rapporto inviato';
 
   @override
-  String get reportSubmittedDescription => 'La tua segnalazione è stata inviata con successo, la esamineremo e intraprenderemo le azioni necessarie.';
+  String get reportSubmittedDescription =>
+      'La tua segnalazione è stata inviata con successo, la esamineremo e intraprenderemo le azioni necessarie.';
 
   @override
   String get cardNumber => 'Numero di carta';
@@ -1057,10 +1083,12 @@ class SIt extends S {
   String get noFavoriteDrivers => 'Nessun pilota preferito';
 
   @override
-  String get noFavoriteDriversDescription => 'Puoi contrassegnare i tuoi conducenti preferiti come preferiti quando li valuti dopo il viaggio.';
+  String get noFavoriteDriversDescription =>
+      'Puoi contrassegnare i tuoi conducenti preferiti come preferiti quando li valuti dopo il viaggio.';
 
   @override
-  String get pickupLocationNotFound => 'Non siamo stati in grado di determinare la tua posizione attuale utilizzando il GPS come punto di ritiro. Inserisci manualmente il punto di ritiro.';
+  String get pickupLocationNotFound =>
+      'Non siamo stati in grado di determinare la tua posizione attuale utilizzando il GPS come punto di ritiro. Inserisci manualmente il punto di ritiro.';
 
   @override
   String get dragToSelect => 'Trascina per selezionare';
@@ -1075,7 +1103,8 @@ class SIt extends S {
   String get locationPermission => 'Autorizzazione alla posizione';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'L\'autorizzazione alla posizione è un requisito per ricevere ordini intorno a te e anche per consentire al ciclista di monitorare la tua posizione. Non puoi ricevere ordini senza questa autorizzazione e senza che noi stiamo attenti alla tua posizione attuale. Puoi modificare questa autorizzazione nelle impostazioni del telefono.';
+  String get locationPermissionDeniedForeverMessage =>
+      'L\'autorizzazione alla posizione è un requisito per ricevere ordini intorno a te e anche per consentire al ciclista di monitorare la tua posizione. Non puoi ricevere ordini senza questa autorizzazione e senza che noi stiamo attenti alla tua posizione attuale. Puoi modificare questa autorizzazione nelle impostazioni del telefono.';
 
   @override
   String get allow => 'Permettere';
@@ -1084,13 +1113,15 @@ class SIt extends S {
   String get driverOnlineTitle => 'Alla ricerca di un passaggio';
 
   @override
-  String get driverOfflineTitle => 'Collegati online per iniziare a ricevere richieste';
+  String get driverOfflineTitle =>
+      'Collegati online per iniziare a ricevere richieste';
 
   @override
   String get payInCash => 'Pagamento in contanti';
 
   @override
-  String get payInCashDescription => 'Si prega di procedere con il pagamento in contanti all\'autista. L\'autista confermerà il pagamento una volta ricevuto.';
+  String get payInCashDescription =>
+      'Si prega di procedere con il pagamento in contanti all\'autista. L\'autista confermerà il pagamento una volta ricevuto.';
 
   @override
   String get addToFavoriteDrivers => 'Aggiungi ai conducenti preferiti';
@@ -1108,19 +1139,22 @@ class SIt extends S {
   String get noticePickingUpRiderIn => 'Ritiro del cavaliere in:';
 
   @override
-  String get noticeRiderNotified => 'Il ciclista è stato avvisato, prendi il ciclista e inizia la corsa';
+  String get noticeRiderNotified =>
+      'Il ciclista è stato avvisato, prendi il ciclista e inizia la corsa';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

@@ -95,7 +95,6 @@ class SEn extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SEn extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SEn extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SEn extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SEn extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SEn extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SEn extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Taxi service designed for your comfort have Trips with your favorite drivers and select your ride preferences';
+  String get welcomeSubtitle =>
+      'Taxi service designed for your comfort have Trips with your favorite drivers and select your ride preferences';
 
   @override
   String get onboardingRewardTitle => 'Get rewarded!';
 
   @override
-  String get onboardingRewardSubtitle => 'Get extra bonuses for referring a friend, completing trips and many more...';
+  String get onboardingRewardSubtitle =>
+      'Get extra bonuses for referring a friend, completing trips and many more...';
 
   @override
   String get selectLanguage => 'Select language';
@@ -271,10 +267,12 @@ class SEn extends S {
   String get reserveRide => 'Reserve ride';
 
   @override
-  String get reserveRideMessage => 'Select the exact date and time you wish your ride to be reserved';
+  String get reserveRideMessage =>
+      'Select the exact date and time you wish your ride to be reserved';
 
   @override
-  String get reserveRideMessageSuccess => 'Your ride has been reserved successfully. You can view your reserved rides in the \'Scheduled rides\' section.';
+  String get reserveRideMessageSuccess =>
+      'Your ride has been reserved successfully. You can view your reserved rides in the \'Scheduled rides\' section.';
 
   @override
   String get cancelReservation => 'Cancel reservation';
@@ -283,7 +281,8 @@ class SEn extends S {
   String get confirmResrve => 'Confirm & resrve';
 
   @override
-  String get enterCouponDescription => 'Insert your coupon code to be applied on prices';
+  String get enterCouponDescription =>
+      'Insert your coupon code to be applied on prices';
 
   @override
   String get enterCoupon => 'Enter coupon';
@@ -292,7 +291,8 @@ class SEn extends S {
   String get couponApplied => 'Coupon applied';
 
   @override
-  String get couponAppliedDescription => 'Coupon has been applied to your ride\'s fare';
+  String get couponAppliedDescription =>
+      'Coupon has been applied to your ride\'s fare';
 
   @override
   String get done => 'Done!';
@@ -329,7 +329,8 @@ class SEn extends S {
   String get shareTripInformation => 'Share trip information';
 
   @override
-  String get shareTripInformationDescription => 'You can share your trip info with a friend';
+  String get shareTripInformationDescription =>
+      'You can share your trip info with a friend';
 
   @override
   String get sos => 'SOS';
@@ -414,7 +415,8 @@ class SEn extends S {
   String get searchForPickupLocation => 'Search for pick-up location';
 
   @override
-  String get placeConfirmDialogPlaceholder => 'Where is your drop off location?';
+  String get placeConfirmDialogPlaceholder =>
+      'Where is your drop off location?';
 
   @override
   String get noAnnouncements => 'No announcements';
@@ -458,7 +460,8 @@ class SEn extends S {
   String get favoriteLocations => 'Favorite locations';
 
   @override
-  String get favoriteLocationsSubtitle => 'Save your favorite locations for easier access';
+  String get favoriteLocationsSubtitle =>
+      'Save your favorite locations for easier access';
 
   @override
   String get createAFavoriteLocation => 'Create a favorite location';
@@ -470,10 +473,12 @@ class SEn extends S {
   String get clickToSetLocation => 'Click to set location';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Where is your new favorite location?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Where is your new favorite location?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Use either search box below or the map to pin the exact location';
+  String get locateFavoriteLocationDescription =>
+      'Use either search box below or the map to pin the exact location';
 
   @override
   String get searchLocation => 'Search location';
@@ -512,7 +517,8 @@ class SEn extends S {
   String get redeemGiftCard => 'Redeem Gift Card';
 
   @override
-  String get redeemGiftCardDescription => 'Enter your gift card code to redeem it.';
+  String get redeemGiftCardDescription =>
+      'Enter your gift card code to redeem it.';
 
   @override
   String get redeemSuccessTitle => 'Gift Card Redeemed!';
@@ -562,7 +568,8 @@ class SEn extends S {
   String get selectCards => 'Select cards';
 
   @override
-  String get selectCardsDescription => 'You can select the card numbers you would like to be displayed in the list of payment methods on invoices.';
+  String get selectCardsDescription =>
+      'You can select the card numbers you would like to be displayed in the list of payment methods on invoices.';
 
   @override
   String get delete => 'Delete';
@@ -580,7 +587,8 @@ class SEn extends S {
   String get addPaymentMethod => 'Add Payment Method';
 
   @override
-  String get addPaymentMethodDescription => 'Add a new payment method to your account';
+  String get addPaymentMethodDescription =>
+      'Add a new payment method to your account';
 
   @override
   String get saveCard => 'Save card';
@@ -595,7 +603,8 @@ class SEn extends S {
   String get preferences => 'Preferences:';
 
   @override
-  String get onboardingDescription => 'Moments away from registering your account and enjoying comfortable rides';
+  String get onboardingDescription =>
+      'Moments away from registering your account and enjoying comfortable rides';
 
   @override
   String get signInSignUp => 'Sign in/ Sign up';
@@ -607,7 +616,8 @@ class SEn extends S {
   String get enterPassword => 'Enter Password';
 
   @override
-  String get enterPasswordDescription => 'Please enter your password to continue';
+  String get enterPasswordDescription =>
+      'Please enter your password to continue';
 
   @override
   String get setPassword => 'Set Password';
@@ -616,7 +626,8 @@ class SEn extends S {
   String get password => 'Password';
 
   @override
-  String get passwordRuleDescription => 'Include at least two of the following:';
+  String get passwordRuleDescription =>
+      'Include at least two of the following:';
 
   @override
   String get passwordRuleLength => 'Between 9 and 64 characters';
@@ -655,7 +666,8 @@ class SEn extends S {
   String get skipForNow => 'Skip for now';
 
   @override
-  String get sendOtpDescription => 'A verification code has been sent to your phone number';
+  String get sendOtpDescription =>
+      'A verification code has been sent to your phone number';
 
   @override
   String get resendOtp => 'Resend code';
@@ -801,7 +813,8 @@ class SEn extends S {
   String get selectProfileImage => 'Select Profile Image';
 
   @override
-  String get chooseAvatarDescription => 'Or select an avatar from the list below:';
+  String get chooseAvatarDescription =>
+      'Or select an avatar from the list below:';
 
   @override
   String get fullName => 'Full name';
@@ -837,7 +850,8 @@ class SEn extends S {
   String get feedbacksSummaryEmptyStateHeading => 'No feedbacks yet';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'You don\'t have enough feedbacks to show yet.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'You don\'t have enough feedbacks to show yet.';
 
   @override
   String get feedbacksSummary => 'Feedbacks Summary';
@@ -870,7 +884,8 @@ class SEn extends S {
   String get notice => 'Notice:';
 
   @override
-  String get payoutNoticeTitle => 'You will automatically be paid by the admin twice a week.';
+  String get payoutNoticeTitle =>
+      'You will automatically be paid by the admin twice a week.';
 
   @override
   String get addPayoutMethod => 'Add payout Method';
@@ -966,13 +981,15 @@ class SEn extends S {
   String get driverShouldAriveInNotice => 'Driver is estimated to arrive in';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Driver should be arriving in any moment now';
+  String get driverShouldHaveArrivedNotice =>
+      'Driver should be arriving in any moment now';
 
   @override
   String get deleteAccount => 'Delete Account';
 
   @override
-  String get deleteAccountNotice => 'Are you sure you want to delete your account? After 30 days, your account will be permanently deleted. During this time, you can restore your account by signing in again.';
+  String get deleteAccountNotice =>
+      'Are you sure you want to delete your account? After 30 days, your account will be permanently deleted. During this time, you can restore your account by signing in again.';
 
   @override
   String get confirmAndDeleteAccount => 'Confirm & delete account';
@@ -986,12 +1003,14 @@ class SEn extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' My driver name is $firstName $lastName, the mobile number is +$mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return ' The rider with me name is $firstName $lastName, the mobile number is +$mobileNumber.';
   }
 
@@ -1006,7 +1025,8 @@ class SEn extends S {
   }
 
   @override
-  String get sendSOSMessage => 'IMPORTANT: Please use this feature only in case of emergency. We will contact authorities in behalf of you.';
+  String get sendSOSMessage =>
+      'IMPORTANT: Please use this feature only in case of emergency. We will contact authorities in behalf of you.';
 
   @override
   String get confirmAndSendSOS => 'Confirm & Send SOS';
@@ -1018,7 +1038,8 @@ class SEn extends S {
   String get topUpSuccess => 'Wallet has been topped up successfully';
 
   @override
-  String get cancelNotAllowed => 'Cancellation of an already started ride is not possible.';
+  String get cancelNotAllowed =>
+      'Cancellation of an already started ride is not possible.';
 
   @override
   String get error => 'Error';
@@ -1039,7 +1060,8 @@ class SEn extends S {
   String get reportSubmitted => 'Report Submitted';
 
   @override
-  String get reportSubmittedDescription => 'Your report has been submitted successfully, we will review it and take the necessary actions.';
+  String get reportSubmittedDescription =>
+      'Your report has been submitted successfully, we will review it and take the necessary actions.';
 
   @override
   String get cardNumber => 'Card number';
@@ -1057,10 +1079,12 @@ class SEn extends S {
   String get noFavoriteDrivers => 'No favorite drivers';
 
   @override
-  String get noFavoriteDriversDescription => 'You can mark your preferred drivers as favorites when rating them after the trip.';
+  String get noFavoriteDriversDescription =>
+      'You can mark your preferred drivers as favorites when rating them after the trip.';
 
   @override
-  String get pickupLocationNotFound => 'We were unable to determine your current location using GPS as pickup point. Please enter your pickup point manually.';
+  String get pickupLocationNotFound =>
+      'We were unable to determine your current location using GPS as pickup point. Please enter your pickup point manually.';
 
   @override
   String get dragToSelect => 'Drag to select';
@@ -1075,7 +1099,8 @@ class SEn extends S {
   String get locationPermission => 'Location permission';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'Location permission is a requirement for receiving orders around you and also for rider to track your location. You can not receive orders without this permission and us being beware of your current location. You can change this permission in your phone settings.';
+  String get locationPermissionDeniedForeverMessage =>
+      'Location permission is a requirement for receiving orders around you and also for rider to track your location. You can not receive orders without this permission and us being beware of your current location. You can change this permission in your phone settings.';
 
   @override
   String get allow => 'Allow';
@@ -1090,7 +1115,8 @@ class SEn extends S {
   String get payInCash => 'Cash payment';
 
   @override
-  String get payInCashDescription => 'Please proceed with the cash payment to the driver. The driver will confirm the payment once received.';
+  String get payInCashDescription =>
+      'Please proceed with the cash payment to the driver. The driver will confirm the payment once received.';
 
   @override
   String get addToFavoriteDrivers => 'Add to favorite drivers';
@@ -1108,19 +1134,22 @@ class SEn extends S {
   String get noticePickingUpRiderIn => 'Picking up the rider in:';
 
   @override
-  String get noticeRiderNotified => 'Rider has been notified, Pickup the rider and start the ride';
+  String get noticeRiderNotified =>
+      'Rider has been notified, Pickup the rider and start the ride';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';

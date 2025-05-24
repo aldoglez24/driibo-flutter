@@ -32,8 +32,9 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace "com.gotaxi.taxi.driver_flutter"
-    compileSdkVersion flutter.compileSdkVersion
+    compileSdkVersion 34//flutter.compileSdkVersion
     ndkVersion "27.0.12077973"
+    buildToolsVersion "34.0.0"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -51,7 +52,10 @@ android {
     defaultConfig {
         applicationId "com.ridy.taxi.driver"
         minSdkVersion flutter.minSdkVersion
-        targetSdkVersion flutter.targetSdkVersion
+        targetSdkVersion 34//flutter.targetSdkVersion
+        targetSdk 34
+        minSdk 21
+
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
     }
@@ -76,6 +80,10 @@ flutter {
 
 dependencies {
     implementation 'androidx.multidex:multidex:2.0.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.7.0' // Necesario para el contexto
+    //implementation "io.flutter:flutter_embedding_release:3.32.0" // Ej: 1.0.0-73f0f3e
+
 }
 
 apply plugin: 'com.google.gms.google-services'

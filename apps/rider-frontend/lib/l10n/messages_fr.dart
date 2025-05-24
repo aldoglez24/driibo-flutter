@@ -95,7 +95,6 @@ class SFr extends S {
   String durationInMinutes(num minutes) {
     final intl.NumberFormat minutesNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String minutesString = minutesNumberFormat.format(minutes);
 
@@ -113,7 +112,6 @@ class SFr extends S {
   String durationInHours(num hours) {
     final intl.NumberFormat hoursNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String hoursString = hoursNumberFormat.format(hours);
 
@@ -137,7 +135,6 @@ class SFr extends S {
   String distanceInMeters(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -148,7 +145,6 @@ class SFr extends S {
   String distanceInKilometers(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -159,7 +155,6 @@ class SFr extends S {
   String distanceInFeets(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -170,7 +165,6 @@ class SFr extends S {
   String distanceInMiles(num distance) {
     final intl.NumberFormat distanceNumberFormat = intl.NumberFormat.compact(
       locale: localeName,
-      
     );
     final String distanceString = distanceNumberFormat.format(distance);
 
@@ -178,13 +172,15 @@ class SFr extends S {
   }
 
   @override
-  String get welcomeSubtitle => 'Un service de taxi conçu pour votre confort organise des voyages avec vos chauffeurs préférés et sélectionnez vos préférences de trajet.';
+  String get welcomeSubtitle =>
+      'Un service de taxi conçu pour votre confort organise des voyages avec vos chauffeurs préférés et sélectionnez vos préférences de trajet.';
 
   @override
   String get onboardingRewardTitle => 'Soyez récompensé !';
 
   @override
-  String get onboardingRewardSubtitle => 'Obtenez des bonus supplémentaires en parrainant un ami, en effectuant des voyages et bien d\'autres encore...';
+  String get onboardingRewardSubtitle =>
+      'Obtenez des bonus supplémentaires en parrainant un ami, en effectuant des voyages et bien d\'autres encore...';
 
   @override
   String get selectLanguage => 'Choisir la langue';
@@ -271,10 +267,12 @@ class SFr extends S {
   String get reserveRide => 'Réserver un trajet';
 
   @override
-  String get reserveRideMessage => 'Sélectionnez la date et l\'heure exactes auxquelles vous souhaitez que votre trajet soit réservé';
+  String get reserveRideMessage =>
+      'Sélectionnez la date et l\'heure exactes auxquelles vous souhaitez que votre trajet soit réservé';
 
   @override
-  String get reserveRideMessageSuccess => 'Votre trajet a été réservé avec succès. Vous pouvez consulter vos trajets réservés dans la section « Trajets programmés ».';
+  String get reserveRideMessageSuccess =>
+      'Votre trajet a été réservé avec succès. Vous pouvez consulter vos trajets réservés dans la section « Trajets programmés ».';
 
   @override
   String get cancelReservation => 'Annuler une réservation';
@@ -283,7 +281,8 @@ class SFr extends S {
   String get confirmResrve => 'Confirmer';
 
   @override
-  String get enterCouponDescription => 'Insérez votre code promo à appliquer sur les prix';
+  String get enterCouponDescription =>
+      'Insérez votre code promo à appliquer sur les prix';
 
   @override
   String get enterCoupon => 'Entrez le coupon';
@@ -292,7 +291,8 @@ class SFr extends S {
   String get couponApplied => 'Coupon appliqué';
 
   @override
-  String get couponAppliedDescription => 'Le coupon a été appliqué au tarif de votre trajet';
+  String get couponAppliedDescription =>
+      'Le coupon a été appliqué au tarif de votre trajet';
 
   @override
   String get done => 'Fait!';
@@ -317,7 +317,8 @@ class SFr extends S {
   String get rideRequested => 'Trajet demandé';
 
   @override
-  String get searchingForAnOnlineDriver => 'Recherche d\'un chauffeur en ligne...';
+  String get searchingForAnOnlineDriver =>
+      'Recherche d\'un chauffeur en ligne...';
 
   @override
   String get cancelRide => 'Annuler le trajet';
@@ -329,7 +330,8 @@ class SFr extends S {
   String get shareTripInformation => 'Partager des informations sur le voyage';
 
   @override
-  String get shareTripInformationDescription => 'Vous pouvez partager les informations de votre voyage avec un ami';
+  String get shareTripInformationDescription =>
+      'Vous pouvez partager les informations de votre voyage avec un ami';
 
   @override
   String get sos => 'SOS';
@@ -341,7 +343,8 @@ class SFr extends S {
   String get reportAnIssue => 'Signaler un problème';
 
   @override
-  String get reportAnIssueMidTripDescription => 'Partager un problème de sécurité en voyage';
+  String get reportAnIssueMidTripDescription =>
+      'Partager un problème de sécurité en voyage';
 
   @override
   String get rideOptions => 'Options de trajet';
@@ -458,7 +461,8 @@ class SFr extends S {
   String get favoriteLocations => 'Lieux favoris';
 
   @override
-  String get favoriteLocationsSubtitle => 'Enregistrez vos emplacements favoris pour un accès plus facile';
+  String get favoriteLocationsSubtitle =>
+      'Enregistrez vos emplacements favoris pour un accès plus facile';
 
   @override
   String get createAFavoriteLocation => 'Créer un emplacement favori';
@@ -470,10 +474,12 @@ class SFr extends S {
   String get clickToSetLocation => 'Cliquez pour définir l\'emplacement';
 
   @override
-  String get whereIsYourNewFavoriteLocation => 'Où est votre nouvel endroit préféré ?';
+  String get whereIsYourNewFavoriteLocation =>
+      'Où est votre nouvel endroit préféré ?';
 
   @override
-  String get locateFavoriteLocationDescription => 'Utilisez le champ de recherche ci-dessous ou la carte pour épingler l\'emplacement exact';
+  String get locateFavoriteLocationDescription =>
+      'Utilisez le champ de recherche ci-dessous ou la carte pour épingler l\'emplacement exact';
 
   @override
   String get searchLocation => 'Localisation de recherche';
@@ -500,7 +506,8 @@ class SFr extends S {
   String get activities => 'Activités';
 
   @override
-  String get pleaseEnterGiftCardCode => 'Veuillez saisir le code de la carte cadeau';
+  String get pleaseEnterGiftCardCode =>
+      'Veuillez saisir le code de la carte cadeau';
 
   @override
   String get redeem => 'Racheter';
@@ -512,7 +519,8 @@ class SFr extends S {
   String get redeemGiftCard => 'Échanger une carte-cadeau';
 
   @override
-  String get redeemGiftCardDescription => 'Entrez le code de votre carte-cadeau pour l\'utiliser.';
+  String get redeemGiftCardDescription =>
+      'Entrez le code de votre carte-cadeau pour l\'utiliser.';
 
   @override
   String get redeemSuccessTitle => 'Carte cadeau échangée !';
@@ -562,7 +570,8 @@ class SFr extends S {
   String get selectCards => 'Sélectionnez les cartes';
 
   @override
-  String get selectCardsDescription => 'Vous pouvez sélectionner les numéros de carte que vous souhaitez voir apparaître dans la liste des modes de paiement sur les factures.';
+  String get selectCardsDescription =>
+      'Vous pouvez sélectionner les numéros de carte que vous souhaitez voir apparaître dans la liste des modes de paiement sur les factures.';
 
   @override
   String get delete => 'Supprimer';
@@ -580,7 +589,8 @@ class SFr extends S {
   String get addPaymentMethod => 'Ajouter un mode de paiement';
 
   @override
-  String get addPaymentMethodDescription => 'Ajoutez un nouveau mode de paiement à votre compte';
+  String get addPaymentMethodDescription =>
+      'Ajoutez un nouveau mode de paiement à votre compte';
 
   @override
   String get saveCard => 'Enregistrer la carte';
@@ -595,7 +605,8 @@ class SFr extends S {
   String get preferences => 'Préférences :';
 
   @override
-  String get onboardingDescription => 'À quelques instants de l\'enregistrement de votre compte et de profiter de trajets confortables';
+  String get onboardingDescription =>
+      'À quelques instants de l\'enregistrement de votre compte et de profiter de trajets confortables';
 
   @override
   String get signInSignUp => 'Vous connecter vous inscrire';
@@ -607,7 +618,8 @@ class SFr extends S {
   String get enterPassword => 'Entrer le mot de passe';
 
   @override
-  String get enterPasswordDescription => 'Veuillez entrer votre mot de passe pour continuer';
+  String get enterPasswordDescription =>
+      'Veuillez entrer votre mot de passe pour continuer';
 
   @override
   String get setPassword => 'Définir le mot de passe';
@@ -616,7 +628,8 @@ class SFr extends S {
   String get password => 'Mot de passe';
 
   @override
-  String get passwordRuleDescription => 'Incluez au moins deux des éléments suivants :';
+  String get passwordRuleDescription =>
+      'Incluez au moins deux des éléments suivants :';
 
   @override
   String get passwordRuleLength => 'Entre 9 et 64 caractères';
@@ -655,7 +668,8 @@ class SFr extends S {
   String get skipForNow => 'Ignorer pour l\'instant';
 
   @override
-  String get sendOtpDescription => 'Un code de vérification a été envoyé à votre numéro de téléphone';
+  String get sendOtpDescription =>
+      'Un code de vérification a été envoyé à votre numéro de téléphone';
 
   @override
   String get resendOtp => 'Renvoyer le code';
@@ -724,7 +738,8 @@ class SFr extends S {
   String get rideCancellation => 'Annulation du trajet';
 
   @override
-  String get cancelRideMessage => 'Etes-vous sûr de vouloir annuler votre course ?';
+  String get cancelRideMessage =>
+      'Etes-vous sûr de vouloir annuler votre course ?';
 
   @override
   String get cancelRideSuccess => 'Le trajet a été annulé avec succès';
@@ -801,7 +816,8 @@ class SFr extends S {
   String get selectProfileImage => 'Sélectionnez l\'image du profil';
 
   @override
-  String get chooseAvatarDescription => 'Ou sélectionnez un avatar dans la liste ci-dessous :';
+  String get chooseAvatarDescription =>
+      'Ou sélectionnez un avatar dans la liste ci-dessous :';
 
   @override
   String get fullName => 'Nom et prénom';
@@ -831,13 +847,15 @@ class SFr extends S {
   String get monthly => 'Mensuel';
 
   @override
-  String get noRecordsFoundEarnings => 'Aucun enregistrement de voyage trouvé pour ces filtres';
+  String get noRecordsFoundEarnings =>
+      'Aucun enregistrement de voyage trouvé pour ces filtres';
 
   @override
   String get feedbacksSummaryEmptyStateHeading => 'Pas encore de retours';
 
   @override
-  String get feedbacksSummaryEmptyStateTitle => 'Vous n\'avez pas encore assez de commentaires à afficher.';
+  String get feedbacksSummaryEmptyStateTitle =>
+      'Vous n\'avez pas encore assez de commentaires à afficher.';
 
   @override
   String get feedbacksSummary => 'Résumé des commentaires';
@@ -846,19 +864,22 @@ class SFr extends S {
   String get feedbacksGoodTitle => 'Excellent travail !';
 
   @override
-  String get feedbacksGoodSubtitle => 'Vos notes semblent bonnes jusqu\'à présent';
+  String get feedbacksGoodSubtitle =>
+      'Vos notes semblent bonnes jusqu\'à présent';
 
   @override
   String get feedbacksBadTitle => 'Moyenne';
 
   @override
-  String get feedbacksBadSubtitle => 'Vous pouvez utiliser certaines améliorations';
+  String get feedbacksBadSubtitle =>
+      'Vous pouvez utiliser certaines améliorations';
 
   @override
   String get feedbacksGoodPointsTitle => 'Quelques bons points à votre sujet :';
 
   @override
-  String get feedbacksbadPointsTitle => 'Quelques points que vous pouvez améliorer :';
+  String get feedbacksbadPointsTitle =>
+      'Quelques points que vous pouvez améliorer :';
 
   @override
   String get feedbacksReviewsTitle => 'Quelques critiques antérieures';
@@ -870,7 +891,8 @@ class SFr extends S {
   String get notice => 'Avis:';
 
   @override
-  String get payoutNoticeTitle => 'Vous serez automatiquement payé par l\'administrateur deux fois par semaine.';
+  String get payoutNoticeTitle =>
+      'Vous serez automatiquement payé par l\'administrateur deux fois par semaine.';
 
   @override
   String get addPayoutMethod => 'Ajouter une méthode de paiement';
@@ -966,13 +988,15 @@ class SFr extends S {
   String get driverShouldAriveInNotice => 'Le chauffeur devrait arriver à';
 
   @override
-  String get driverShouldHaveArrivedNotice => 'Le chauffeur devrait arriver d\'un moment à l\'autre.';
+  String get driverShouldHaveArrivedNotice =>
+      'Le chauffeur devrait arriver d\'un moment à l\'autre.';
 
   @override
   String get deleteAccount => 'Supprimer le compte';
 
   @override
-  String get deleteAccountNotice => 'Êtes-vous sûr de vouloir supprimer votre compte ? Après 30 jours, votre compte sera définitivement supprimé. Pendant ce temps, vous pouvez restaurer votre compte en vous reconnectant.';
+  String get deleteAccountNotice =>
+      'Êtes-vous sûr de vouloir supprimer votre compte ? Après 30 jours, votre compte sera définitivement supprimé. Pendant ce temps, vous pouvez restaurer votre compte en vous reconnectant.';
 
   @override
   String get confirmAndDeleteAccount => 'Confirmer';
@@ -986,12 +1010,14 @@ class SFr extends S {
   }
 
   @override
-  String share_trip_text_driver(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_driver(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Mon nom de chauffeur est $firstName $lastName, mon numéro de portable est $mobileNumber.';
   }
 
   @override
-  String share_trip_text_rider(Object firstName, Object lastName, Object mobileNumber) {
+  String share_trip_text_rider(
+      Object firstName, Object lastName, Object mobileNumber) {
     return 'Le nom du passager avec moi est $firstName $lastName, le numéro de portable est $mobileNumber.';
   }
 
@@ -1006,7 +1032,8 @@ class SFr extends S {
   }
 
   @override
-  String get sendSOSMessage => 'IMPORTANT : veuillez utiliser cette fonctionnalité uniquement en cas d\'urgence. Nous contacterons les autorités en votre nom.';
+  String get sendSOSMessage =>
+      'IMPORTANT : veuillez utiliser cette fonctionnalité uniquement en cas d\'urgence. Nous contacterons les autorités en votre nom.';
 
   @override
   String get confirmAndSendSOS => 'Confirmer';
@@ -1018,7 +1045,8 @@ class SFr extends S {
   String get topUpSuccess => 'Le portefeuille a été rechargé avec succès';
 
   @override
-  String get cancelNotAllowed => 'L\'annulation d\'un trajet déjà commencé n\'est pas possible.';
+  String get cancelNotAllowed =>
+      'L\'annulation d\'un trajet déjà commencé n\'est pas possible.';
 
   @override
   String get error => 'Erreur';
@@ -1039,7 +1067,8 @@ class SFr extends S {
   String get reportSubmitted => 'Rapport soumis';
 
   @override
-  String get reportSubmittedDescription => 'Votre rapport a été soumis avec succès, nous l\'examinerons et prendrons les mesures nécessaires.';
+  String get reportSubmittedDescription =>
+      'Votre rapport a été soumis avec succès, nous l\'examinerons et prendrons les mesures nécessaires.';
 
   @override
   String get cardNumber => 'Numéro de carte';
@@ -1057,10 +1086,12 @@ class SFr extends S {
   String get noFavoriteDrivers => 'Aucun pilote favori';
 
   @override
-  String get noFavoriteDriversDescription => 'Vous pouvez marquer vos conducteurs préférés comme favoris lorsque vous les évaluez après le voyage.';
+  String get noFavoriteDriversDescription =>
+      'Vous pouvez marquer vos conducteurs préférés comme favoris lorsque vous les évaluez après le voyage.';
 
   @override
-  String get pickupLocationNotFound => 'Nous n\'avons pas pu déterminer votre position actuelle en utilisant le GPS comme point de prise en charge. Veuillez saisir manuellement votre point de retrait.';
+  String get pickupLocationNotFound =>
+      'Nous n\'avons pas pu déterminer votre position actuelle en utilisant le GPS comme point de prise en charge. Veuillez saisir manuellement votre point de retrait.';
 
   @override
   String get dragToSelect => 'Faites glisser pour sélectionner';
@@ -1075,7 +1106,8 @@ class SFr extends S {
   String get locationPermission => 'Autorisation de localisation';
 
   @override
-  String get locationPermissionDeniedForeverMessage => 'L\'autorisation de localisation est une condition nécessaire pour recevoir des commandes autour de vous et également pour que le passager puisse suivre votre position. Vous ne pouvez pas recevoir de commandes sans cette autorisation et nous méfions de votre localisation actuelle. Vous pouvez modifier cette autorisation dans les paramètres de votre téléphone.';
+  String get locationPermissionDeniedForeverMessage =>
+      'L\'autorisation de localisation est une condition nécessaire pour recevoir des commandes autour de vous et également pour que le passager puisse suivre votre position. Vous ne pouvez pas recevoir de commandes sans cette autorisation et nous méfions de votre localisation actuelle. Vous pouvez modifier cette autorisation dans les paramètres de votre téléphone.';
 
   @override
   String get allow => 'Permettre';
@@ -1084,22 +1116,26 @@ class SFr extends S {
   String get driverOnlineTitle => 'Recherche d\'un trajet';
 
   @override
-  String get driverOfflineTitle => 'Connectez-vous pour commencer à recevoir des demandes';
+  String get driverOfflineTitle =>
+      'Connectez-vous pour commencer à recevoir des demandes';
 
   @override
   String get payInCash => 'Paiement en espèces';
 
   @override
-  String get payInCashDescription => 'Veuillez procéder au paiement en espèces au chauffeur. Le chauffeur confirmera le paiement une fois reçu.';
+  String get payInCashDescription =>
+      'Veuillez procéder au paiement en espèces au chauffeur. Le chauffeur confirmera le paiement une fois reçu.';
 
   @override
   String get addToFavoriteDrivers => 'Ajouter aux pilotes favoris';
 
   @override
-  String get slideToConfirmArrival => 'Faites glisser pour confirmer l\'arrivée';
+  String get slideToConfirmArrival =>
+      'Faites glisser pour confirmer l\'arrivée';
 
   @override
-  String get slideToConfirmPickup => 'Faites glisser pour confirmer le ramassage';
+  String get slideToConfirmPickup =>
+      'Faites glisser pour confirmer le ramassage';
 
   @override
   String get slideToConfirmDropoff => 'Faites glisser pour confirmer le dépôt';
@@ -1108,19 +1144,22 @@ class SFr extends S {
   String get noticePickingUpRiderIn => 'Récupération du cavalier à :';
 
   @override
-  String get noticeRiderNotified => 'Le passager a été informé, récupérez le passager et commencez la balade';
+  String get noticeRiderNotified =>
+      'Le passager a été informé, récupérez le passager et commencez la balade';
 
   @override
   String get adminPanelOnboardingOneTitle => 'Welcome to better suite';
 
   @override
-  String get adminPanelOnboardingOneSubtitle => 'Unleash the Power of Your Q-Commerce';
+  String get adminPanelOnboardingOneSubtitle =>
+      'Unleash the Power of Your Q-Commerce';
 
   @override
   String get adminPanelOnboardingTwoTitle => 'Streamline your operations';
 
   @override
-  String get adminPanelOnboardingTwoSubtitle => 'Take Control with Our Centralized Super Panel';
+  String get adminPanelOnboardingTwoSubtitle =>
+      'Take Control with Our Centralized Super Panel';
 
   @override
   String get rider => 'Rider';
